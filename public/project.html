@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <link rel="stylesheet" href="index.css">  -->
+    <link rel="stylesheet" href="/project.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <!-- font awesome -->
+    <title>Happy Equipments Limited</title>
+</head>
+
+<body>
+    <section class="header-section font-heading">
+        <header class="header-class py-4 w-full flex justify-between px-8 lg:px-16">
+            <!---------Left side---------->
+            <div id="section1" class="md:flex block md:divide-x-2 items-center">
+                <img id="logo" class="" src="/logo-1.svg" width="100" alt="Logo">
+                <span class="text-black hidden md:block">Happy Equipments Ltd.</span>
+            </div>
+            <!-----------Right Side------------->
+            <nav id="section2" class="md:flex md:justify-center md:items-center text-center md:pr-0 pr-24">
+                <ul id="Menu-links" class="pt-10 md:pt-0 md:flex md:gap-6 hidden relative z-10">
+                    <li class="my-6 md:my-0"><a href="index.html">Home</a></li>
+                    <hr class="md:hidden">
+                    <li class="my-6 md:my-0"><a href="History.html">About</a></li>
+                    <hr class="md:hidden">
+                    <li class="my-6 md:my-0"><a href="index.html#Services">Services</a></li>
+                    <hr class="md:hidden">
+                    <li class="my-6 md:my-0"><a href="index.html#contact">Contact</a></li>
+                    <hr class="md:hidden">
+                    <li class="my-6 md:my-0"><a href="project.html">Projects</a></li>
+                    <hr class="md:hidden">
+                    <li class="dropdown relative my-6 md:my-0">
+                        <a href="#" class="dropbtn">Products</a>
+                        <div class="dropdown-content absolute hidden bg-white rounded-md shadow-lg z-10">
+                            <a href="product.html"  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Equipments</a>
+                            <a href="/Assets/machine_parts.pdf" download class="block px-2 py-2 text-sm text-gray-700 hover:bg-gray-100">Machine<br>Parts</a>
+                           
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div id="MobileMenuOpen" class="md:hidden block mt-4">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div id="MobileMenuClose" class="hidden mt-4">
+                <i id="close" class="fas fa-times"></i>
+            </div>
+        </header>
+    </section>
+
+    <section class="hero-section">
+        <div class="hero max-h-screen min-h-[85vh] flex flex-col justify-center items-center relative">
+            <div class="absolute inset-0 bg-black opacity-50 z-10"></div> <!-- Background overlay -->
+            <div class="w-full md:w-3/4 lg:w-3/5 z-50 relative"> <!-- Adjust z-index to place content above overlay -->
+                <h1 class="text-6xl font-bold text-center mb-4" style="line-height: 1.7">Engineering Solutions in Focus: Our Project Portfolio</h1>
+            </div>
+            <div class="w-full gap-6 flex justify-center mt-6 z-50 relative"> <!-- Adjust z-index to place content above overlay -->
+                <button class="bg-primary border-2 border-primary text-white px-4 transition-all duration-700 hover:text-white hover:bg-transparent">Our Projects</button>
+                <button class="border-primary border text-white px-6 py-4 transition-all duration-700 hover:bg-primary">Contact Us</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="md:w-4/5 md:mx-auto md:my-0 pt-24 pb-24">
+        <h2 class="font-bold mb-4 text-center text-5xl">Job History</h2>
+        <p class="mb-4 text-center md:text-left">From groundbreaking infrastructure developments to cutting-edge technological
+             solutions, each project showcases our commitment to delivering superior engineering services tailored to meet the unique needs of our clients. Explore our achievements and witness 
+            the transformative power of engineering ingenuity at its finest</p>
+        <div class="overflow-x-auto">
+            <table class="table-auto w-full border-collapse border border-gray-200">
+                <thead class="bg-gray-200">
+                    <tr>
+                        <th class="px-4 py-2">S/NO</th>
+                        <th class="px-4 py-2">DESCRIPTION</th>
+                        <th class="px-4 py-2">CLIENT</th>
+                        <th class="px-4 py-2">YEAR</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200">
+                    <tr>
+                        <td class="px-4 py-2 text-center">1</td>
+                        <td class="px-4 py-2 ">Installation of EMCP 11 panel</td>
+                        <td class="px-4 py-2 text-center">Schlumberger</td>
+                        <td class="px-4 py-2 text-center">2010</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">2</td>
+                        <td class="px-4 py-2 ">To trouble shoot cause of engine failure to start</td>
+                        <td class="px-4 py-2 text-center">Schlumberger</td>
+                        <td class="px-4 py-2 text-center">2010</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">3</td>
+                        <td class="px-4 py-2 ">To install six unit injectors and calibrate</td>
+                        <td class="px-4 py-2 text-center">Japual Oil & Marine Services Plc</td>
+                        <td class="px-4 py-2 text-center">2010</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">4</td>
+                        <td class="px-4 py-2 ">Servicing maintenance</td>
+                        <td class="px-4 py-2 text-center">BMS Hospital</td>
+                        <td class="px-4 py-2 text-center">2010</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">5</td>
+                        <td class="px-4 py-2 ">To trouble shoot and rectify cause of engine failure to start</td>
+                        <td class="px-4 py-2 text-center">Japual Oil & Marine Services Plc</td>
+                        <td class="px-4 py-2 text-center">2011</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">6</td>
+                        <td class="px-4 py-2 ">To trouble shoot cause of engine failure, having hard starting and install six unit injector and calibrate</td>
+                        <td class="px-4 py-2 text-center">Fenog Nigeria Ltd</td>
+                        <td class="px-4 py-2 text-center">2011</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">7</td>
+                        <td class="px-4 py-2 ">To trouble shoot and rectify cause of engine failure to start</td>
+                        <td class="px-4 py-2 text-center">Delta Environmental Logistic Ltd</td>
+                        <td class="px-4 py-2 text-center">2011</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">8</td>
+                        <td class="px-4 py-2 ">Installation of turbo charger</td>
+                        <td class="px-4 py-2 text-center">Delta Environmental Logistic Ltd</td>
+                        <td class="px-4 py-2 text-center">2011</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">9</td>
+                        <td class="px-4 py-2 ">To trouble shoot and rectify cause of engine failure to start</td>
+                        <td class="px-4 py-2 text-center">Hollified Industry Ltd</td>
+                        <td class="px-4 py-2 text-center">2012</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">10</td>
+                        <td class="px-4 py-2">To trouble shoot and rectify cause of engine failure to start and install fuel pump and change oil</td>
+                        <td class="px-4 py-2 text-center">Hamik Engineering Ltd</td>
+                        <td class="px-4 py-2 text-center">2012</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">11</td>
+                        <td class="px-4 py-2">To trouble shoot and rectify cause of engine failure to start</td>
+                        <td class="px-4 py-2 text-center">K.D.I Oil And Gas Ltd</td>
+                        <td class="px-4 py-2 text-center">2012</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">12</td>
+                        <td class="px-4 py-2 ">Install six unit injector and calibrate</td>
+                        <td class="px-4 py-2 text-center">Fenog Nigeria Ltd</td>
+                        <td class="px-4 py-2 text-center">2012</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">13</td>
+                        <td class="px-4 py-2 ">To install top gasket and cylinder head<br>To install fuel pump<br>To install turbo charger<br>To install rocker arm and set the valves</td>
+                        <td class="px-4 py-2 text-center">Peacot Nigeria Ltd</td>
+                        <td class="px-4 py-2 text-center">2012</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">14</td>
+                        <td class="px-4 py-2 ">To install injector and programming</td>
+                        <td class="px-4 py-2 text-center">Pelorreach Ltd</td>
+                        <td class="px-4 py-2 text-center">2012</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">15</td>
+                        <td class="px-4 py-2 ">Stripping, Inspection and Complete Overhaul of 3512 (1275kva) Engine</td>
+                        <td class="px-4 py-2 text-center">Alex Aluminum</td>
+                        <td class="px-4 py-2 text-center">2013/14</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">16</td>
+                        <td class="px-4 py-2 ">Servicing maintenance</td>
+                        <td class="px-4 py-2 text-center">Alex Aluminum</td>
+                        <td class="px-4 py-2 text-center">2013/14</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">17</td>
+                        <td class="px-4 py-2 ">Stripping, Inspection and Complete Overhaul of D399Engine, Test run and Commission</td>
+                        <td class="px-4 py-2 text-center">DWC Drilling Nig. Ltd</td>
+                        <td class="px-4 py-2 text-center">2013/14</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">18</td>
+                        <td class="px-4 py-2">Rectify cause of Engine shutting down on load</td>
+                        <td class="px-4 py-2 text-center">DWC Drilling Nig. Ltd</td>
+                        <td class="px-4 py-2 text-center">2014</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">19</td>
+                        <td class="px-4 py-2">To introduce new fittings on Swamp Boogie to enable fuel system work properly</td>
+                        <td class="px-4 py-2 text-center">Alliance Logistics</td>
+                        <td class="px-4 py-2 text-center">2013</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">20</td>
+                        <td class="px-4 py-2 ">To install six unit injectors and calibrate</td>
+                        <td class="px-4 py-2 text-center">Alliance Logistics</td>
+                        <td class="px-4 py-2 text-center">2014</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">21</td>
+                        <td class="px-4 py-2 ">Servicing maintenance</td>
+                        <td class="px-4 py-2 text-center">BMS Hospital</td>
+                        <td class="px-4 py-2 text-center">2013/14</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">22</td>
+                        <td class="px-4 py-2 ">To replace faulty Final drive and test run 320C Excavator</td>
+                        <td class="px-4 py-2 text-center">KDI Oil and Gas Ltd</td>
+                        <td class="px-4 py-2 text-center">2013</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">23</td>
+                        <td class="px-4 py-2">To trouble shoot and rectify cause of D6R machine fail to move forward and reverse</td>
+                        <td class="px-4 py-2 text-center">KDI Oil and Gas Ltd</td>
+                        <td class="px-4 py-2 text-center">2013</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">24</td>
+                        <td class="px-4 py-2 ">To install six unit injectors and rectify the low power on hydraulic system</td>
+                        <td class="px-4 py-2 text-center">KDI Oil and Gas Ltd</td>
+                        <td class="px-4 py-2 text-center">2014</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">25</td>
+                        <td class="px-4 py-2 ">To trouble shoot and rectify cause of Dredger engine fail to Start</td>
+                        <td class="px-4 py-2 text-center">Oxygen Project Ltd</td>
+                        <td class="px-4 py-2 text-center">2014</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">26</td>
+                        <td class="px-4 py-2">To install new Electronic Panel and Calibrate to CAT specification</td>
+                        <td class="px-4 py-2 text-center">Oxygen Project Ltd</td>
+                        <td class="px-4 py-2 text-center">2014</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">27</td>
+                        <td class="px-4 py-2 ">To introduce new fittings on Swamp Boogie to enable fuel system work properly</td>
+                        <td class="px-4 py-2 text-center">Evomec Global Services Ltd</td>
+                        <td class="px-4 py-2 text-center">2013</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">28</td>
+                        <td class="px-4 py-2">Rectify cause of Engine Mis-Firing, Monitor panel not displaying and Hydraulic Switch not functioning</td>
+                        <td class="px-4 py-2 text-center">Evomec Global Services Ltd</td>
+                        <td class="px-4 py-2 text-center">2014</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">29</td>
+                        <td class="px-4 py-2 ">Trouble shoot and rectify cause of D6R Dozer fail to move forward and reverse</td>
+                        <td class="px-4 py-2 text-center">Evomec Global Services Ltd</td>
+                        <td class="px-4 py-2 text-center">2014</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">30</td>
+                        <td class="px-4 py-">Rectify cause of 140H Grader steering not working</td>
+                        <td class="px-4 py-2 text-center">Evomec Global Services Ltd</td>
+                        <td class="px-4 py-2 text-center">2014</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">31</td>
+                        <td class="px-4 py-2 ">Rectify faulty Excavator and Programming of New display Monitoring panel</td>
+                        <td class="px-4 py-2 text-center">Evomec Global Services Ltd</td>
+                        <td class="px-4 py-2 text-center">2014</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">32</td>
+                        <td class="px-4 py-2 ">Replace faulty Turbo Charger cartridge in Engine</td>
+                        <td class="px-4 py-2 text-center">Golden Tulip Hotel</td>
+                        <td class="px-4 py-2 text-center">2013</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">33</td>
+                        <td class="px-4 py-2">To Strip and inspect cause of Water Dilution on engine Oil</td>
+                        <td class="px-4 py-2 text-center">Golden Tulip Hotel</td>
+                        <td class="px-4 py-2 text-center">2013</td>
+                    </tr>
+                    <tr>
+                        <td class="px-4 py-2 text-center">34</td>
+                        <td class="px-4 py-2">Rectify Swamp Boogie having Hard starting with Flit</td>
+                        <td class="px-4 py-2 text-center">Petra Services Ltd</td>
+                        <td class="px-4 py-2 text-center">2014</td>
+                    </tr>
+                      </tbody>
+            </table>
+    </section>
+
+     
+    <footer id="contact" class="bg-slate-900 py-24 px-10 lg:px-20 xl:px-48 divide-y divide-white">
+        <div class="flex flex-col md:flex-row gap-6 items-center justify-between py-10">
+            <div class="flex divide-x-2">
+                <img src="/logo-1.svg" width="100">
+                <span class="px-2 text-white text-sm">Happy <br>Equipments Ltd.</span>
+            </div>
+            <div>
+                <nav class="flex justify-center items-center">
+                    <ul class="flex md:flex-row flex-col gap-4 md:gap-6 text-white text-">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="History.html">About</a></li>
+                        <li><a href="index.html#Services">Services</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="product.html">Products</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex gap-6 text-white text-4xl">
+                <a href="https://m.facebook.com/people/Happy-Equipment-Limited/100066517540929/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/09065068569" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                
+            </div>
+        </div>
+        <div class="flex md:flex-row flex-col justify-center items-center py-6 gap-4 text-sm">
+            <p class="text-white">© 2021 Happy Equipments Limited. All Rights Reserved.</p>
+            <div class="flex gap-4 ">
+                <a href="" class="text-white underline">Privacy Policy</a>
+                <a href="" class="text-white underline">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+   
+    <script>
+        const MobileMenuOpen = document.getElementById('MobileMenuOpen');
+        const MobileMenuClose = document.getElementById('MobileMenuClose');
+        const MenuLinks = document.getElementById('Menu-links');
+
+        MobileMenuOpen.addEventListener('click', function(){
+        MenuLinks.classList.toggle('hidden');
+        MobileMenuClose.classList.toggle('hidden');
+        MobileMenuOpen.classList.toggle('hidden');
+        });
+
+        MobileMenuClose.addEventListener('click', function(){
+        MenuLinks.classList.toggle('hidden');
+        MobileMenuOpen.classList.toggle('hidden');
+        MobileMenuClose.classList.toggle('hidden');
+});
+
+    </script>
+
+    <script>
+        const dropDown = document.querySelectorAll('.dropbtn');
+let timeoutId;
+
+dropDown.forEach(item => {
+  item.addEventListener('mouseenter', function(){
+    clearTimeout(timeoutId); // Clear any existing timeout
+    const dropdowncontent = item.nextElementSibling;
+    dropdowncontent.classList.remove('hidden');
+  });
+
+  item.addEventListener('mouseleave', function(){
+    const dropdowncontent = item.nextElementSibling;
+    timeoutId = setTimeout(() => {
+      dropdowncontent.classList.add('hidden');
+    }, 2000); // Adjust the delay (in milliseconds) as needed
+  });
+});
+
+    </script>
+    
+</body>

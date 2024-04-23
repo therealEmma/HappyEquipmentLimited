@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%; /* Initially set to 100% */
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: none; /* Hide initially */
+}
+
+.slide:first-child {
+    display: block; /* Display the first slide */
+}
+
+
+
+.welcome-slide {
+    background-image: url('/Assets/CM20190412-971af-1792e.jpg'); /* Replace 'welcome_background.jpg' with your actual image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.welcome-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    line-height: 2;
+}
+
+/*----about page code -------*/
+
+.history{
+    background-image: url('./Assets/background\ 2.jpg'); /* Replace 'welcome_background.jpg' with your actual image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+
+.welcome-content {
+    position: relative;
+    z-index: 1; /* Ensure content appears above overlay */
+    padding: 20px;
+}
+
+.welcome-content h2 {
+    color: white;
+    font-size: 4rem; 
+    font-weight: bold;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    margin-bottom: -30px;
+}
+
+.welcome-content p {
+    color: white;
+    font-size: 1.8rem; 
+    font-weight: bold;
+    margin-top: 1.5rem; 
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    margin-top: 50px;
+}
+
+.welcome-content .btn {
+    border: 2px solid white;
+    padding: 0.5rem 0.5rem; 
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem; 
+    cursor: pointer;
+    transition: background-color 0.8s ease; 
+    font-family: "Madimi One", sans-serif;
+    margin-top: 25px;
+}
+.welcome-content .btn:hover{
+    background-color: #FFB400; 
+}
+
+span{
+    color:  #FFB400;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the background color and opacity */
+    color: #FFB400;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    z-index: 2; /* Ensure buttons appear above slides */
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #FFB400;
+    color: white;
+}
+
+
+/*-------Mobile view for menu links-----*/
+@media screen and (min-width:786px){
+    #Menu-links{
+        display: flex;
+    }
+}
+
+/*----------About us section--------------*/
+
+/* .about-us{
+    margin-top: 5rem;
+    background-color: #f5f5f5;
+} */
+
+.about-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0; 
+}
+
+.about-title h2{
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    position: relative;
+}
+
+
+.about-title::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0%;
+    height: 4px;
+    bottom: -2px;
+    background-color: #FFB400;
+    left: 40%;
+    transition: width 1s ease-in-out;
+}
+
+.about-title:hover::after{
+    width: 20%;
+}
+
+.about-content{
+    display: flex;
+    gap:1rem;
+    margin-top: 30px
+    
+}
+
+.about-left{
+    flex: 1;
+}
+
+.about-left p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Madimi One", sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+
+#read-more-btn {
+
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer; 
+  font-family: "Madimi One", sans-serif;
+  transition: all 0.5s ease-in-out;
+
+} 
+#read-more-btn:hover{
+    background-color: #FFB400;
+}
+
+
+
+/*-----------Our Services-------------*/
+
+.services{
+    margin-top: 100px;
+}
+
+.service-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service-title h2{
+    font-family: "Madimi One", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    margin-bottom: 60px;
+}
+.service-title h2::after{
+    content: '';
+    background: #FFB400;
+    width: 150px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 5px;
+}
+
+.service-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+
+.service-text{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+    font-family: "Madimi One", sans-serif;
+    transition: all 0.5s ease-in-out;
+    background: whitesmoke;
+}
+
+.service-text:hover{
+    --tw-shadow: 0 25px 50px -12px rgba(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+}
+
+.service-text i {
+    font-size: 50px;
+}
+
+
+.service-text h3{
+    color: black;
+    font-size: 2rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.service-text h3:hover{
+    color: #FFB400;
+}
+
+/* .service-card{
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+    padding: 1rem;
+} */
+
+
+
+.Our-product {
+    margin-top: 100px;
+}
+
+.product-container {
+    width: 80%; /* Set width to 80% */
+    max-width: 900px; /* Set maximum width */
+    margin: auto; /* Center align horizontally */
+    position: relative;
+}
+
+.product-title h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.product-title h2::after {
+    content: '';
+    background: #FFB400;
+    position: absolute;
+    width: 150px;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 5px;
+}
+
+.product-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+}
+
+.product-content img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto;
+}
+
+
+.product-btn{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    left: 2.5%; /* Adjust left position to 5% */
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: black;
+    color: #FFB400;
+}
+
+
+/*---------CLIENTS---------------*/
+
+.Clients {
+    padding: 3rem 0;
+}
+
+.client-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.client-title h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.client-title h2::after {
+    content: '';
+    background: #FFB400;
+    position: absolute;
+    height: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 130px;
+    bottom: -5px;
+}
+
+.client-title p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: "Open sans", sans-serif;
+}
+/* 
+.client-text {
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} */
+
+.slideshow-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+
+/* Fade animation for slideshow */
+/* CSS styles for fade animation */
+.fade {
+    display: none;
+    animation: fadeAnimation 1.5s ease-out;
+}
+
+@keyframes fadeAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Hide all slides except the first one */
+.slideshow-container .client-text:not(:first-child) {
+    display: none;
+}
+
+
+
+
+
+
+/*--------CONTACT US -------------*/
+/* .contact-us{
+    background-color: black;
+    margin-top: 100px;
+    border-top-right-radius: 40%;
+    padding: 2rem 0;
+}
+
+.contact-container{
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-title{
+    font-family: "Madimi One", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.contact-content h2{
+    font-family: "Madimi One", sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    padding-top: 1rem;
+}
+.contact-content p{
+    color: white;
+    font-family: "Madimi One", sans-serif;
+    font-size: 1rem;
+    padding-top: 1rem;
+    width: 250px;
+}
+
+.content-text{
+    display: inline;
+}
+
+.fab {
+    margin-right: 10px;
+    color: white;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.nav-links nav ul li a{
+    color: white;
+    font-family: "Madimi One", sans-serif;
+    font-size: 1rem;
+}
+
+.contact-links ul li{
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Madimi One", sans-serif;
+    line-height: 2;
+    text-align: center;
+}
+
+.contact-links ul li:hover{
+    color: #FFB400;
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+form h3{
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Madimi One", sans-serif;
+    margin-bottom: 20px;
+}
+
+.btn-submit{
+    color: white;
+}
+
+.form-fields{
+    margin-top: 1rem;
+}
+
+
+ */
+
+
+
+
+
+
+ .slider {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.slider img,
+.slider video {
+    display: none;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.slider img:first-child,
+.slider video:first-child {
+    display: block;
+}
+
+/* Styling for video controls */
+.slider video::-webkit-media-controls {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------MOBILE RESPONSIVE VIEW*---------------*/

@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+}
+
+.header-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1rem 0;
+}
+
+.header-class h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.header-class nav{
+    margin-left: auto;
+}
+
+.header-class nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    list-style-type: none;
+    
+}
+.header-class nav ul li {
+    color: black;
+    position: relative;
+}
+
+.header-class nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* span{
+    color: #ffb400;
+} */
+.icon{
+    display: none;
+}
+
+
+/*-------------Background img--------------*/
+
+.background-image{
+    position: relative;
+    background-image: url('./Assets/CM20240304-61714-bd264\ background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+
+}
+.background-image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.background-image-overlay h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+}
+.background-image-overlay p{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+span{
+    color: #ffb400;
+}
+
+/*-------------Our Equipments------------------*/
+
+.equipment{
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.equipment-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.equipment-title h2{
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+}
+
+.equipment-title h2::after{
+    content: '';
+    background: #ffb400;
+    position: absolute;
+    width: 190px;
+    bottom: -1px;
+    height: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.equipment-content{
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 35px;
+    
+}
+
+.equipment-display{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+.equipment-product{
+    border: 2px solid black;
+    background-color: #f0f0f0;
+    transition: transform 0.5s ease-in-out;
+}
+.equipment-product:hover{
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    transform: translateY(-5px);
+
+}
+
+.equipment-product img{
+    width: 305px;
+    height: auto;
+}
+
+.equipment-details{
+    display: block;
+    /* transition: max-height 0.5s ease-in-out;
+    overflow: hidden; */
+}
+
+/*-------Mobile view for equipments ----------*/
+@media screen and (max-width: 768px) {
+    .equipment-container {
+        width: 90%;
+    }
+
+    .equipment-title h2::after {
+        width: 150px; /* Adjust the width of the underline */
+    }
+
+    .equipment-content {
+        font-size: 1rem; /* Adjust font size */
+        text-align: center; /* Center-align text */
+    }
+
+    .equipment-display {
+        grid-template-columns: repeat(1, 1fr); /* Display one column for mobile */
+        grid-gap: 20px; /* Decrease the gap between items */
+        margin-top: 20px; /* Decrease top margin */
+    }
+
+    .equipment-product {
+        width: 100%; /* Make each product occupy the full width */
+    }
+
+    .equipment-product img {
+        width: 100%; /* Make images responsive */
+    }
+
+    .equipment-details {
+        font-size: 0.9rem; /* Adjust font size */
+    }
+}
+ 
+   
+/* }
+.btnDetail{
+    padding: 0.5rem 1rem;
+    margin: 10px 30px;
+    background-color: transparent;
+}
+
+.btnDetail:hover{
+    background-color: #ffb400;
+    transition: all 500ms ease-in-out;
+}
+ */
+
+-----------Power systems-------------
+.Power-systems{
+    font-family: "Montserrat", sans-serif;
+
+}
+.power-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5rem 0rem;
+}
+.power-title h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.power-title h2::after{
+    position: absolute;
+    content: '';
+    height: 5px;
+    left: 50%;
+    bottom: -10px;
+    background: #ffb400;
+    width: 190px;
+    transform: translateX(-50%);
+}
+
+.power-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+.power-card{
+    border: 2px solid black;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+    transition: all 0.3s ease;
+    background-color: #f0f0f0;
+}
+
+.power-card:hover{ 
+    transform: translateY(-5px); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); 
+}
+.power-card img{
+    width: 490px;
+    height: auto;
+}
+
+.power-systems{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 5rem 0rem;
+}
+ 
+
+/*------Mobile view for Power Systems ------------*/
+@media screen and (max-width: 768px) {
+    .power-container {
+        width: 90%; /* Adjust container width */
+    }
+
+    .power-title h2 {
+        font-size: 2.5rem; /* Adjust font size */
+    }
+
+    .power-title h2::after {
+        width: 150px; /* Adjust the width of the underline */
+    }
+
+    .power-content {
+        grid-template-columns: repeat(1, 1fr); /* Display one column for mobile */
+        grid-gap: 20px; /* Decrease the gap between items */
+        margin-top: 20px; /* Decrease top margin */
+    }
+
+    .power-card {
+        width: 100%; /* Make each card occupy the full width */
+    }
+
+    .power-card img {
+        width: 100%; /* Make images responsive */
+    }
+
+    .power-card .power-text,
+    .power-card p {
+        font-size: 0.9rem; /* Adjust font size */
+        padding: 10px; /* Add padding for better spacing */
+    }
+}
+

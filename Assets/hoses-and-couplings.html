@@ -1,0 +1,5012 @@
+
+
+
+<!DOCTYPE HTML>
+<html lang="en" xml:lang="en">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta name="template" content="t3-application-template"/>
+    
+
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/deg/clientlibs/clientlib-dependencies.min.5d18fc177c2b9da2d8bc26f6a27fdd3a.css" type="text/css">
+<script src="/etc.clientlibs/deg/clientlibs/clientlib-dependencies.min.18d2f46b8cfbff07929cc07c15cc9599.js"></script>
+
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/deg/clientlibs/clientlib-base.min.6e246f98450bcb2b6dde709871e621fd.css" type="text/css">
+
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+
+    
+    
+    
+
+    
+
+<!-- START Custom code-->
+
+
+<!-- OneTrust Cookies Consent Notice start -->
+<script type="text/javascript">OnetrustActiveGroups='';</script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="6b32398a-3e80-4329-b54b-c689861a9fe9"></script>
+<script type="text/javascript">function OptanonWrapper() { }</script>
+<script type="text/javascript">var timesRun=0; let interval = setInterval(function () {
+    if (window["OnetrustActiveGroups"] != ''|| timesRun == 3) {
+      clearInterval(interval);
+    }timesRun+=1;
+  }, 300);</script>
+<!-- OneTrust Cookies Consent Notice end -->
+
+
+<!-- ue2laempublishaserverp01 -->
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+<script>
+	var currentPage = "/content/catdotcom/en_US/support/maintenance/customer-value-agreements/mining-cvas/hoses-and-couplings",isPerkins = 'false', isCatdotcom = 'false';
+    window._cat_drl_loc_sev_url = "cat-ms.esri.com";
+    window._cat_drl_loc_search_dist = "";
+    window._cat_drl_loc_max_results = "";
+	window._addPath_vanity = "";
+	window.defaultUnitType = "us";
+		window._cat_drl_loc_app_id = "n6HDEnXnYRTDAxFr";
+    window._cat_drl_loc_app_url = "cat-ms.esri.com";
+    window._bing_key= "Aipo7RWFgy01N-FZBW53RktFb6YArsA0WBQUViCyxOCUXIf1lzkAgr2gyWXfi9qi";	
+    window._helios_dls_url = "api.cat.com";
+    if(currentPage.indexOf("/content/wwwperkins") === 0){
+    	isPerkins='true';
+    }
+	if (currentPage.indexOf("/content/catdotcom") === 0) {
+    	isCatdotcom = 'true';
+	} 
+    var currentLocaleString = "en_US";
+	Granite.I18n.setLocale(currentLocaleString);
+</script>
+
+<script>
+    // Added method to fetch the cookie value (needed for Datalayer push on page load)
+    function getCookieVal(name){
+        var arr = null,
+            reg = new RegExp('(^| )' + name + '=([^;]+)');
+        if(arr = document.cookie.match(reg)){
+            return unescape(arr[2]);
+        } else {
+            return null;
+        }
+    }
+
+    var catRecId = '',
+        userId = '',
+        userGAInfo = '';
+
+	var dataLayer = window.dataLayer || [],
+	  siteID = 'catDotCom' == "" ? null : 'catDotCom',
+	  templateID = 't3-application-template' == "" ? null : 't3-application-template',
+	  templateBase = 'deg' == "" ? null : 'deg',
+	  adiBu = 'mining' == "" ? null : 'mining',
+	  adiApp = 'mining | surface mining | underground mining' == "" ? null : 'mining | surface mining | underground mining',
+	  adiContType = 'awareness' == "" ? null : 'awareness',
+	  adiInd = 'mining' == "" ? null : 'mining',
+	  adiAud = 'existing customer | anonymous | sales qualified lead | marketing qualified prospect' == "" ? null : 'existing customer | anonymous | sales qualified lead | marketing qualified prospect',
+	  adiAudgoal = 'awareness' == "" ? null : 'awareness',
+	  adiPripgkpi = 'pageviews' == "" ? null : 'pageviews',
+	  adiSecpgkpi = 'time on page | download information | media view | locate dealer | form submits' == "" ? null : 'time on page | download information | media view | locate dealer | form submits',
+	  dealerCode = '' == "" ? null : '',
+	  dealerName = '' == "" ? null : '',
+	  lastPublishedDate = '2022-03-31T14:29:37.321-05:00' == "" ? null : '2022-03-31T14:29:37.321-05:00',
+	  b2cDataLayerFlag = true,
+	  campaignFlag = false;
+
+	var favDealer = JSON.parse(localStorage.getItem("favorite_dealer"));
+	var dealerId = null,
+		dealerCode = null,
+		dealerName = null,
+		dealerLocationName = null;
+	if(favDealer) {
+		dealerId = favDealer.dealerId;
+		dealerCode = favDealer.dealerCode;
+		dealerName = favDealer.dealerName;
+		dealerLocationName = favDealer.dealerLocationName;
+	}
+
+	// Get the RecId, UserId and GAInfo from the cookie
+
+	setTimeout(function(){
+		userId = null != getCookieVal('CWSID') ? getCookieVal('CWSID') : '';
+		catRecId = null != getCookieVal('RECID') ? getCookieVal('RECID') : '';
+
+        dataLayer.push({
+            'catRecId' : catRecId,
+            'userId' : userId
+        });
+
+		includeGAInfoDatalayerValues();
+
+	}, 3400);
+
+	function includeGAInfoDatalayerValues(){
+		if(typeof OnetrustActiveGroups !== 'undefined' && OnetrustActiveGroups.includes("C0002")) {
+			if((typeof isPingAccessEnabledFlag !== 'undefined' && isPingAccessEnabledFlag) ||
+			   (typeof isGAInfoEnabledFlag !== 'undefined' && isGAInfoEnabledFlag)) {
+
+				userGAInfo = null != getCookieVal('GAInfo') ? JSON.parse(getCookieVal('GAInfo')) : '';
+
+				if(userGAInfo){
+					dataLayer.push({
+						'affClass' : userGAInfo.affClass,
+						'affCode' : userGAInfo.affCode,
+						'topLvlOrgCode' : userGAInfo.topLvlOrgCode
+					});
+				}
+			}
+		}
+	}
+
+	dataLayer.push({
+		'zipCode': sessionStorage.getItem('bcpZip'),
+		'siteID': siteID,
+        'dealerId' : dealerId,
+        'dealerCode' : dealerCode,
+        'dealerName' : dealerName,
+        'dealerLocationName' : dealerLocationName,
+		'templateID': templateID,
+		'templateBase': templateBase,
+		'adiBu'	: adiBu,
+		'adiApp' : adiApp,
+		'adiContType' : adiContType,
+		'adiInd' : adiInd,
+		'adiAud' : adiAud,
+        'adiAudgoal' : adiAudgoal,
+        'adiPripgkpi' : adiPripgkpi,
+        'adiSecpgkpi' : adiSecpgkpi,
+        'storeID' : dealerCode,
+		'storeCode' : dealerCode,
+		'storeName' : dealerName,
+		'lastPubDate' : lastPublishedDate,
+		'campaignFlag' : campaignFlag
+      	});
+	if(b2cDataLayerFlag){
+	    if(getCookieVal('li_aemgainfo')){
+	        var aemgainfo = JSON.parse(getCookieVal('li_aemgainfo'));
+	        var dataLayer = window.dataLayer || [];
+	        dataLayer.push({
+	            'event':'b2cloaded',
+	            'companyID' : aemgainfo.companyID,
+	            'hem' : aemgainfo.hem,
+	            'loginID' : aemgainfo.loginID,
+	            'catRecId' : aemgainfo.catRecId,
+	            'affClass' : aemgainfo.affClass,
+	            'affCode' : aemgainfo.affCode,
+	            'b2cdealerCode' : aemgainfo.b2cdealerCode,
+	            'topLvlOrgCode' : aemgainfo.topLvlOrgCode,
+	            'b2cObjectID' : aemgainfo.b2cObjectID,
+	            'b2cUserType' : aemgainfo.b2cUserType
+	        })
+	    }
+	    else{
+	    	document.cookie = 'li_aemgainfo = {"companyID":"","hem":"","loginID":"","catRecId":"","affClass":"","affCode":"","b2cdealerCode":"","topLvlOrgCode":"","b2cObjectID":"","b2cUserType":""}'+ '; path=/; Secure; SameSite=Lax';
+	        var dataLayer = window.dataLayer || [];
+	        dataLayer.push({
+	            'event':'b2cloaded',
+	            'companyID' : "",
+	            'hem' : "",
+	            'loginID' : "",
+	            'catRecId' : "",
+	            'affClass' : "",
+	            'affCode' : "",
+	            'b2cdealerCode' : "",
+	            'topLvlOrgCode' : "",
+	            'b2cObjectID' : "",
+	            'b2cUserType' : ""
+	        })
+	    }
+		
+	}
+
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JB4X4');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="keywords" content="Hydraulic Mining Shovels, Underground - Longwall, Articulated Trucks, Underground Mining Load Haul Dump (LHD) Loaders"/>
+<meta name="twitter:card" content="summary_large_image"/>
+
+
+
+
+<!-- Open Group tagging : Social network (OpenGraph) metatag values -->
+
+
+
+<meta property="og:site_name" content="https://www.cat.com/en_US/support/maintenance/customer-value-agreements/mining-cvas/hoses-and-couplings.html"/>
+
+
+
+<!-- Page Tag list -->
+
+	
+		<meta name="product_line" content="Products^Equipment^Hydraulic Mining Shovels|Products^Equipment^Underground - Longwall|Products^Equipment^Articulated Trucks|Products^Equipment^Underground - Hard Rock^Underground Mining Load Haul Dump (LHD) Loaders"/>
+    
+
+<!-- Blog Tag list -->
+
+	
+		<meta name="b_tags_product_line" content="Products^Equipment^Hydraulic Mining Shovels|Products^Equipment^Underground - Longwall|Products^Equipment^Articulated Trucks|Products^Equipment^Underground - Hard Rock^Underground Mining Load Haul Dump (LHD) Loaders"/>
+    
+
+<!-- Blog Tag list End -->
+
+<!-- Published Date to metatag for blogCards -->
+
+
+
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href='/content/dam/favicons/favicon.ico'/>
+
+
+
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href='/content/dam/favicons/catdotcomFavicon.png/_jcr_content/renditions/cq5dam.thumbnail.57.57.png'/>
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href='/content/dam/favicons/catdotcomFavicon.png/_jcr_content/renditions/cq5dam.thumbnail.72.72.png'/>
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href='/content/dam/favicons/catdotcomFavicon.png/_jcr_content/renditions/cq5dam.thumbnail.114.114.png'/>
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href='/content/dam/favicons/catdotcomFavicon.png/_jcr_content/renditions/cq5dam.thumbnail.144.144.png'/>
+
+
+<meta name="description" content="Hose &amp; Couplings CVAs are flexible solutions to help maintain mining machine hydraulics."/>
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+
+
+
+<title>Hose &amp; Coupling CVAs for Mining | Cat | Caterpillar</title>
+<link rel="canonical" href='https://www.cat.com/en_US/support/maintenance/customer-value-agreements/mining-cvas/hoses-and-couplings.html'/>    
+<link rel="stylesheet" href="/content/catdotcom/en_US/support/maintenance/customer-value-agreements/mining-cvas/hoses-and-couplings/_jcr_content.editable-whitelabel-v2.css"/>
+</head>
+    <body class="page basicpage auth" data-offset="84">
+        
+        
+            
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5JB4X4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+            
+
+
+
+            
+
+
+<div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="inheritedExperienceFragment experiencefragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+
+    
+
+
+
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="cookie aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/deg/components/content/general/cookie/v3/cookie/clientlibs/site.min.69e5ada82fd8961440a6019cea9f98b0.css" type="text/css">
+
+
+
+    
+    
+<script src="/etc.clientlibs/deg/components/content/general/cookie/v3/cookie/clientlibs/site.min.28a4a31c2c40028b49342900147b82ba.js"></script>
+
+
+
+
+
+<div class="ot-cookie-banner" style="display:none;">
+    
+        <input type="hidden" id="locale-page-publish" value="en_US"/>
+    
+
+    
+</div></div>
+<div class="header aem-GridColumn aem-GridColumn--default--12">
+<!-- HTML  -->
+
+
+<div class="skip-to-content">
+  <a class="skip-to-content-link" href="#mainContent">Skip to main content</a>
+</div>
+
+<div class="skip-search-crawl d-print-none">
+  <header class="mega--nav tfn header auth-track">
+    
+    
+    
+    
+    
+    
+    
+    <input type="hidden" id="exp-fragment-resource" data-azure-path="/content/catdotcom/en_US/support/maintenance/customer-value-agreements/mining-cvas/hoses-and-couplings"/>
+    <div style="display: none;" id="isDealer"></div>
+    <div style="display: none;" id="dealerPage" data-dealerPage="/content/catdotcom/en_US/support/dealer-locator.html"></div>
+    <div class="container container--mega-nav">
+      <div class="row">
+        <div class="col">
+          
+          
+
+
+
+<a href="#" onclick="" class="menu-toggle" data-open-label="menu" data-close-label="close" aria-label="Menu" style="display: none;"><span></span></a>
+<a href="/en_US.html" class="logo">
+	<picture>
+              <source media="(min-width: 1023px)" srcset="https://s7d2.scene7.com/is/image/Caterpillar/CM20160629-33279-63115?fmt=png-alpha"/>
+              <img src="https://s7d2.scene7.com/is/image/Caterpillar/CM20160629-33279-63115?fmt=png-alpha" alt="Caterpillar Logo"/>
+              <img class="logo--print" src="https://s7d2.scene7.com/is/image/Caterpillar/CM20160629-33279-63115?fmt=png-alpha" alt="Caterpillar Logo"/>
+	</picture>
+</a>
+
+
+    
+
+
+          
+          <div class="mega-mobile">
+            <nav class="top--nav">
+              <!-- setting class 'active' enables underline -->
+              <ul>
+                <li>
+                  
+                  <a href="/en_US/products.html" class="toplink mobile-drawer" data-mega-drawer="mega-products">Products
+                    <a class="chevron" href="javascript:void(0)" role="button" aria-label="Expand">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" role="button" aria-expanded="true" height="15" fill="currentColor" class="svg-chevron" viewBox="0 0 9 9">
+                      <path d="m4.6725 6.635-2.655-2.667a.445.445 0 0 1 -.123-.304.4331.4331 0 0 1 .427-.439h.006a.447.447 0 0 1 .316.135l2.357 2.365 2.356-2.365a.458.458 0 0 1 .316-.135.433.433 0 0 1 .433.433v.006a.4189.4189 0 0 1 -.123.3l-2.655 2.671a.4451.4451 0 0 1 -.327.14.464.464 0 0 1 -.328-.14z"></path> 
+                      </svg> </a> </a>
+                  <!-- <div class="mega-drawer" id="mega-products" style="height: auto; overflow: visible; visibility: visible; display: block;"> -->
+                  <div class="mega-drawer" id="mega-products">
+                    <div class="inner">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12 mobile--header">
+                            <a href="#" onclick="" class="mega--back">Products</a>
+                          </div>
+                          <div class="col-lg-2 col-md-12 mobile--links">
+                            <ul class="mega--sidelinks">
+                              <li class="only-mobile"><a href="/en_US/products.html" data-mega-section="mega-products-all">All Products</a></li>
+                              <li><a href="" data-mega-section="mega-products-equipment" class="">Equipment</a></li>
+<li><a href="" data-mega-section="mega-products-power-systems" class="">Power Systems</a></li>
+<li><a href="" data-mega-section="mega-products-attachments" class="">Attachments</a></li>
+<li><a href="" data-mega-section="mega-products-parts" class="">Parts</a></li>
+
+                            </ul>
+                          </div>
+                          <div class="col-lg-10 col-md-10 mobile--drawer">
+                            <div class="mega--content open" id="mega-products-equipment">
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <a href="/en_US/products/new/equipment.html" class="cat-follow mega--drawer-back mega--content__header">Equipment</a>
+                                  <hr/>
+                                </div>
+                                <div class="col-lg-7">
+                                  <ul class="link--cols three">
+                                    <li class="only-mobile"><a href="/en_US/products/new/equipment.html" class="mega-nav-subheading">All Equipment</a></li>
+                                    <li><a href="/en_US/products/new/equipment/articulated-trucks.html">Articulated Trucks</a></li>
+<li><a href="/en_US/products/new/equipment/asphalt-pavers.html">Asphalt Pavers</a></li>
+<li><a href="/en_US/products/new/equipment/backhoe-loaders.html">Backhoe Loaders</a></li>
+<li><a href="/en_US/products/new/equipment/cold-planers.html">Cold Planers</a></li>
+<li><a href="/en_US/products/new/equipment/compactors.html">Compactors</a></li>
+<li><a href="/en_US/products/new/equipment/dozers.html">Dozers</a></li>
+<li><a href="/en_US/products/new/equipment/draglines.html">Draglines</a></li>
+<li><a href="/en_US/products/new/equipment/drills.html">Drills</a></li>
+<li><a href="/en_US/products/new/equipment/electric-rope-shovels.html">Electric Rope Shovels</a></li>
+<li><a href="/en_US/products/new/equipment/excavators.html">Excavators</a></li>
+<li><a href="/en_US/products/new/equipment/forest-machines.html">Forest Machines</a></li>
+<li><a href="/en_US/products/new/equipment/hydraulic-mining-shovels.html">Hydraulic Mining Shovels</a></li>
+<li><a href="/en_US/products/new/equipment/material-handlers.html">Material Handlers</a></li>
+<li><a href="/en_US/products/new/equipment/motor-graders.html">Motor Graders</a></li>
+<li><a href="/en_US/products/new/equipment/off-highway-trucks.html">Off-Highway Trucks</a></li>
+<li><a href="/en_US/products/new/equipment/pipelayers.html">Pipelayers</a></li>
+<li><a href="/en_US/products/new/equipment/road-reclaimers.html">Road Reclaimers</a></li>
+<li><a href="/en_US/products/new/equipment/skid-steer-and-compact-track-loaders.html">Skid Steer and Compact Track Loaders</a></li>
+<li><a href="/en_US/products/new/equipment/telehandlers.html">Telehandlers</a></li>
+<li><a href="/en_US/products/new/equipment/track-loaders.html">Track Loaders</a></li>
+<li><a href="/en_US/products/new/equipment/underground-hard-rock.html">Underground - Hard Rock</a></li>
+<li><a href="/en_US/products/new/equipment/wheel-loaders.html">Wheel Loaders</a></li>
+<li><a href="/en_US/products/new/equipment/wheel-tractor-scrapers.html">Wheel Tractor-Scrapers</a></li>
+
+                                  </ul>
+                                </div>
+                                <div class="col-lg-5">
+                                  
+                                  
+                                  
+                                  <div class="link--block">
+                                    <div class="link--item">
+                                      <a href="/en_US/products/used.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20181214-58101-46793?$cc-s$&fmt=pjpeg" alt="Used Equipment"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Used Equipment</p>
+                                          <p>With Cat Used Equipment, you&#39;ll find quality options in all age and hour ranges — and at multiple price points to fit your budget.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+<div class="link--item">
+                                      <a href="/en_US/products/rental.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20200303-6e327-cfce5?$cc-s$&fmt=pjpeg" alt="Rental Equipment"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Rental Equipment</p>
+                                          <p>The Cat® Rental Store is here with equipment rentals and services for any application.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+<div class="link--item">
+                                      <a href="/en_US/products/new/technology.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="https://s7d2.scene7.com/is/image/Caterpillar/C10338764?$cc-s$&fmt=pjpeg" alt="Technology"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Technology</p>
+                                          <p>Whether it’s telematic data from equipped machines that gives you better insight into your operation. Or, onboard construction technology that helps you get to grade faster, hit target payloads, and keep you safe. Cat® technology and services give you the edge you need for success.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+
+                                  </div>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="mega--content " id="mega-products-power-systems">
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <a href="/en_US/products/new/power-systems.html" class="cat-follow mega--drawer-back mega--content__header">Power Systems</a>
+                                  <hr/>
+                                </div>
+                                <div class="col-lg-7">
+                                  <ul class="link--cols three">
+                                    <li class="only-mobile"><a href="/en_US/products/new/power-systems.html" class="mega-nav-subheading">All Power Systems</a></li>
+                                    <li><a href="/en_US/products/new/power-systems/electric-power.html">Electric Power</a></li>
+<li><a href="/en_US/products/new/power-systems/industrial.html">Industrial</a></li>
+<li><a href="/en_US/products/new/power-systems/marine-power-systems.html">Marine Power Systems</a></li>
+<li><a href="/en_US/products/new/power-systems/oil-and-gas.html">Oil and Gas</a></li>
+
+                                  </ul>
+                                </div>
+                                <div class="col-lg-5">
+                                  
+                                  <div class="link--block">
+                                    <div class="link--item">
+                                      <a href="/en_US/products/new/power-systems/right-rail/cat-used-power-systems.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20181211-43800-50691?$cc-s$&fmt=pjpeg" alt="Cat Used Power Systems"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Cat Used Power Systems</p>
+                                          <p>Priced less than new, expand your options without expanding your budget.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+<div class="link--item">
+                                      <a href="/en_US/products/new/power-systems/right-rail/cat-rentalpower-systems.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20171221-44138-21979?$cc-s$&fmt=pjpeg" alt="Cat Rental Power Systems"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Cat Rental Power Systems</p>
+                                          <p>Flexibility each job requires with the performance and productivity you expect</p>
+                                        </div>
+                                      </a>
+                                    </div>
+<div class="link--item">
+                                      <a href="/en_US/products/new/parts/certified-rebuild.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="https://caterpillar.scene7.com/is/image/Caterpillar/C10080467?$cc-s$&fmt=pjpeg" alt="Cat Certified Rebuild"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Cat Certified Rebuild</p>
+                                          <p>A like-new machine with a like-new warranty and a new serial number, all at a fraction of the cost of a comparable new machine.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+
+                                  </div>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="mega--content " id="mega-products-attachments">
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <a href="/en_US/products/new/attachments.html" class="cat-follow mega--drawer-back mega--content__header">Attachments</a>
+                                  <hr/>
+                                </div>
+                                <div class="col-lg-7">
+                                  <ul class="link--cols three">
+                                    <li class="only-mobile"><a href="/en_US/products/new/attachments.html" class="mega-nav-subheading">All Attachments</a></li>
+                                    <li><a href="/en_US/products/new/attachments/adapters.html">Adapters</a></li>
+<li><a href="/en_US/products/new/attachments/augers.html">Augers</a></li>
+<li><a href="/en_US/products/new/attachments/backhoes.html">Backhoes</a></li>
+<li><a href="/en_US/products/new/attachments/bale-grabs.html">Bale Grabs</a></li>
+<li><a href="/en_US/products/new/attachments/bale-spears.html">Bale Spears</a></li>
+<li><a href="/en_US/products/new/attachments/blades.html">Blades</a></li>
+<li><a href="/en_US/products/new/attachments/bodies-trucks.html">Bodies - Trucks</a></li>
+<li><a href="/en_US/products/new/attachments/bodies-underground-trucks.html">Bodies – Underground Trucks</a></li>
+<li><a href="/en_US/products/new/attachments/brooms.html">Brooms</a></li>
+<li><a href="/en_US/products/new/attachments/brushcutters.html">Brushcutters</a></li>
+<li><a href="/en_US/products/new/attachments/buckets-backhoe-front.html">Buckets - Backhoe Front</a></li>
+<li><a href="/en_US/products/new/attachments/buckets-backhoe-rear.html">Buckets - Backhoe Rear</a></li>
+<li><a href="/en_US/products/new/attachments/buckets-compact-wheel-loader.html">Buckets - Compact Wheel Loader</a></li>
+<li><a href="/en_US/products/new/attachments/buckets-excavator.html">Buckets - Excavator</a></li>
+<li><a href="/en_US/products/new/attachments/buckets-loader.html">Buckets - Loader</a></li>
+<li><a href="/en_US/products/new/attachments/buckets-mining-shovels.html">Buckets - Mining Shovels</a></li>
+<li><a href="/en_US/products/new/attachments/buckets-skid-steer-loader.html">Buckets - Skid Steer Loader</a></li>
+<li><a href="/en_US/products/new/attachments/buckets-telehandler.html">Buckets - Telehandler</a></li>
+<li><a href="/en_US/products/new/attachments/buckets-underground-loaders.html">Buckets – Underground Loaders</a></li>
+<li><a href="/en_US/products/new/attachments/cold-planers.html">Cold Planers</a></li>
+<li><a href="/en_US/products/new/attachments/compactors.html">Compactors</a></li>
+<li><a href="/en_US/products/new/attachments/couplers-backhoe-rear.html">Couplers - Backhoe Rear</a></li>
+<li><a href="/en_US/products/new/attachments/couplers-excavator.html">Couplers - Excavator</a></li>
+<li><a href="/en_US/products/new/attachments/couplers-loader.html">Couplers - Loader</a></li>
+<li><a href="/en_US/products/new/attachments/electric-power-controls.html">Electric Power Controls</a></li>
+<li><a href="/en_US/products/new/attachments/flail-mowers.html">Flail Mowers</a></li>
+<li><a href="/en_US/products/new/attachments/forks.html">Forks</a></li>
+<li><a href="/en_US/products/new/attachments/generator-set-enclosures.html">Generator Set Enclosures</a></li>
+<li><a href="/en_US/products/new/attachments/generator-set-fuel-tanks.html">Generator Set Fuel Tanks</a></li>
+<li><a href="/en_US/products/new/attachments/grapples.html">Grapples</a></li>
+<li><a href="/en_US/products/new/attachments/hammers.html">Hammers</a></li>
+<li><a href="/en_US/products/new/attachments/material-handling.html">Material Handling</a></li>
+<li><a href="/en_US/products/new/attachments/mulchers.html">Mulchers</a></li>
+<li><a href="/en_US/products/new/attachments/multi-processors.html">Multi-Processors</a></li>
+<li><a href="/en_US/products/new/attachments/nursery-products.html">Nursery Products</a></li>
+<li><a href="/en_US/products/new/attachments/pulverizers.html">Pulverizers</a></li>
+<li><a href="/en_US/products/new/attachments/rakes.html">Rakes</a></li>
+<li><a href="/en_US/products/new/attachments/rippers.html">Rippers</a></li>
+<li><a href="/en_US/products/new/attachments/rotary-cutters.html">Rotary Cutters</a></li>
+<li><a href="/en_US/products/new/attachments/rotors.html">Rotors</a></li>
+<li><a href="/en_US/products/new/attachments/saws.html">Saws</a></li>
+<li><a href="/en_US/products/new/attachments/shears.html">Shears</a></li>
+<li><a href="/en_US/products/new/attachments/snow-products.html">Snow Products</a></li>
+<li><a href="/en_US/products/new/attachments/stump-grinders.html">Stump Grinders</a></li>
+<li><a href="/en_US/products/new/attachments/technology-kits.html">Technology Kits</a></li>
+<li><a href="/en_US/products/new/attachments/thumbs.html">Thumbs</a></li>
+<li><a href="/en_US/products/new/attachments/tillers.html">Tillers</a></li>
+<li><a href="/en_US/products/new/attachments/tilt-rotate-systems.html">Tilt Rotate Systems</a></li>
+<li><a href="/en_US/products/new/attachments/trenchers.html">Trenchers</a></li>
+<li><a href="/en_US/products/new/attachments/water-delivery-system.html">Water Delivery System</a></li>
+
+                                  </ul>
+                                </div>
+                                <div class="col-lg-5">
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="link--block">
+                                    <div class="link--item">
+                                      <a href="/en_US/products/new/attachments/right-rail/cat-used-attachments.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20181211-43800-50691?$cc-s$&fmt=pjpeg" alt="Cat Used Attachments"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Cat Used Attachments</p>
+                                          <p>Priced less than new, expand your options without expanding your budget.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+<div class="link--item">
+                                      <a href="/en_US/products/new/attachments/right-rail/cat-rental-attachments.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20171221-44138-21979?$cc-s$&fmt=pjpeg" alt="Cat Rental Attachments"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Cat Rental Attachments</p>
+                                          <p>Flexibility each job requires with the performance and productivity you expect.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+<div class="link--item">
+                                      <a href="/en_US/products/new/attachments/right-rail/shop-cat-attachments.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="http://s7d2.scene7.com/is/image/Caterpillar/C10847764?$cc-s$&fmt=pjpeg" alt="Shop Cat Attachments"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Shop Cat Attachments</p>
+                                          <p>Buy buckets, blades, adapters and other machine attachments for your specific application.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="mega--content " id="mega-products-parts">
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <a href="/en_US/products/new/parts.html" class="cat-follow mega--drawer-back mega--content__header">Parts</a>
+                                  <hr/>
+                                </div>
+                                <div class="col-lg-7">
+                                  <ul class="link--cols three">
+                                    <li class="only-mobile"><a href="/en_US/products/new/parts.html" class="mega-nav-subheading">All Parts</a></li>
+                                    <li><a href="/en_US/products/new/parts/attachments.html">Attachments</a></li>
+<li><a href="/en_US/products/new/parts/cab.html">Cabs</a></li>
+<li><a href="/en_US/products/new/parts/batteries.html">Cat Batteries</a></li>
+<li><a href="/en_US/products/new/parts/drive-train.html">Drive Train</a></li>
+<li><a href="/en_US/products/new/parts/electrical-electronics.html">Electrical &amp; Electronics</a></li>
+<li><a href="/en_US/products/new/parts/engine.html">Engine</a></li>
+<li><a href="/en_US/products/new/parts/filters-and-fluids.html">Filters &amp; Fluids</a></li>
+<li><a href="/en_US/products/new/parts/ground-engaging-tools.html">Ground Engaging Tools (GET)</a></li>
+<li><a href="/en_US/products/new/parts/hw-seal-consumables.html">Hardware, Seals, &amp; Consumables</a></li>
+<li><a href="/en_US/products/new/parts/hoses-tubes.html">Hoses &amp; Tubes</a></li>
+<li><a href="/en_US/products/new/parts/hydraulics.html">Hydraulics</a></li>
+<li><a href="/en_US/products/new/parts/structures-oth-sys-components.html">Structures &amp; Other Systems Components</a></li>
+<li><a href="/en_US/products/new/parts/undercarriage.html">Undercarriage</a></li>
+<li><a href="/en_US/products/new/parts/upgrade-repair-kits.html">Upgrade &amp; Repair Kits</a></li>
+<li><a href="/en_US/products/new/parts/workshop-supplies.html">Workshop Supplies</a></li>
+
+                                  </ul>
+                                </div>
+                                <div class="col-lg-5">
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="link--block">
+                                    <div class="link--item">
+                                      <a href="/en_US/products/new/parts/right-rail/cat-reman-parts.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="https://caterpillar.scene7.com/is/image/Caterpillar/C10398867?$cc-s$?$cc-s$&fmt=pjpeg" alt="Cat Reman Parts"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Cat Reman Parts</p>
+                                          <p>Cat Reman parts offer the same quality as new Cat parts, at a fraction of the cost.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+<div class="link--item">
+                                      <a href="/en_US/products/new/parts/right-rail/buy-parts-manuals.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20170913-34060-26451?$cc-s$?$cc-s$&fmt=pjpeg" alt="Buy Parts Manuals"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Buy Parts Manuals</p>
+                                          <p>Order paper and electronic Cat Parts and Operation &amp; Maintenance Manuals (OMM) for your Cat equipment.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+<div class="link--item">
+                                      <a href="/en_US/products/new/parts/cat-central.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20221209-61324-38238?$cc-s$&fmt=pjpeg" alt="Cat® Central"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Cat® Central</p>
+                                          <p>The power of Cat parts - now in the palm of your hand. </p>
+                                        </div>
+                                      </a>
+                                    </div>
+
+                                  </div>
+                                  
+                                  
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div></li>
+
+              
+                <li>
+                  
+                  <a href="/en_US/by-industry.html" class="toplink mobile-drawer" data-mega-drawer="mega-by-industry">Industries
+                    <a class="chevron" href="javascript:void(0)" role="button" aria-label="Expand">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" role="button" aria-expanded="true" height="15" fill="currentColor" class="svg-chevron" viewBox="0 0 9 9">
+                      <path d="m4.6725 6.635-2.655-2.667a.445.445 0 0 1 -.123-.304.4331.4331 0 0 1 .427-.439h.006a.447.447 0 0 1 .316.135l2.357 2.365 2.356-2.365a.458.458 0 0 1 .316-.135.433.433 0 0 1 .433.433v.006a.4189.4189 0 0 1 -.123.3l-2.655 2.671a.4451.4451 0 0 1 -.327.14.464.464 0 0 1 -.328-.14z"></path> 
+                      </svg> </a> </a>
+                  <!-- <div class="mega-drawer" id="mega-products" style="height: auto; overflow: visible; visibility: visible; display: block;"> -->
+                  <div class="mega-drawer" id="mega-by-industry">
+                    <div class="inner">
+                      <div class="container">
+                        
+                        <div class="row">
+       					<div class="col-lg-12 col-md-12 mobile--drawer mobile--drawer-single">
+                        <div class="mega--content open">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <a href="/en_US/by-industry.html" class="cat-follow mega--drawer-back mega--content__header mega--back">Industries</a>
+                              <hr/>
+                            </div>
+                            <div class="col-lg-8">
+                              <ul class="link--cols four">
+                                <li class="only-mobile"><a href="/en_US/by-industry.html" class="mega-nav-subheading">All Industries</a></li>
+                                <li><a href="/en_US/by-industry/industrial-power.html">Industrial Power</a></li>
+<li><a href="/en_US/by-industry/governmental-local-state.html">Caterpillar Governmental Local/State</a></li>
+<li><a href="/en_US/by-industry/agriculture.html">Agriculture </a></li>
+<li><a href="/en_US/by-industry/construction.html">Construction</a></li>
+<li><a href="/en_US/by-industry/marine.html">Marine</a></li>
+<li><a href="/en_US/by-industry/oil-and-gas.html">Oil &amp; Gas</a></li>
+<li><a href="/en_US/by-industry/oem-solutions.html">OEM Solutions</a></li>
+<li><a href="/en_US/by-industry/electric-power.html">Electric Power</a></li>
+<li><a href="/en_US/by-industry/forestry.html">Forestry</a></li>
+<li><a href="/en_US/by-industry/mining.html">Mining</a></li>
+<li><a href="/en_US/by-industry/quarry-aggregates.html">Quarry &amp; Aggregates</a></li>
+<li><a href="/en_US/by-industry/paving.html">Paving</a></li>
+<li><a href="/en_US/by-industry/waste.html">Cat Waste Solutions</a></li>
+<li><a href="/en_US/by-industry/demolition.html">Demolition</a></li>
+<li><a href="/en_US/by-industry/scrap-recycling.html">Scrap Recycling Equipment</a></li>
+<li><a href="/en_US/by-industry/landscaping.html">Landscaping Industry Solutions</a></li>
+<li><a href="/en_US/by-industry/governmental-defense.html">Caterpillar Defense</a></li>
+<li><a href="/en_US/by-industry/snow-and-ice.html">Cat Snow Removal Equipment</a></li>
+
+                              </ul>
+                            </div>
+                            <div class="col-lg-4">
+                              
+                              <div class="link--block">
+                                <div class="link--item">
+                                  <a href="/en_US/by-industry/oem-solutions.html">
+                                    <div class="item--left">                                      
+                                      <img class="lazyload" data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20161205-32316-30390?$cc-s$&fmt=pjpeg" alt="OEM Solutions"/>
+                                    </div>
+                                    <div class="item--right">
+                                      <p class="item__title">OEM Solutions</p>
+                                      <p>Caterpillar OEM Solutions provide partial machine configurations, including bare chassis, systems and first-fit components, to create specialty machines and unique equipment to meet your project needs.</p>
+                                    </div>
+                                  </a>
+                                </div>
+<div class="link--item">
+                                  <a href="/en_US/products/new/technology.html">
+                                    <div class="item--left">                                      
+                                      <img class="lazyload" data-src="https://s7d2.scene7.com/is/image/Caterpillar/C10338764?$cc-s$&fmt=pjpeg" alt="Technology"/>
+                                    </div>
+                                    <div class="item--right">
+                                      <p class="item__title">Technology</p>
+                                      <p>Whether it’s telematic data from equipped machines that gives you better insight into your operation. Or, onboard construction technology that helps you get to grade faster, hit target payloads, and keep you safe. Cat® technology and services give you the edge you need for success.</p>
+                                    </div>
+                                  </a>
+                                </div>
+
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      	</div>
+                      	</div>
+                      </div>
+                    </div>
+                  </div></li>
+
+              
+                <li>
+                  
+                  <a href="/en_US/servicesupport-nav.html" class="toplink mobile-drawer" data-mega-drawer="mega-servicesupport-nav">Services &amp; Support
+                    <a class="chevron" href="javascript:void(0)" role="button" aria-label="Expand">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" role="button" aria-expanded="true" height="15" fill="currentColor" class="svg-chevron" viewBox="0 0 9 9">
+                      <path d="m4.6725 6.635-2.655-2.667a.445.445 0 0 1 -.123-.304.4331.4331 0 0 1 .427-.439h.006a.447.447 0 0 1 .316.135l2.357 2.365 2.356-2.365a.458.458 0 0 1 .316-.135.433.433 0 0 1 .433.433v.006a.4189.4189 0 0 1 -.123.3l-2.655 2.671a.4451.4451 0 0 1 -.327.14.464.464 0 0 1 -.328-.14z"></path> 
+                      </svg> </a> </a>
+                  <!-- <div class="mega-drawer" id="mega-products" style="height: auto; overflow: visible; visibility: visible; display: block;"> -->
+                  <div class="mega-drawer" id="mega-servicesupport-nav">
+                    <div class="inner">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12 mobile--header">
+                            <a href="#" onclick="" class="mega--back">Services &amp; Support</a>
+                          </div>
+                          <div class="col-lg-2 col-md-12 mobile--links">
+                            <ul class="mega--sidelinks">
+                              <li class="only-mobile"><a href="/en_US/servicesupport-nav.html" data-mega-section="mega-products-all">All Services &amp; Support</a></li>
+                              <li><a href="" data-mega-section="mega-servicesupport-nav-finance-nav" class="">Finance</a></li>
+<li><a href="" data-mega-section="mega-servicesupport-nav-technology-nav" class="">Technology</a></li>
+<li><a href="" data-mega-section="mega-servicesupport-nav-safety-nav" class="">Safety</a></li>
+<li><a href="" data-mega-section="mega-servicesupport-nav-maintenance-nav" class="">Maintenance</a></li>
+<li><a href="" data-mega-section="mega-servicesupport-nav-training" class="">Training</a></li>
+
+                            </ul>
+                          </div>
+                          <div class="col-lg-10 col-md-10 mobile--drawer">
+                            <div class="mega--content open" id="mega-servicesupport-nav-finance-nav">
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <a href="/en_US/servicesupport-nav/finance-nav.html" class="cat-follow mega--drawer-back mega--content__header">Finance</a>
+                                  <hr/>
+                                </div>
+                                <div class="col-lg-7">
+                                  <ul class="link--cols three">
+                                    <li class="only-mobile"><a href="/en_US/servicesupport-nav/finance-nav.html" class="mega-nav-subheading">All Finance</a></li>
+                                    <li><a href="/en_US/servicesupport-nav/finance-nav/current-offers.html">Limited-Time Offers</a></li>
+<li><a href="/en_US/servicesupport-nav/finance-nav/extended-protection.html">Extended Protection</a></li>
+<li><a href="/en_US/servicesupport-nav/finance-nav/financing-leasing-options.html">Leases &amp; Loans</a></li>
+<li><a href="/en_US/servicesupport-nav/finance-nav/cat-card.html">Cat Card</a></li>
+<li><a href="/en_US/servicesupport-nav/finance-nav/tools-resources.html">Tools &amp; Calculators</a></li>
+<li><a href="/en_US/servicesupport-nav/finance-nav/why-cat-financial.html">Why Cat Financial</a></li>
+
+                                  </ul>
+                                </div>
+                                <div class="col-lg-5">
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="link--block">
+                                    <div class="link--item">
+                                      <a href="/en_US/support/financing-protection/financing-options/cat-card.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20230424-7a7fc-ee6f3?$cc-s$&fmt=pjpeg" alt="Cat Card: A Better Way to Pay for Parts &amp; Services"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Cat Card: A Better Way to Pay for Parts &amp; Services</p>
+                                          <p>The Cat Card is the quick, convenient way to get the parts and services you need for your equipment. Discover ways this unsecured line of credit can help your business or fill out the application in just 5-7 minutes.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+<div class="link--item">
+                                      <a href="/en_US/support/financing-protection/resources/tools-calculators/payment-calculator.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20200424-7c9d1-f237c?$cc-s$&fmt=pjpeg" alt="Payment Calculator"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Payment Calculator</p>
+                                          <p>What will that new or used Cat machine cost you? Calculate your monthly payment.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+
+                                  </div>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="mega--content " id="mega-servicesupport-nav-technology-nav">
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <a href="/en_US/servicesupport-nav/technology-nav.html" class="cat-follow mega--drawer-back mega--content__header">Technology</a>
+                                  <hr/>
+                                </div>
+                                <div class="col-lg-7">
+                                  <ul class="link--cols three">
+                                    <li class="only-mobile"><a href="/en_US/servicesupport-nav/technology-nav.html" class="mega-nav-subheading">All Technology</a></li>
+                                    <li><a href="/en_US/servicesupport-nav/technology-nav/cat-command-technology.html">Cat Command Technology</a></li>
+<li><a href="/en_US/servicesupport-nav/technology-nav/cat-compact-technology.html">Cat Compact Technology</a></li>
+<li><a href="/en_US/servicesupport-nav/technology-nav/cat-detect-technology.html">Cat Detect Technology</a></li>
+<li><a href="/en_US/servicesupport-nav/technology-nav/cat-grade-technology.html">Cat Grade Technology</a></li>
+<li><a href="/en_US/servicesupport-nav/technology-nav/cat-link-technology.html">Cat Equipment Management</a></li>
+<li><a href="/en_US/servicesupport-nav/technology-nav/cat-payload-technology.html">Cat Payload Technology</a></li>
+<li><a href="/en_US/servicesupport-nav/technology-nav/connected-solution-security-principles.html">Connected Solution Security Principles</a></li>
+<li><a href="/en_US/servicesupport-nav/technology-nav/connected-product-data-principles.html">Connected Product Data Principles</a></li>
+<li><a href="/en_US/servicesupport-nav/technology-nav/energy-transportation.html">Engines &amp; Power Systems Technologies and Services</a></li>
+
+                                  </ul>
+                                </div>
+                                <div class="col-lg-5">
+                                  
+                                  
+                                  
+                                  <div class="link--block">
+                                    <div class="link--item">
+                                      <a href="/en_US/support/operations/technology-services-for-construction/technology-for-construction.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20200401-c162c-de0b0?$cc-s$&fmt=pjpeg" alt="Cat Technology for Construction"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Cat Technology for Construction</p>
+                                          <p>Construction technology for Cat machines and equipment boosts productivity, improves efficiency, saves fuel and reduces costs.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+
+                                  </div>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="mega--content " id="mega-servicesupport-nav-safety-nav">
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <a href="/en_US/servicesupport-nav/safety-nav.html" class="cat-follow mega--drawer-back mega--content__header">Safety</a>
+                                  <hr/>
+                                </div>
+                                <div class="col-lg-7">
+                                  <ul class="link--cols three">
+                                    <li class="only-mobile"><a href="/en_US/servicesupport-nav/safety-nav.html" class="mega-nav-subheading">All Safety</a></li>
+                                    <li><a href="/en_US/servicesupport-nav/safety-nav/safety-consulting-services.html">Safety Consulting Services</a></li>
+<li><a href="/en_US/servicesupport-nav/safety-nav/safety-resources.html">Safety Resources</a></li>
+<li><a href="/en_US/servicesupport-nav/safety-nav/toolbox-talks.html">Supervisor Toolbox Talks</a></li>
+<li><a href="/en_US/servicesupport-nav/safety-nav/training-for-leaders.html">Safety Training for Leaders</a></li>
+<li><a href="/en_US/servicesupport-nav/safety-nav/safety-assessments.html">Safety Assessments</a></li>
+<li><a href="/en_US/servicesupport-nav/safety-nav/safety-at-home.html">Safety at Home Programs</a></li>
+<li><a href="/en_US/servicesupport-nav/safety-nav/safety-upgrades.html">Equipment Safety Upgrades</a></li>
+<li><a href="/en_US/servicesupport-nav/safety-nav/personal-protective-equipment.html">Personal Protective Equipment</a></li>
+<li><a href="/en_US/servicesupport-nav/safety-nav/fatigue-management-technology.html">Fatigue Management Technology</a></li>
+<li><a href="/en_US/servicesupport-nav/safety-nav/visibility-add-ons.html">Visibility Add-Ons</a></li>
+
+                                  </ul>
+                                </div>
+                                <div class="col-lg-5">
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="link--block">
+                                    <div class="link--item">
+                                      <a href="/en_US/campaigns/awareness/general-safety-form.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20200902-1f08b-f160e?$cc-s$&fmt=pjpeg" alt="Contact Caterpillar Safety Services"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Contact Caterpillar Safety Services</p>
+                                          <p>Our safety experts are on hand to help. Please get in touch if you&#39;d like more information about our products and services, to arrange a demo of SafelyHome, or to discuss how we can help your organization achieve safety excellence.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+
+                                  </div>
+                                  
+                                  
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="mega--content " id="mega-servicesupport-nav-maintenance-nav">
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <a href="/en_US/servicesupport-nav/maintenance-nav.html" class="cat-follow mega--drawer-back mega--content__header">Maintenance</a>
+                                  <hr/>
+                                </div>
+                                <div class="col-lg-7">
+                                  <ul class="link--cols three">
+                                    <li class="only-mobile"><a href="/en_US/servicesupport-nav/maintenance-nav.html" class="mega-nav-subheading">All Maintenance</a></li>
+                                    <li><a href="/en_US/servicesupport-nav/maintenance-nav/maintenance-repair-parts.html">Maintenance &amp; Repair Parts</a></li>
+<li><a href="/en_US/servicesupport-nav/maintenance-nav/planned-maintenance-schedule.html">Maintenance Kits</a></li>
+<li><a href="/en_US/servicesupport-nav/maintenance-nav/parts-service-manuals.html">Service Manuals</a></li>
+<li><a href="/en_US/servicesupport-nav/maintenance-nav/sos-services.html">Fluid Analysis</a></li>
+<li><a href="/en_US/servicesupport-nav/maintenance-nav/cat-job-site-solutions.html">Cat Job Site Solutions</a></li>
+<li><a href="/en_US/servicesupport-nav/maintenance-nav/sis.html">SIS2GO</a></li>
+<li><a href="/en_US/servicesupport-nav/maintenance-nav/dealer-repair-options.html">Dealer Repair Options</a></li>
+<li><a href="/en_US/servicesupport-nav/maintenance-nav/condition-monitoring.html">Condition Monitoring</a></li>
+<li><a href="/en_US/servicesupport-nav/maintenance-nav/customer-value-agreements.html">Customer Value Agreements</a></li>
+
+                                  </ul>
+                                </div>
+                                <div class="col-lg-5">
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  <div class="link--block">
+                                    <div class="link--item">
+                                      <a href="/en_US/articles/truck-engine-resource-center.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20201001-12251-3186d?$cc-s$&fmt=pjpeg" alt="The Cat Truck Engine Resource Center"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">The Cat Truck Engine Resource Center</p>
+                                          <p>Find videos, downloads and more to help you keep your Cat On-Highway Truck Engine running strong. </p>
+                                        </div>
+                                      </a>
+                                    </div>
+<div class="link--item">
+                                      <a href="/en_US/campaigns/awareness/filters-and-fluids.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20200211-c5de3-40a48?$cc-s$&fmt=pjpeg" alt="Cat Filters and Fluids"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Cat Filters and Fluids</p>
+                                          <p>From unique design to proven results, Cat filters and fluids deliver industry-leading protection for your Cat equipment. </p>
+                                        </div>
+                                      </a>
+                                    </div>
+
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <div class="mega--content " id="mega-servicesupport-nav-training">
+                              <div class="row">
+                                <div class="col-lg-12">
+                                  <a href="/en_US/servicesupport-nav/training.html" class="cat-follow mega--drawer-back mega--content__header">Training</a>
+                                  <hr/>
+                                </div>
+                                <div class="col-lg-7">
+                                  <ul class="link--cols three">
+                                    <li class="only-mobile"><a href="/en_US/servicesupport-nav/training.html" class="mega-nav-subheading">All Training</a></li>
+                                    <li><a href="/en_US/servicesupport-nav/training/operator-training.html">Operator Training</a></li>
+<li><a href="/en_US/servicesupport-nav/training/service-training.html">Service Technician Training</a></li>
+<li><a href="/en_US/servicesupport-nav/training/safety-training.html">Safety Training</a></li>
+<li><a href="/en_US/servicesupport-nav/training/paving-training.html">Paving Training</a></li>
+<li><a href="/en_US/servicesupport-nav/training/site-productivity-training.html">Site Productivity Training</a></li>
+<li><a href="/en_US/servicesupport-nav/training/mining-technology-training.html">Mining Technology Training</a></li>
+<li><a href="/en_US/servicesupport-nav/training/oil-gas-training.html">Oil &amp; Gas Training</a></li>
+<li><a href="/en_US/servicesupport-nav/training/marine-training.html">Marine Training</a></li>
+<li><a href="/en_US/servicesupport-nav/training/power-systems-training.html">Power Systems Training</a></li>
+
+                                  </ul>
+                                </div>
+                                <div class="col-lg-5">
+                                  
+                                  <div class="link--block">
+                                    <div class="link--item">
+                                      <a href="/en_US/support/operations/jobsite-solutions/fleet-management-works.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20210104-2274b-eba74?$cc-s$&fmt=pjpeg" alt="How Fleet Management Works"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">How Fleet Management Works</p>
+                                          <p>Fleet management is not a one-size-fits-all process. We need to understand the unique challenges of your operation, your maintenance and repair practices, and your fleet.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+<div class="link--item">
+                                      <a href="/en_US/support/cat-training/operator-training/productivity-services.html">
+                                        <div class="item--left">
+                                          <img class="lazyload" data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20170403-29305-24330?$cc-s$&fmt=pjpeg" alt="Productivity Services"/>
+                                        </div>
+                                        <div class="item--right">
+                                          <p class="item__title">Productivity Services</p>
+                                          <p>Improve productivity and lower heavy equipment operating costs with Caterpillar Global Supervisor Training and Jobsite Analysis.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+
+                                  </div>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div></li>
+
+              
+                <li>
+                  <a href="/en_US/parts-nav.html" class="toplink">Parts</a>
+                  
+                  <!-- <div class="mega-drawer" id="mega-products" style="height: auto; overflow: visible; visibility: visible; display: block;"> -->
+                  <div class="mega-drawer" id="mega-parts-nav">
+                    <div class="inner">
+                      <div class="container">
+                        
+                        
+                      </div>
+                    </div>
+                  </div></li>
+
+              
+                
+              </ul>
+              <div class="mega--util">
+                
+
+
+<a href="" id="waffle-wrapper" class="toplink mobile-drawer waffle" data-mega-drawer="mega-sidelinks"> <i class="icon" aria-hidden="true"><span class="h-lines"></span><span class="v-lines"></span></i>CAT Sites
+</a>
+<div class="mega-drawer util--drawer" id="mega-sidelinks">
+	<div class="inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 mobile--header">
+					<a href="#" onclick="" class="mega--back">CAT Sites</a>
+				</div>
+
+				<div class="col-lg-2 col-md-12 mobile--links">
+					<ul class="mega--sidelinks">
+						<li><a href="https://www.cat.com/en_US.html" class="waffle-interaction active">Explore Products </a></li>
+					
+						<li><a href="https://shop.cat.com/ShopLandingPageView?storeId=11751&langId=-1" class="waffle-interaction ">Buy Online </a></li>
+					
+						<li><a href="https://catused.cat.com/en/" class="waffle-interaction ">Find Used Products </a></li>
+					
+						<li><a href="https://www.catrentalstore.com/en_US/home.html" class="waffle-interaction ">Rent Products </a></li>
+					
+						<li><a href="https://vl.cat.com/visionlink?ui_locales=en-US" class="waffle-interaction ">Manage My Equipment </a></li>
+					
+						<li><a href="https://www.catfinancial.com/en_US.html" class="waffle-interaction ">View Finance Solutions </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+  
+   
+
+
+                 <!-- Render this before chosen dealer -->  <a class="toplink findDealer auth-track" href="#" role="button" data-toggle="modal" id="toplink_modal_place" data-target="#launch-this-modal-window12" style="">
+                  <i class="material-icons" id="toplink_modal_place_icon" aria-hidden="true">place</i> Find Dealer
+                </a>   <!-- Render this after dealer chosen (favorite) --> <a href="" role="button" class="toplink mobile-drawer" data-mega-drawer="mega-dealer--favorite" id="toplink_modal_mobile_drawer_place"></a>
+                <div class="mega-drawer util--drawer" id="mega-dealer--favorite">
+                  <div class="inner">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 mobile--header">
+                          <a onclick="" class="mega--back"></a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 mobile--links">
+                          <div class="dealer--info dealer--info-favorite">
+                            <p class="title" data-dealer-code=""></p>
+                            <!-- <p class="time">Open Till 5PM</p> -->
+                            <hr/>
+                            <p class="dealer-address"></p>
+                            <a href="" class="cat-follow fav-dealer-direction" onclick="getFavDealerDirection(event, this);">Directions</a>
+                            <a href="#" class="cat-follow fav-dealer-info-follow" data-toggle="modal" data-target="#launch-this-modal-window12">Dealer Details</a>
+                            <hr/>
+                            <a class="button button-tertiary find-dealer-follow" role="button" href="#" data-toggle="modal" data-target="#launch-this-modal-window12">Find Another Dealer</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                
+
+
+
+	<div class="tfn floating-system-notification">
+		
+		<!-- same example as above but showing a single component system message success -->
+		<div class="container" id="floating-success-notification">
+			<div class="system-notification-holder">
+				<div class="notification-message success">
+					<div class="icon-holder">
+						<i class="material-icons" id="floating-success-material-icon" aria-hidden="true"></i>
+					</div>
+					<div class="content-holder">
+						<a tabindex="0" onclick="" class="close" aria-label="close notification"><i class="material-icons">close</i></a>
+						<p class="title" id="floating-success-message-title"></p>
+						<p class="info" id="floating-success-message"></p>
+						<div class="action-holder">
+							<a href="" class="action action-close">OK</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+			<div class="tfn unit-metric-notification hide" id="b2cErrorNotif">
+				<div class="container">
+					<div class="unit-metric-notification-holder">
+						<div class="notification-message error visible">
+							<div class="icon-holder">
+								<i class="material-icons" aria-hidden="true">warning</i>
+							</div>
+							<div class="content-holder">
+								<a tabindex="0" onclick="" class="close" aria-label="close notification"><i class="material-icons">close</i></a>
+								<p class="info"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	</div>
+
+
+    
+
+
+
+
+    
+<script src="/etc.clientlibs/deg/components/structure/systemNotifications/v2/systemNotifications/clientlibs/site.min.296bd0075633a0ad74e2e7fb27ff96c4.js"></script>
+
+
+
+                
+                
+                 <span id="language-selector" class="toplink"></span> 
+
+              </div>
+            </nav>
+          </div>
+          
+
+
+
+	
+    
+    
+    <!-- My Account - Default -->
+
+    
+	<div class="account-mobile">
+		<div class="mega--util">
+			<div class="mega-drawer util--drawer" id="mega-accountlinks-default">
+				<div class="inner">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 mobile-account-header">
+								<div>My Account</div>
+							</div>
+							<div class="acount-divider"></div>
+							<div class="col-lg-12 col-md-12 col-sm-12 first-section">
+							<div class="account-section">
+                            	<p>Sign In</p>
+<p>Welcome! Sign In to personalize your Cat.com experience</p>
+<p>If you already have an existing account with another Cat App, you can use the same account to sign in here</p>
+
+							</div>
+                            <div class="account-footer">
+								<a href="/en_US/account/login.html" class="button button-primary header-buttons">
+                                	Sign In
+                            	</a>
+							</div>
+						</div>
+						<div class="acount-divider"></div>
+						<div class="col-lg-12 col-md-12 col-sm-12 account--block">
+							<div class="account-section">
+                                 <p>Register Now</p>
+<p>One Account. All of Cat.</p>
+<p>Your Caterpillar account is the single account you use to log in to select services and applications we offer. Shop for parts and machines online, manage your fleet, go mobile, and more.</p>
+
+							</div>
+							<div class="account-footer"> 
+								<a href="/en_US/account/register.html" class="button button-secondary header-buttons">
+                            		Register
+                            	</a>
+							</div>
+							</div>
+						</div>
+						<!-- helper text catfi for mobile -->
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+    
+
+    <!-- My Account - Default -->
+
+	<!-- My Account (LoggedIn) -->
+
+    
+	<!-- Logged in person icon (this will displayed for mobile only with Css)  -->
+	<!-- Logged in Mobile -->
+                <div class="account-mobile my-account-loggedin-mobile">
+                    <div class="mega--util">
+                      <div class="mega-drawer util--drawer" id="mega-accountlinks">
+                        <div class="inner">
+                          <div class="container">
+                            <div class="row">
+                              <div class="row col-lg-12 col-md-12 col-sm-12 welcome-header">
+                                <div class="col">
+                                  <span class="my-account-header mega--content__header">Welcome Back<span class="myaccount-username"></span>!</span>
+                                  <a href="/en_US/account/myaccount.html" class="my-account-dashboard">My Account Dashboard</a>
+                                </div>
+                                <div class="col">
+                                  <a href="#" class="account-signout button button-tertiary">Sign out</a>
+                                </div>
+                              </div>
+                              <div class="acount-divider"></div>
+                              <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 account-dashboard-section account-logged-in">
+                                  <div class="account-dashboard-header-section">
+                                    <p class="account-dashboard-section-heading"> Account Information </p>
+                                    <ul class="account-section-links">
+										<li><a href="/en_US/account/myaccount/account-information.html" class="account-dashboard-section-links-li">Personal Details</a></li>
+                                    
+										<li><a href="/en_US/account/myaccount/account-information.html" class="account-dashboard-section-links-li">Preferred Dealer</a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              
+                                <div class="col-lg-12 col-md-12 col-sm-12 account-dashboard-section account-logged-in">
+                                  <div class="account-dashboard-header-section">
+                                    <p class="account-dashboard-section-heading"> Site Settings </p>
+                                    <ul class="account-section-links">
+										<li><a href="/en_US/account/myaccount/site-settings.html" class="account-dashboard-section-links-li">Unit of Measure</a></li>
+                                    
+										<li><a href="/en_US/account/myaccount/site-settings.html" class="account-dashboard-section-links-li">Language</a></li>
+                                    
+										<li><a href="/en_US/account/myaccount/site-settings.html" class="account-dashboard-section-links-li">Industry &amp; Role</a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              
+                                <div class="col-lg-12 col-md-12 col-sm-12 account-dashboard-section account-logged-in">
+                                  <div class="account-dashboard-header-section">
+                                    <p class="account-dashboard-section-heading"> Security </p>
+                                    <ul class="account-section-links">
+										<li><a href="/en_US/account/myaccount/security.html" class="account-dashboard-section-links-li">Password</a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+	
+	
+
+    
+    
+    <!-- My Account (LoggedIn) -->
+
+	
+          
+          <ul class="utility--links">
+            <li>
+              
+              
+                <a href="#" target="_blank" onclick="" role="button" class="search-toggle search auth-track " aria-label="Search" id="utility_links_search">
+                 <i class="material-icons" id="utility_links_search_icon" aria-hidden="true">search</i><span class="utility_search">Search</span>
+               </a>
+              
+            </li>
+            
+              <a class="logged-in-mobile-icon my-account-loggedin-mobile myaccount-welcome" href="#" role="button" data-account-drawer="mega-accountlinks" aria-label="my account" style="display: none;">
+                <i class="material-icons person" aria-hidden="true">person</i> <i class="material-icons clear" style="display: none;" aria-hidden="true">clear</i>
+              </a>
+              <a class="logged-in-mobile-icon my-account-default my-account-default-mobile" href="#" role="button" data-account-drawer="mega-accountlinks-default" aria-label="my account">
+                <i class="material-icons person" aria-hidden="true">person</i> <i class="material-icons clear" style="display: none;" aria-hidden="true">clear</i>
+              </a>
+            
+
+            
+            
+
+
+
+	<div class="tfn floating-system-notification">
+		
+		<!-- same example as above but showing a single component system message success -->
+		<div class="container" id="floating-success-notification">
+			<div class="system-notification-holder">
+				<div class="notification-message success">
+					<div class="icon-holder">
+						<i class="material-icons" id="floating-success-material-icon" aria-hidden="true"></i>
+					</div>
+					<div class="content-holder">
+						<a tabindex="0" onclick="" class="close" aria-label="close notification"><i class="material-icons">close</i></a>
+						<p class="title" id="floating-success-message-title"></p>
+						<p class="info" id="floating-success-message"></p>
+						<div class="action-holder">
+							<a href="" class="action action-close">OK</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+			<div class="tfn unit-metric-notification hide" id="b2cErrorNotif">
+				<div class="container">
+					<div class="unit-metric-notification-holder">
+						<div class="notification-message error visible">
+							<div class="icon-holder">
+								<i class="material-icons" aria-hidden="true">warning</i>
+							</div>
+							<div class="content-holder">
+								<a tabindex="0" onclick="" class="close" aria-label="close notification"><i class="material-icons">close</i></a>
+								<p class="info"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	</div>
+
+
+    
+
+
+
+
+    
+
+
+
+            
+            
+            <li class="utility--links__find-dealer findDealer auth-track">
+              <!-- link before dealer chosen -->  <a href="#" role="button" class="show-label" data-toggle="modal" data-target="#launch-this-modal-window12" id="utility_links_findDealer_place" style="">
+                <i class="material-icons" id="utility_links_findDealer_place_icon" aria-hidden="true">place</i><span>Find Dealer</span>
+              </a>   <!-- link after dealer chosen -->
+              <div class="drop--menu">
+                <a href="#" role="button" class="dropdown-button show-label" id="utility_links_dropdown_btn_place" style=""></a>
+                <ul class="menu--content" role="menu">
+                  <li><a href="#" role="button" class="close">&#215;</a></li>
+                  <li class="dealer--info">
+                    <p class="title" data-dealer-code=""></p>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button> <!-- <p class="time">Open Till 5PM</p> -->
+                    <hr/>
+                    <p class="dealer-address"></p> <a href="" class="cat-follow fav-dealer-direction" onclick="getFavDealerDirection(event,this);">Directions</a> <a class="cat-follow fav-dealer-info-follow" href="#" data-toggle="modal" data-target="#launch-this-modal-window12">Dealer Details</a>
+                    <hr/> <a class="button button-tertiary find-dealer-follow" href="#" data-toggle="modal" data-target="#launch-this-modal-window12">Find Another Dealer</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            
+            
+            
+
+            
+            
+            
+
+
+
+	
+    
+    
+    <!-- My Account - Default -->
+
+    
+
+    
+        <!-- My Account - Desktop view -->
+            <li class="utility--links__dropdown my-account-default my-account-default-desktop utility--links__account" data-b2c-version="true">
+                <div class="drop--menu">
+                    	<a href="#" class="dropdown-button show-label newAccount" role="button">
+                            <div class="account-header-section">
+                                <i class="material-icons person" aria-hidden="true">person</i>
+                                <span class="account-name">My Account</span>
+                                <i class="material-icons open" aria-hidden="true">keyboard_arrow_down</i>
+                                <i class="material-icons close" style="display: none;" aria-hidden="true">clear</i>
+                            </div>
+                        </a>
+                        <div class="mega-drawer new-account-drawer">
+                          <div class="inner">
+                              <div class="container">
+                                  <div id="new-account-content" class="mega--content open new-account">
+                                      <div class="row">
+                                          <div class="col-lg-12">
+                                              <span class="my-account-header account-heading mega--content__header">My Account</span>
+                                              <hr/>
+                                          </div>                 
+                                          <div class="col-lg-6 first-section">
+                                              <div class="account-section">
+                                                  <p>Sign In</p>
+<p>Welcome! Sign In to personalize your Cat.com experience</p>
+<p>If you already have an existing account with another Cat App, you can use the same account to sign in here</p>
+
+                                              </div>
+                                              <div class="account-footer">
+                                                 <a href="#" class="button button-primary header-buttons">
+                                                      Sign In
+                                                 </a>
+                                              </div>
+										  </div>                 
+                                          <div class="col-lg-6 account--block">
+                                              <div class="account-section">
+                                                  <p>Register Now</p>
+<p>One Account. All of Cat.</p>
+<p>Your Caterpillar account is the single account you use to log in to select services and applications we offer. Shop for parts and machines online, manage your fleet, go mobile, and more.</p>
+
+                                              </div>
+                                              <div class="account-footer"> 
+                                                  <a href="/en_US/account/register.html" class="button button-secondary header-buttons">
+                                                      Register
+                                                  </a>
+                                              </div>
+                                          </div>
+									</div>
+						<!--helper text catfi for desktop-->
+						    
+                                  </div>									  
+                              </div>								  
+                          </div>
+                 </div>
+             </li>
+    
+
+    <!-- My Account - Default -->
+
+	<!-- My Account (LoggedIn) -->
+
+    
+
+    
+        <!-- My Account (LoggedIn) - Desktop view -->
+        <li class="utility--links__dropdown my-account-loggedin utility--links__account" style="display: none;">
+            <div class="drop--menu">
+                <a href="#" class="dropdown-button show-label newAccount" role="button">
+					<div class="account-header-section">
+                            <i class="material-icons person" aria-hidden="true">person</i>
+                            <span class="account-name myaccount-welcome">Hi</span><span>!</span>
+                            <i class="material-icons open" aria-hidden="true">keyboard_arrow_down</i>
+                            <i class="material-icons close" style="display: none;" aria-hidden="true">clear</i>
+                    </div>
+                </a>
+
+            <div class="mega-drawer new-account-drawer">
+				<div class="inner">
+					<div class="container">
+						<div id="new-account-content" class="mega--content open new-account">
+							<div class="row" style="margin-bottom: 15px;">
+								<div class="col-lg-6">
+									<span class="my-account-header welcome-back-desktop mega--content__header">
+                                        Welcome Back
+									</span> 
+                                    <a href="/en_US/account/myaccount.html" class="my-account-dashboard">My Account Dashboard</a>
+								</div>
+								<div class="col-lg-6">
+									<a href="/en_US.html" class="account-signout button button-tertiary">
+                                        Sign out
+									</a>
+								</div>	
+							</div>
+							<hr/>
+							<div class="row">
+								
+		
+		
+
+		
+			
+			
+    
+<link rel="stylesheet" href="/etc.clientlibs/deg/components/content/loggedIn/loginBanners/v3/loginBanner/clientlibs/site.min.1f5277682070f8197001e7877905350a.css" type="text/css">
+
+
+
+		
+			
+			
+		
+			<!-- Banner 5 will be visible to end user -->
+			
+				
+
+	<div class="row account-setup--panel my-account-banner" style="display:none">
+        <div class="col-lg-1">
+              <span class="account-notification-panel"></span>
+        </div>
+		<div class="col-lg-11">
+              <p class='banner5-desc'>We need more information to finish setting up your account. Would you like to do that now?</p>
+        	  <p class="panel-link"><a href="/en_US/account/myaccount/missinginfo.html"> Yes, Let&#39;s Get Started </a></p>
+		</div>
+    </div> 
+   
+   
+
+			
+
+			
+    
+<script src="/etc.clientlibs/deg/components/content/loggedIn/loginBanners/v3/loginBanner/clientlibs/site.min.000ce0fedbc7a5c09f24757499f65728.js"></script>
+
+
+
+		
+								
+									<div class="col-lg-4 account-dashboard-section">
+                                        <div class="account-dashboard-header-section">
+                                          <p class="account-dashboard-section-heading">Account Information</p>
+										  <ul class="account-section-links">
+											<li><a href="/en_US/account/myaccount/account-information.html" class="account-dashboard-section-links-li">Personal Details</a></li>
+                                          
+											<li><a href="/en_US/account/myaccount/account-information.html" class="account-dashboard-section-links-li">Preferred Dealer</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                
+									<div class="col-lg-4 account-dashboard-section">
+                                        <div class="account-dashboard-header-section">
+                                          <p class="account-dashboard-section-heading">Site Settings</p>
+										  <ul class="account-section-links">
+											<li><a href="/en_US/account/myaccount/site-settings.html" class="account-dashboard-section-links-li">Unit of Measure</a></li>
+                                          
+											<li><a href="/en_US/account/myaccount/site-settings.html" class="account-dashboard-section-links-li">Language</a></li>
+                                          
+											<li><a href="/en_US/account/myaccount/site-settings.html" class="account-dashboard-section-links-li">Industry &amp; Role</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                
+									<div class="col-lg-4 account-dashboard-section">
+                                        <div class="account-dashboard-header-section">
+                                          <p class="account-dashboard-section-heading">Security</p>
+										  <ul class="account-section-links">
+											<li><a href="/en_US/account/myaccount/security.html" class="account-dashboard-section-links-li">Password</a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                                
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+			</div>
+        </li>
+    
+    
+    <!-- My Account (LoggedIn) -->
+
+	
+            
+            
+
+
+
+<li id="waffle-wrapper" class="utility--links__sites waffle waffle-desktop">
+
+	<div class="drop--menu">
+		<a href="#" role="button" class="dropdown-button" id="utility_links_sites_apps" aria-label="menu">
+			<i class="material-icons" id="utility_links_sites_apps_icon" aria-hidden="true">apps</i>
+		</a>
+		<ul class="menu--content" role="menu">
+
+			<li><a href="https://www.cat.com/en_US.html" class="waffle-interaction active">Explore Products </a></li>
+
+
+		
+
+			<li><a href="https://shop.cat.com/ShopLandingPageView?storeId=11751&langId=-1" class="waffle-interaction ">Buy Online </a></li>
+
+
+		
+
+			<li><a href="https://catused.cat.com/en/" class="waffle-interaction ">Find Used Products </a></li>
+
+
+		
+
+			<li><a href="https://www.catrentalstore.com/en_US/home.html" class="waffle-interaction ">Rent Products </a></li>
+
+
+		
+
+			<li><a href="https://vl.cat.com/visionlink?ui_locales=en-US" class="waffle-interaction ">Manage My Equipment </a></li>
+
+
+		
+
+			<li><a href="https://www.catfinancial.com/en_US.html" class="waffle-interaction ">View Finance Solutions </a></li>
+
+
+		</ul>
+	</div>
+
+</li>
+
+  
+   
+
+
+          </ul>
+          <div class="search-wrap" style="display: none;">
+            
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/deg/components/structure/search/v1/search/clientlibs/site.min.7ea43d628062d274409239af092e2700.css" type="text/css">
+
+
+	
+	
+	<form action="/en_US/search/search-results.html" class="search-inner search siteSearchForm" id="search" name="search" method="GET">
+		<i class="material-icons" id="siteSearchForm_search_icon">search</i>
+		<label for="searchInput" class="sr-only">Search</label>
+        
+        
+        <input type="search" class="input-large search-input" id="searchInput" name="search" placeholder="What are you looking for?" autocomplete="off" onkeyup="newCatdotcomSearchAutoSuggestHeader(this, 'search');"/>
+        
+         
+
+		<input type="hidden" name="pagePath" id="pagePath" value="/content/catdotcom/en_US/support/maintenance/customer-value-agreements/mining-cvas/hoses-and-couplings"/>
+        <input type="hidden" id="newSearchEnabled" value="true"/>
+		
+		<input type="submit" class="hidden" value="Search"/>
+		<a href="#" onclick="" class="search-close" role="button" aria-label="close">&#215;</a>
+		<div id="searchsearchInputSuggBox" class="suggestionBox col-7 col-lg-10 col-md-8 col-sm-6 col-xs-6" style="display:none">
+        
+          <div class="suggestionBoxSearchHeader" style="display:none">
+            <div class="suggestionBoxHeading">SUGGESTED KEYWORDS</div>
+            <div id="SuggKeywordsHeader">
+              <div class="sug" onclick="selAndSubmitAutoComplete('#globalSearchResults #globalSearchInput', 'truck');return false;"><a href="">Pavers</a></div>
+          <div class="sug" onclick="selAndSubmitAutoComplete('#globalSearchResults #globalSearchInput', 'trucks');return false;"><a href="">Ashpalt pavers</a></div>
+          <div class="sug" onclick="selAndSubmitAutoComplete('#globalSearchResults #globalSearchInput', 'trucking');return false;">
+            <a href="">Paving</a></div>
+          <div class="sug" onclick="selAndSubmitAutoComplete('#globalSearchResults #globalSearchInput', 'trucksworthy');return false;">
+            <a href="">Pavement</a></div>
+              </div>
+            </div>
+          <div class="suggestionBoxSearchHeader" style="display:none">
+            <div class="suggestionBoxHeading">SUGGESTED PRODUCTS</div>
+           <div id="SuggProductsHeader">
+            <div class="sug" onclick="selAndSubmitAutoComplete('#globalSearchResults #globalSearchInput', 'truck');return false;"><a href="">APavers</a></div>
+            <div class="sug" onclick="selAndSubmitAutoComplete('#globalSearchResults #globalSearchInput', 'trucks');return false;"><a href="">Ashpalt pavers</a></div>
+            <div class="sug" onclick="selAndSubmitAutoComplete('#globalSearchResults #globalSearchInput', 'trucking');return false;">
+              <a href="">Paving</a>
+            </div>
+            <div class="sug" onclick="selAndSubmitAutoComplete('#globalSearchResults #globalSearchInput', 'trucksworthy');return false;">
+              <a href="">Pavement</a>
+            </div>
+            </div>
+          </div>
+          <div class="suggestionBoxSearchHeader" style="display:none">
+            <div class="suggestionBoxHeading">SUGGESTED CONTENT</div>
+            	<div id="SuggCategoriesHeader">
+            <div class="sug" onclick="selAndSubmitAutoComplete('#globalSearchResults #globalSearchInput', 'truck');return false;"><a href="">Breadcrumb > pavers </a></div>
+            <div class="sug" onclick="selAndSubmitAutoComplete('#globalSearchResults #globalSearchInput', 'trucking');return false;">
+              <a href="">Paving</a>
+            </div>
+            </div>
+          </div>
+        
+
+		 <!-- end existing aem autosuggest -->
+      </div>
+	</form>
+
+
+    
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+
+<div class="modal fade tfn full-inner dealer--modal" id="launch-this-modal-window12" tabindex="-1" role="dialog" aria-labelledby="LaunchThisModal" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title" id="exampleModalLabel">Find Dealer</p>
+        <button type="button" class="close" onclick="refreshDealer()" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered background-spacing aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-b972ba99f5" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="dealerLocator">
+  <script src="https://maps.googleapis.com/maps/api/js?v=3&client=gme-caterpillarinc&language=en&libraries=places"></script>
+
+
+<input type="hidden" id="encryptedDealerCode" name="formType"/>
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/deg/components/content/dealerLocator/v4/dealerLocator/clientlibs/site.min.6f5d278328b3e8b266950ece0006b9a5.css" type="text/css">
+<script src="/etc.clientlibs/clientlibs/social/thirdparty/handlebars.min.ef2f3fdc183ffa35b5e3f488a315b8be.js"></script>
+<script src="/etc.clientlibs/deg/components/content/dealerLocator/v4/dealerLocator/clientlibs/site.min.69907b389e8ec26c2eeee8a15f79a9b8.js"></script>
+
+
+
+<section class="dealers auth dealers--full" data-resource-type="/content/catdotcom/en_US/support/dealer-locator/jcr:content/root/responsivegrid/container/dealerlocator">
+	<div class="row tfn no-gutters">
+		<div class="col dealers__panel--left">
+			<div class="dealers__panel--wrap active" id="dealers__panel--start">
+				<div class="dealers__panel-container">
+					<div class="dealers__back"></div>
+					<div class="dealers__header">
+						<p class="dealers__header__title">Find Dealer</p>
+						<p>Need help finding a Cat dealer near you? Our dealer locator provides the most up-to-date information on Cat dealers close to you. Simply enter your address and select the type of equipment you&#39;re looking for. Or, if you already know the name of the dealer you&#39;re searching for, you can type in the dealer&#39;s name for a list of locations.</p>
+					</div>
+					<div class="dealers__body">
+						<!-- DEALER FORM -->
+						<form class="form dealers__body--form" action="">
+							<fieldset class="form__group">
+								<label class="title" for="search-location">Search By Location</label>
+								<div class="form__group--overlaid">
+									<button class="tfn-icon-geolocation" type="button" aria-label="My location" onclick="getLocationOnClick();">
+										<i class="material-icons" aria-hidden="true" id="dealers_body_myLocation_icon">my_location</i>
+									</button>
+									<input id="search-location" type="text" oninput="clearError()" placeholder="Enter ZIP, or City &amp; State"/>
+								</div>
+								<small class="form__label--error"></small>
+							</fieldset>
+							<div class="separator">
+								<i>OR</i>
+							</div>
+							<fieldset class="form__group">
+								<label class="title" for="search-dealer">Search By Dealer Name</label> <input id="search-dealer" type="text" oninput="clearError()" placeholder="Enter Dealer Name"/>
+								<small class="form__label--error"></small>
+							</fieldset>
+							<fieldset class="form__group">
+								<button class="button button-primary dealer-progression" type="submit" href="#dealers__panel--filter" disabled onclick="errorDisplay();">next</button>
+							</fieldset>
+						</form>
+						<!-- END DEALER FORM -->
+					</div>
+				</div>
+			</div>
+			<div class="dealers__panel--wrap" id="dealers__panel--filter">
+				<div class="dealers__panel-container">
+					<div class="dealers__back">
+						<div class="return-link">
+							<div class="back-link__group">
+								<a class="cat-follow cat-follow--back cat-follow--back-to-results dealer-progression" href="#dealers__panel--results">Back to Results</a>
+								<a class="cat-follow cat-follow--back dealer-progression back-search-results" href="#dealers__panel--start" onclick="clearSearchError();">Back to Search</a>
+							</div>
+						</div>
+					</div>
+					<div class="dealers__header"></div>
+					<div class="dealers__body">
+						<!-- FILTERS FORM -->
+						<form action="" name="mini-form-9" class="form dealers__body--form clearfix">
+							<p class="form-filter-title">Filter Dealer Results By:</p>
+							<div class="control--group" role="radiogroup">
+								<p class="form-filter-title">Dealer Type</p>
+								<div class="link--container">
+								</div>
+								<div class="control">
+									<input id="all" name="radio_example" value="all" type="radio" checked="" required="" onclick="radioRefresh();"/> <label for="all" aria-hidden="false">All Location
+										Types</label>
+								</div>
+								<div class="control">
+									<input id="sales" name="radio_example" value="sales" type="radio" required="" onclick="radioRefresh();"/> <label for="sales" aria-hidden="false">Sales</label>
+								</div>
+								<div class="control">
+									<input id="parts" name="radio_example" value="parts" type="radio" required="" onclick="radioRefresh();"/> <label for="parts" aria-hidden="false">Parts &amp;
+										Services</label>
+								</div>
+								<div class="control">
+									<input id="rental" name="radio_example" value="rental" type="radio" required="" onclick="radioRefresh();"/> <label for="rental" aria-hidden="false">Rental</label>
+								</div>
+							</div>
+							<div class="control--group" id="productDivisionIdFilter">
+								<p class="form-filter-title">Equipment Type</p>
+								<div tabindex="0" class="link--container dealers__reset-link">
+									<a tabindex="-1" onclick="resetForm();">Reset Filters</a>
+								</div>
+								<div class="control">
+									<input type="checkbox" id="all-eq" name="dealer_service" class="dealer_equipment_type all-eq" checked onclick="radioRefresh();"/> <label for="all-eq" aria-hidden="false">All Equipment Types</label>
+								</div>
+								<div class="control">
+									<input type="checkbox" id="machines" name="dealer_service" class="dealer_equipment_type" onclick="radioRefresh();"/>
+									<label for="machines" aria-hidden="false">Machines</label>
+								</div>
+								<div class="control">
+									<input type="checkbox" id="electrical" name="dealer_service" class="dealer_equipment_type" onclick="radioRefresh();"/>
+									<label for="electrical" aria-hidden="false">Electric Power</label>
+								</div>
+								<div class="control">
+									<input type="checkbox" id="indrail" name="dealer_service" class="dealer_equipment_type" onclick="radioRefresh();"/>
+									<label for="indrail" aria-hidden="false">Industrial And Rail Engines</label>
+								</div>
+								<div class="control">
+									<input type="checkbox" id="oilgas" name="dealer_service" class="dealer_equipment_type" onclick="radioRefresh();"/>
+									<label for="oilgas" aria-hidden="false">Oil &amp; Gas</label>
+								</div>
+								<div class="control">
+									<input type="checkbox" id="marine" name="dealer_service" class="dealer_equipment_type" onclick="radioRefresh();"/>
+									<label for="marine" aria-hidden="false">Marine Engines</label>
+								</div>
+								<div class="control">
+									<input type="checkbox" id="voctru" name="dealer_service" class="dealer_equipment_type voc-truck" onclick="radioRefresh();"/> <label for="voctru" aria-hidden="false">
+										Vocational Trucks</label>
+								</div>
+								<div class="control">
+									<input type="checkbox" id="onhigh" name="dealer_service" class="dealer_equipment_type" onclick="radioRefresh();"/>
+									<label for="onhigh" aria-hidden="false">On-Highway Truck Engines</label>
+								</div>
+								<div class="error-box voc-error">
+									<button href class="close">
+										<span class="material-icons" id="error_box_voc_close">close</span>
+									</button>
+									<p>CAT Vocational
+										Trucks are currently available only in the United States and
+										Canada. If you search for vocational trucks elsewhere you will
+										not get any results.</p>
+								</div>
+							</div>
+							<div class="control--group">
+								<div class="error-box search-error">
+									<button class="close">
+										<span class="material-icons" id="error_box_search_close">close</span>
+									</button>
+									<p></p>
+								</div>								
+							</div>
+							<script>
+								if (window.location.href.toLowerCase().includes('perkins')){
+								  $('#productDivisionIdFilter').hide();
+								}
+							</script>
+						</form>
+						<!-- END FILTERS FORM -->
+					</div>
+					<div class="dealers__footer">
+						<div class="dealers__footer--buttons">
+							<button aria-label="Apply Filters
+" type="button" tabindex="0" class="button button-primary dealer-progression results-progression" onclick="loadDealers();">Apply Filters
+</button>
+							<a aria-label="Skip" tabindex="0" class="dealer-progression results-progression" href="javascript:void(0);" onclick="resetForm();loadDealers();">Skip</a>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="dealers__panel--wrap" id="dealers__panel--results">
+				<!-- adding the class 'visible' to the dl-account-banner will cause it to display -->
+				<!-- adding 'failure' will be red, 'success' will be green -->
+				<!-- calling the function 'dlErrorTimeout()' will set a 6s timer and then fade out the object -->
+				<div class="general-error">
+					<div class="dealer-notification">
+						<p class="dealer-notification-title"> Your dealer has been set <a tabindex="0" onclick="closeBanner()" class="close-error">
+							<i class="material-icons" aria-hidden="true">close</i></a> </p>
+						<span class="dealer-notification-info"> Would you like to set this dealer to your account as well?</span>
+					</div>
+					<div class="dealer-notification-footer">
+						<a tabindex="0" href="javascript:void(0);" onclick="setFavDealerInHeliosForLoggedIn(this)" class="save-dealer-notification">YES, SAVE TO MY ACCOUNT</a>
+						<a tabindex="0" href="javascript:void(0);" onclick="closeBanner()" class="cancel-dealer-notifcation">NO</a>
+					</div>
+				</div>
+				<div class="dealers__panel-container">
+					<div class="dealers__back">
+						<div class="return-link">
+							<div class="back-link__group">
+								<a class="cat-follow cat-follow--back cat-follow--back-to-results dealer-progression" href="#dealers__panel--filter">Back to Results</a>
+								<a class="cat-follow cat-follow--back dealer-progression back-search-results" href="#dealers__panel--filter">Back to Search</a>
+								<button class="filter__button dealer-progression" id="filter_btn_dealer_progression" href="#dealers__panel--filter">
+									Filter <i class="material-icons" id="filter_btn_dealer_progression_icon" aria-hidden="true">filter_list</i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="dealers__header">
+						<!-- RESULTS SUMMARY -->
+						<div class="results__summary"></div>
+						<!--  END RESULTS SUMMARY -->
+					</div>
+					<div class="dealers__body">
+						
+						<div class="results">
+							<div class="results__list"></div>
+						</div>
+						
+					</div>
+					<nav class="page-flipper"></nav>
+				</div>
+			</div>
+			
+			<div class="dealers__panel--wrap" id="dealers__panel--info">
+				<!-- adding the class 'visible' to the dl-account-banner will cause it to display -->
+				<!-- adding 'failure' will be red, 'success' will be green -->
+				<!-- calling the function 'dlErrorTimeout()' will set a 6s timer and then fade out the object -->
+				<div class="general-error">
+					<div class="dealer-notification">
+						<p class="dealer-notification-title"> Your dealer has been set <a tabindex="0" onclick="closeBanner()" class="close-error">
+							<i class="material-icons" aria-hidden="true">close</i></a> </p>
+						<span class="dealer-notification-info"> Would you like to set this dealer to your account as well?</span>
+					</div>
+					<div class="dealer-notification-footer">
+						<a tabindex="0" href="javascript:void(0);" onclick="setFavDealerInHeliosForLoggedIn(this)" class="save-dealer-notification">YES, SAVE TO MY ACCOUNT</a>
+						<a tabindex="0" href="javascript:void(0);" onclick="closeBanner()" class="cancel-dealer-notifcation">NO</a>
+					</div>
+				</div>
+				<div class="dealers__panel-container">
+					<div class="dealers__back">
+						<div class="return-link">
+							<div class="back-link__group">
+								<a class="cat-follow cat-follow--back cat-follow--back-to-results dealer-progression" href="#dealers__panel--results">Back to Results</a>
+								<a class="cat-follow cat-follow--back dealer-progression back-search-results" href="#dealers__panel--results" onclick="backToResults();">Back to Search Results</a>
+							</div>
+						</div>
+					</div>
+					<div class="dealers__header"></div>
+					<!-- data-favorite-dealer set to true changes select/deselect buttons and the star icon on dtls panel, false or blank on all but actual favorite -->
+					<div class="dealers__body" data-favorite-dealer="true">
+						<div class="dealers__panel-container--info">
+							<div class="dealers__info">
+								<div class="results__list-item results__list-info"></div>
+							</div>
+						</div>
+					</div>
+					<div class="dealers__footer">
+						<div class="dealers__footer--buttons">
+							<button class="button button-primary favorite-select" data-dealer-number="">Select as My Dealer</button>
+							<button class="button button-tertiary favorite-deselect" data-dealer-number="">Deselect Dealer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+			
+			<div class="dealers__panel--wrap" id="dealers__panel--info__header">
+				<!-- adding the class 'visible' to the dl-account-banner will cause it to display -->
+				<!-- adding 'failure' will be red, 'success' will be green -->
+				<!-- calling the function 'dlErrorTimeout()' will set a 6s timer and then fade out the object -->
+				<div class="general-error">
+					<div class="dealer-notification">
+						<p class="dealer-notification-title"> Your dealer has been set <a tabindex="0" onclick="closeBanner()" class="close-error">
+							<i class="material-icons" aria-hidden="true">close</i></a> </p>
+						<span class="dealer-notification-info"> Would you like to set this dealer to your account as well?</span>
+					</div>
+					<div class="dealer-notification-footer">
+						<a tabindex="0" href="javascript:void(0);" onclick="setFavDealerInHeliosForLoggedIn(this)" class="save-dealer-notification">YES, SAVE TO MY ACCOUNT</a>
+						<a tabindex="0" href="javascript:void(0);" onclick="closeBanner()" class="cancel-dealer-notifcation">NO</a>
+					</div>
+				</div>
+				<div class="dealers__panel-container">
+					<div class="dealers__header"></div>
+					<!-- data-favorite-dealer set to true changes select/deselect buttons and the star icon on dtls panel, false or blank on all but actual favorite -->
+					<div class="dealers__body" data-favorite-dealer="true">
+						<div class="dealers__panel-container--info">
+							<div class="dealers__info">
+								<div class="results__list-item results__list-info__header"></div>
+							</div>
+								</div>
+							</div>
+					<div class="dealers__footer">
+						<div class="dealers__footer--buttons">
+							<button tabindex="0" class="button button-primary favorite-select">Select as My Dealer</button>
+							<button tabindex="0" class="button button-tertiary favorite-deselect">Deselect Dealer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		<div class="col dealers__panel--right">
+			<div class="mapouter">
+				<div id="map" class="gmap_canvas"></div>
+				<div id="favDealerMap" class="gmap_canvas"></div>			
+			</div>
+		</div>
+        <div class="dealers__panel--wrap" id="dealers__panel--legal">
+            <div class="dealers__panel-container">
+                <div class="dealers__body">
+                    <div class="legal-info">
+                        <p class="modal-title">You&#39;re Leaving Cat.com</p>
+		                <p>
+					        <p>Note that by entering data in this application for purposes of obtaining driving directions, you are providing such data directly to Google LLC and/or its affiliates.  By clicking &quot;I Agree&quot; or by using the Google Maps functionality to obtain driving directions, you acknowledge and agree that use of Google Maps is subject to the then-current Google Maps/Google Earth Additional Terms of Service at <a href="https://developers.google.com/maps/terms-20180207#section_9_3" target="_blank" title="Google Maps/Google Earth Additional Terms of Service">https://developers.google.com/maps/terms-20180207#section_9_3</a>  and Google Privacy Policy at <a href="https://policies.google.com/privacy" title="Google Privacy Policy" target="_blank">https://policies.google.com/privacy</a></p>
+
+		                </p>       
+                    </div>
+                </div>
+                <div class="dealers__footer">
+                   <div class="dealers__footer--buttons">
+                       <button tabindex="0" class="button button-primary" type="submit">I Agree</button>
+                       <a tabindex="0" class="close legal">Cancel</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal fade auth tfn small full-inner legal dealerContent" id="google-legal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<p class="modal-title">You&#39;re Leaving Cat.com</p>
+				<button type="button" class="close" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>
+					<p>Note that by entering data in this application for purposes of obtaining driving directions, you are providing such data directly to Google LLC and/or its affiliates.  By clicking &quot;I Agree&quot; or by using the Google Maps functionality to obtain driving directions, you acknowledge and agree that use of Google Maps is subject to the then-current Google Maps/Google Earth Additional Terms of Service at <a href="https://developers.google.com/maps/terms-20180207#section_9_3" target="_blank" title="Google Maps/Google Earth Additional Terms of Service">https://developers.google.com/maps/terms-20180207#section_9_3</a>  and Google Privacy Policy at <a href="https://policies.google.com/privacy" title="Google Privacy Policy" target="_blank">https://policies.google.com/privacy</a></p>
+
+				</p>
+				<form class="form" action="">
+					<fieldset class="form__group modal-footer">
+						<button tabindex="0" class="button button-primary" type="submit">I Agree</button>
+						<a tabindex="0" class="close legal">Cancel</a>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	homeLang = "en";
+	searchCharMinLength = "";
+	dealersNearThisLocation = "";
+	milesAway = "Miles Away";
+	openUntil = "Open Until";
+	directions = "Directions";
+	secondaryDealerPill =  "Parts \x26amp; Service Dealer";
+	tertiaryDealerPill =  "Parts Dealer";
+	authorMoreInfo = "More Info";
+	authorListing = "Listings";
+	authorOf = "of";
+	authorPage = "page";
+	geocodeStatusError = "Geocoder failed due to:";
+	geocodeNoResultsError = "No results found due to Google services error";		
+	authorAtLeastThree = ""; 
+	authorNoResults = "No results are found";
+	addressGeocodeError = "Geocode was not successful for the following reason:";
+	xhrError = "XMLHttpRequest error";
+	locnDisabledError = "Location Service is disabled";
+	directionByName = "No direction available for Search By Name";
+	authorNoDirection = "The direction is not available";
+	storeHoursMon = "Monday";
+	storeHoursTue = "Tuesday";
+	storeHoursWed = "Wednesday";
+	storeHoursThu = "Thursday";
+	storeHoursFri = "Friday";
+	storeHoursSat = "Saturday";
+	storeHoursSun = "Sunday";
+	embargoErrorMsg = "Currently under Embargo. Sorry, no business activity";
+	cubaEmbargoErrorMsg = "RIMCO has been appointed as the Caterpillar dealer in Cuba. At this time Cuba is still under a trade embargo; therefore, no business activity is allowed unless covered by a general or specific license.";
+	dealerContactTitle = "Contact";
+	dealerEmail = "Email";
+	dealerWebsite = "Website";
+	dealerServicesOffered = "Services Offered";
+	dealerDetails = "Contact Details";
+	dealerServicesHours = "Hours";
+	if(authorAtLeastThree == null || authorAtLeastThree == '') {
+		authorAtLeastThree = searchCharMinLength ? 'Search query must have at least ' + searchCharMinLength + ' characters' : 'Search query must have at least 3 characters';
+	}
+    if(dealersNearThisLocation == null || dealersNearThisLocation == '') {
+        dealersNearThisLocation = Granite.I18n.get('dealer_near_location');
+	}
+</script>
+<!-- Handle bar html template for result table -->
+<script id="dealerLocator-template" type="text/x-handlebars-template">
+            {{#dealerlocation-array}}
+            <!-- setting data-favorite-dealer="true" sets the favorite star -->
+              <!-- Result {{index}} -->
+              <div class="results__list-item" data-dealer="dealer_{{index}}" data-favorite-dealer="" onmouseover="highlightMarker({{index}});" onmouseleave="removeHighlightMarker({{index}});">
+                <p class="results__list-item__title">
+                  <span class="results__dealer-order">{{index}}</span>&ndash;<span class="results__dealer-name">{{this.marketingName}}</span>
+				  <span class="results__dealer-code">{{this.dealerCode}}</span> 
+                </p>
+				  <!-- Aria label for Mark as favorite -->
+				  <button class="favorite" id="dealerLocator_btn_star" href data-dealer-number="dealer_{{index}}" aria-label="Mark as favorite"><i class="material-icons" id="dealerLocator_btn_star_icon" aria-hidden="true">star</i></button>
+				  <ul class="results-info--inline">
+                  {{#if this.distance}}
+                    <li class="results-info__distance">{{distanceFixed this.distance}} Miles Away</li>
+                  {{/if}}
+                    <li class="results-info__hours results-info--hidden">Open Until</li>
+
+                    <li class="results-info__directions">
+                      <a href="https://www.google.com/maps?saddr=&daddr={{this.siteAddress}}+{{this.siteCity}}+{{this.siteState}}+{{this.siteCountry}}&dirflg=d"
+                         dealerPosition="{{index}}">
+                         Directions
+                      </a>
+                    </li>
+                </ul>
+                {{#ifCatdotcom}}
+					{{#ifCatdotcomPrimary this.type}}
+						<span class="cat-primary-dealer"><img src="/etc.clientlibs/deg/components/content/dealerLocator/v4/dealerLocator/clientlibs/site/css/resources/img/CatDealer_logo.svg" alt="Cat Dealer"></span>
+					{{else}}
+						{{#ifCatAuthorizedPartsAndServiceCenter this.type this.isSubDealer this.stores}}
+							<span class="cat-primary-dealer"><img src="/etc.clientlibs/deg/components/content/dealerLocator/v4/dealerLocator/clientlibs/site/css/resources/img/Cat_AuthorizedP&S_Center.svg" alt="Cat Authorized Parts & Service Center"></span>
+						{{else}}
+							{{#ifCatAuthorizedPartCenter this.type this.isSubDealer this.stores}}
+								<span class="cat-primary-dealer"><img src="/etc.clientlibs/deg/components/content/dealerLocator/v4/dealerLocator/clientlibs/site/css/resources/img/Cat_Authorized_Part_Center.svg" alt="Cat Authorized Parts Center"></span>
+							{{else}}
+								{{#ifCatAuthorizedSalesServiceCenter this.type this.isSubDealer}}
+									<span class="cat-primary-dealer"><img src="/etc.clientlibs/deg/components/content/dealerLocator/v4/dealerLocator/clientlibs/site/css/resources/img/Cat_Authorized_Sales_Service_Center.svg" alt="Cat Authorized Sales Service Center"></span>
+								{{/ifCatAuthorizedSalesServiceCenter}}
+							{{/ifCatAuthorizedPartCenter}}
+						{{/ifCatAuthorizedPartsAndServiceCenter}}
+					{{/ifCatdotcomPrimary}}
+               		{{#each this.stores}}
+						{{#ifCond this.productDivisionId 2}}
+               	        	<span class="cat-primary-dealer"><img src="/etc.clientlibs/deg/components/content/dealerLocator/v4/dealerLocator/clientlibs/site/css/resources/img/The_Cat_Rental_Store.svg" alt="The Cat Rental Store"></span>
+						{{/ifCond}}
+              	 	{{/each}}
+				{{/ifCatdotcom}}
+				{{#ifPerkins}}
+					{{#ifPerkinsPrimary this.type}}
+						<!-- ifPerkinsPrimary-->
+						<span class="perkins-primary-dealer"><img src="/etc.clientlibs/deg/components/content/dealerLocator/v4/dealerLocator/clientlibs/site/css/resources/img/Perkins_Logo.svg" alt="Perkins Dealer"></span>
+					{{else}}
+						{{#ifPerkinsSecondary this.type this.stores}}
+							<!-- ifPerkinsSecondary-->
+							<i class="parts-services-icon">Parts {{ampersand}} Service Dealer</i>
+						{{else}}
+							{{#ifPerkinsTertiary this.type this.stores}}
+								<!-- ifPerkinsTertiary-->
+								<i class="parts-icon">Parts Dealer</i>
+							{{/ifPerkinsTertiary}}
+						{{/ifPerkinsSecondary}}
+					{{/ifPerkinsPrimary}}
+				{{/ifPerkins}}
+                <ul class="results-info">
+                  <li>{{this.siteAddress}}</li>
+                  <li>{{this.siteCity}} {{this.siteState}} {{this.sitePostal}}</li>
+                  {{#if this.siteCountry}}
+                    <li>{{this.siteCountry}}</li>
+                  {{/if}}
+                </ul>
+				<ul class="results-info">
+					{{#ifGeneralInfo this.locationPhone}}
+                		<li>
+                    		<span class="dealers__general-info-label">General Info</span>
+                    	    <span class="dealers__general-info-data">
+                        		<a href="tel:{{this.locationPhoneHref}}" aria-label="Call to {{this.locationPhone}}">{{this.locationPhone}}</a>
+                        	</span>
+              			</li>
+					{{/ifGeneralInfo}}
+					{{#ifEmail this.locationEmail}}
+                    	<li>
+	                    	<span class="dealers__general-info-label">Email</span>
+                        	<span class="dealers__general-info-data">
+	                        	<a href="mailto:{{this.locationEmail}}" aria-label="Email to {{this.locationEmail}}">{{this.locationEmail}}</a>
+                        	</span>
+                    	</li>
+					{{/ifEmail}}
+					{{#ifWebsite this.locationWebSite}}
+                    	<li>
+	                    	<span class="dealers__general-info-label">Website</span>
+                        	<span class="dealers__general-info-data">
+	                        	<a href="https://{{this.locationWebSite}}" target="_blank" aria-label="Website {{this.locationWebSite}}">{{this.locationWebSite}}</a>
+                        	</span>
+                    	</li>
+					{{/ifWebsite}}
+                </ul>
+                <button class="button button-tertiary dealer-progression" href="#dealers__panel--info" onclick="getServicesData({{index}});return false;">Dealer Details</button>
+                <!-- END RESULT -->
+            </div>
+          {{/dealerlocation-array}}
+</script>
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade tfn small full-inner legal" id="google-legal--header" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title">You&#39;re Leaving Cat.com</p>
+        <button type="button" tabindex="1" class="close" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Note that by entering data in this application for purposes of obtaining driving directions, you are providing such data directly to Google LLC and/or its affiliates.  By clicking &quot;I Agree&quot; or by using the Google Maps functionality to obtain driving directions, you acknowledge and agree that use of Google Maps is subject to the then-current Google Maps/Google Earth Additional Terms of Service at 
+          <a tabindex="1" href="https://developers.google.com/maps/terms-20180207#section_9_3" target="_blank" title="Google Maps/Google Earth Additional Terms of Service">https://developers.google.com/maps/terms-20180207#section_9_3</a>
+            and Google Privacy Policy at
+          <a tabindex="1" href="https://policies.google.com/privacy" title="Google Privacy Policy" target="_blank">https://policies.google.com/privacy</a>
+          
+        </p>
+        <form class="form" action="">
+          <fieldset class="form__group modal-footer">
+            <button class="button button-primary" tabindex="1" type="submit">I Agree</button>
+            <a tabindex="1" class="close legal">Cancel</a>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    
+</div>
+
+    
+</div>
+
+</div>
+</div>
+<div class="cmp-breadcrumb aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/deg/components/content/general/breadcrumb/v2/breadcrumb/clientlibs/site.min.033412785a2fd59650936086fdc1fdc0.css" type="text/css">
+
+
+
+<div class="breadcrumb-msrp col-12" aria-label="Breadcrumb" role="navigation">
+  
+	<div class="container">
+		<div class="row">
+			<div class="col-9">
+				<ul class="breadcrumb__list-msrp">
+					<li>
+						<a href="/en_US/support/maintenance.html">
+						<span aria-current="page">Maintenance</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/en_US/support/maintenance/customer-value-agreements.html">
+						<span aria-current="page">Cat® Customer Value Agreements</span>
+						</a>
+					</li>
+				
+					<li>
+						<a href="/en_US/support/maintenance/customer-value-agreements/mining-cvas.html">
+						<span aria-current="page">Mining CVA Options</span>
+						</a>
+					</li>
+				
+					<li>
+						
+						<span aria-current="page">Hoses &amp; Couplings</span>
+						
+					</li>
+				</ul>
+			</div>
+			<!-- <div class="col-3 pull-right">Unit switch code</div> -->
+		</div>
+	</div>
+
+    
+<script src="/etc.clientlibs/deg/components/content/general/breadcrumb/v2/breadcrumb/clientlibs/site.min.3d114002273df042b170ce49c08d283b.js"></script>
+
+
+
+ 
+</div>
+
+
+</div>
+<div class="inheritedExperienceFragment experiencefragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+        
+    
+    
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    
+    
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="teaser auth-track media-youtube teaser--hero teaser--no-accent-bar aem-GridColumn aem-GridColumn--default--12">
+
+	
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/deg/components/content/general/teaser/v4/teaser/clientlibs/site.min.242af5f1dcfeeffa5cc94d73d558419c.css" type="text/css">
+
+
+
+
+	
+
+    
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-12 teaser__text-wrap">
+					<div class="inner">
+						
+						
+							
+							
+								
+									<h2 class="teaserHeading">GET WHAT YOU NEED.<br />
+PAY AS YOU GO.<br />
+THAT'S A CVA.</h2>
+								
+							
+						
+
+						
+
+						
+							<span class="accent-bar"></span>
+						
+
+						
+
+						
+						
+							<p></p>
+						
+						
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 teaser__img-wrap">
+
+					
+					  <figure class="figure_teaserBackgroundImage">
+						<picture>
+					  	  <source data-srcset="https://s7d2.scene7.com/is/image/Caterpillar/CM20201201-69cea-9e722?scl=1" media="(min-width: 768px)"/>
+						  <img data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20201201-69cea-9e722?scl=1" class="lazyload" data-object-fit="cover" alt="Hose &amp; Coupling Customer Value Agreements (CVAs)"/>
+						</picture>
+					  </figure>
+					
+
+					
+					   <figure class="figure_teaserBackgroundImgCheckerboard">
+							 <picture>
+						     <source data-srcset="https://s7d2.scene7.com/is/image/Caterpillar/CM20201201-69cea-9e722?scl=1" media="(min-width: 768px)"/>
+						     <img data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20201201-69cea-9e722?scl=1" class="lazyload" data-object-fit="cover" alt="Hose &amp; Coupling Customer Value Agreements (CVAs)"/>
+					     </picture>
+					   </figure>
+					
+
+				   <div class="teaser-multimedia__slide-media">
+					
+				  </div>
+			   </div>
+			</div>
+		</div>
+
+	
+
+	
+	
+    
+<script src="/etc.clientlibs/deg/components/content/general/teaser/v4/teaser/clientlibs/site.min.382d06b8fd9354e019f5d787c8e2bd86.js"></script>
+
+
+
+
+
+
+    
+
+</div>
+
+    
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    
+    
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    
+    
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-1fcb9845f3" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-10af19b963" class="cmp-text">
+    <p> </p>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+<div class="texteditor auth-track rte text">
+<div id="rte-296af4a440" class="cmp-text">
+    <div class="focused-search"><h1 style="max-width: 450.0px;">Hydraulic Hose &amp; Coupling CVA<span style="text-transform: lowercase;">s</span></h1>
+<span class="accent-bar"></span></div>
+
+</div>
+
+    
+
+</div>
+<div class="texteditor auth-track rte text">
+<div id="rte-8f9d1100ad" class="cmp-text">
+    <p style="margin-bottom: 25.0px;max-width: 780.0px;">Your mining fleet’s performance hinges on the reliability of its hydraulic hoses and couplings. You need a solid plan to make sure you have the right parts and tools — available 24/7 — for quick repairs or replacements. A Cat<sup style="font-size: 60.0%;line-height: 100.0%;">®</sup> Hose and Coupling Customer Value Agreement (CVA) is a hassle-free lifecycle management plan for your equipment’s hydraulic systems — whether Cat or mixed fleets. From delivered supply to onsite solutions with zero upfront costs*, your dealer tailors a CVA for your operation to improve operating costs, inventory management and, most of all, uptime.</p>
+<h6 style="float: left;margin-top: 5.0px;margin-right: 10.0px;margin-bottom: 0.0px;"><a class="button button-primary button-sm" href="#options" style="font-size: 14.0px;">View CVA Options</a></h6>
+<h6 style="float: left;margin-top: 5.0px;margin-bottom: 0.0px;"><a class="button button-primary button-sm" href="/en_US/support/maintenance/customer-value-agreements/mining-cvas/consultation.html" target="_blank" style="font-size: 14.0px;">Get a Consultation</a></h6>
+<h6 style="clear: both;margin-bottom: 30.0px;font-size: 0.0px;"> </h6>
+<p style="font-size: 12.0px;max-width: 440.0px;margin-bottom: 0.0px;">*Support programs and payment options are based on agreement length, fleet size and component consumption.</p>
+
+</div>
+
+    
+
+</div>
+<div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-0d6e613495" class="cmp-text">
+    <p> </p>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered section-padding-none aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-fb7f96c89b" class="cmp-container" style="background-color:#f8f8f8;">
+         <div class="section-container__inner">
+        
+        <div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="texteditor auth-track rte text section-padding-none aem-GridColumn aem-GridColumn--default--12">
+<div id="rte-8da4a38f0e" class="cmp-text">
+    <p> </p>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+<div class="texteditor auth-track rte text aem-GridColumn aem-GridColumn--default--12">
+<div id="rte-acce56a29e" class="cmp-text">
+    <div><h2 style="margin-bottom: 8.0px;max-width: 450.0px;">What are Hose &amp; Coupling CVA<span style="text-transform: lowercase;">s</span>?</h2>
+<span class="accent-bar" style="margin-bottom: 12.0px;"></span><p style="margin-bottom: 20.0px;max-width: 660.0px;">Hose and Coupling CVAs are a smart way to manage inventory, while keeping costs under control. You have the option to get the tooling and training your crew need to crimp your own hoses…or you can rely on dealer hose experts for safe, onsite support — from inspection through installation. Your Cat dealer will work with you to configure the CVA that your operation demands.</p>
+<h6 style="margin-bottom: 0.0px;"><a class="button button-primary button-sm" href="http://s7d2.scene7.com/is/content/Caterpillar/CM20210104-f16cc-03047" target="_blank" style="font-size: 14.0px;">Download Brochure</a></h6>
+</div>
+
+</div>
+
+    
+
+</div>
+<div class="texteditor auth-track rte text section-padding-none aem-GridColumn aem-GridColumn--default--12">
+<div id="rte-3401514040" class="cmp-text">
+    <p style="margin-bottom: 0.0px;"><br />
+ </p>
+
+</div>
+
+    
+
+</div>
+<div class="media-youtube aem-GridColumn aem-GridColumn--default--12">
+
+	
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/deg/components/content/media/mediagallery/v5/mediagallery/clientlibs/site.min.25062625be9649662f80f9f6a0db9e8e.css" type="text/css">
+
+
+
+
+	<div class="multimedia auth-track ">
+		<div class="container">
+			<div tabindex="0" class="multimedia__content">
+				<div class="multimedia__slides">
+
+					
+					<div class="multimedia__slide">
+
+							
+						
+									
+						
+						
+						
+							<div class="multimedia__slide-media video-blocker embed-responsive videosOnly" id="multimedia-jrh3gzfUo4Gk6TF-gallery">
+								
+								
+									<div class="multimedia__slide-media--youtube" data-ytvideoid="CIBt9yIP_iI"></div>
+								
+								
+								
+							</div>
+
+							
+							
+							<div class="multimedia__slide-media video embed-responsive" style="display: none" data-player="youtube" data-videoid="CIBt9yIP_iI" data-youtubeurl="www.youtube.com">
+							</div>
+						
+
+						
+						
+
+					<!-- new multimedia cookie banner -->
+                    
+	<div class="multimedia__slide-media embed-responsive multimedia-cookie-warning" style="display:none;">
+		<div class="cookie-warning">
+			<div class="inner">
+				<i aria-hidden="true" class="material-icons">warning</i>
+				<span class="h3">Multimedia</span> 
+				<span class="h3">Cookies are required</span>
+				<p>To watch videos, click on the Cookie Settings link and accept Targeting cookies</p>
+				<a href="#" class="cookie-settings">Cookie Settings</a>
+			</div>
+		</div>
+	</div>
+
+      										 
+					<div class="multimedia__item-count"><span></span> of <span></span></div>
+						<div class="mutlimedia__description">
+						<!-- view fullsize image button -->
+						
+						</div>
+					</div>
+
+				
+
+					
+					<div class="multimedia__slide">
+
+							
+						
+									
+						
+						
+						
+							<div class="multimedia__slide-media video-blocker embed-responsive videosOnly" id="multimedia-7Xsy1H6i1xyDOhD-gallery">
+								
+								
+								
+								
+									<div class="multimedia__slide-media--youtube" data-ytvideoid="kD7hDHUti3E"></div>
+								
+							</div>
+
+							
+							
+							<div class="multimedia__slide-media video embed-responsive" style="display: none" data-player="youtube" data-videoid="kD7hDHUti3E" data-youtubeurl="www.youtube.com">
+							</div>
+						
+
+						
+						
+
+					<!-- new multimedia cookie banner -->
+                    
+	<div class="multimedia__slide-media embed-responsive multimedia-cookie-warning" style="display:none;">
+		<div class="cookie-warning">
+			<div class="inner">
+				<i aria-hidden="true" class="material-icons">warning</i>
+				<span class="h3">Multimedia</span> 
+				<span class="h3">Cookies are required</span>
+				<p>To watch videos, click on the Cookie Settings link and accept Targeting cookies</p>
+				<a href="#" class="cookie-settings">Cookie Settings</a>
+			</div>
+		</div>
+	</div>
+
+      										 
+					<div class="multimedia__item-count"><span></span> of <span></span></div>
+						<div class="mutlimedia__description">
+						<!-- view fullsize image button -->
+						
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+
+			
+			<div class="multimedia__nav">
+				<div class="multimedia__nav-scroller">
+
+					
+					
+
+					
+					<div class="multimedia__nav-item multimedia__nav-item--active" id="multimedia-jrh3gzfUo4Gk6TF-poster" data-index="0">
+						<img src="//img.youtube.com/vi/CIBt9yIP_iI/mqdefault.jpg" alt="Video: Cat® Customer Value Agreements | Hose &amp; Couplings CVA FAQ"/>
+						
+						
+					</div>
+
+					
+					
+
+				
+
+					
+					
+
+					
+					<div class="multimedia__nav-item " id="multimedia-7Xsy1H6i1xyDOhD-poster" data-index="1">
+						<img src="//img.youtube.com/vi/kD7hDHUti3E/mqdefault.jpg" alt="Hose &amp; Coupling CVA Video"/>
+						
+						
+					</div>
+
+					
+					
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	
+	
+    
+<script src="/etc.clientlibs/deg/components/content/media/mediagallery/v5/mediagallery/clientlibs/site.min.feb8f88cf28f1adff45fcfc206ace77e.js"></script>
+
+
+
+
+
+
+
+
+    
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-1e0f536b64" class="cmp-text">
+    <p> </p>
+<p style="margin-bottom: 0.0px;"> </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-82b7fb4b11" class="cmp-container" style="background-color:#ffcc00;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-6e07bf0d70" class="cmp-text">
+    <p> </p>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+<div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+
+    
+    
+    
+    <div id="container-10cdcf5a7c" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-9960bd22a6" class="cmp-container" style="background-color:#ffffff;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text">
+<div id="rte-7bb665ded4" class="cmp-text">
+    <h2 style="text-align: center;font-size: 26.0px;max-width: 250.0px;margin: 38.0px auto;">Zero Upfront Cost<sup style="font-size: 60.0%;">*</sup> on Tooling &amp; Stock</h2>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="texteditor auth-track rte text aem-GridColumn aem-GridColumn--default--12">
+<div id="rte-2d5c3cbbc1" class="cmp-text">
+    <p style="margin: 0.0px;"> ­</p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+
+    
+    
+    
+    <div id="container-3e2761a7d4" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-c8909b9b73" class="cmp-container" style="background-color:#ffffff;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text">
+<div id="rte-e8cf16d14a" class="cmp-text">
+    <h2 style="text-align: center;font-size: 26.0px;max-width: 200.0px;margin: 38.0px auto;">Maximum Uptime</h2>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="texteditor auth-track rte text aem-GridColumn aem-GridColumn--default--12">
+<div id="rte-de9ccb46db" class="cmp-text">
+    <p style="margin: 0.0px;"> ­</p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+
+    
+    
+    
+    <div id="container-94890c5fb1" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-b9d9e599bb" class="cmp-container" style="background-color:#ffffff;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text">
+<div id="rte-355406d3bc" class="cmp-text">
+    <h2 style="text-align: center;font-size: 26.0px;margin: 38.0px auto;max-width: 200.0px;">Up to 100% Convenience</h2>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="texteditor auth-track rte text aem-GridColumn aem-GridColumn--default--12">
+<div id="rte-9ba8e0a384" class="cmp-text">
+    <p style="margin: 0.0px;"> ­</p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text">
+<div id="rte-87a20ad002" class="cmp-text">
+    <p style="font-size: 12.0px;margin-bottom: 0.0px;text-align: left;">*Support programs and payment options are based on agreement length, fleet size and component consumption.</p>
+
+</div>
+
+    
+
+</div>
+<div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-5dce2e507b" class="cmp-text">
+    <p style="margin-bottom: 0.0px;"> </p>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-d1274377b0" class="cmp-container" style="background-color:#f8f8f8;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-f2bf3e237c" class="cmp-text">
+    <p> </p>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+<div class="tabs">
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/deg/components/content/container/tabs/v2/tabs/clientlibs/site.min.5403835f728f72acd8d7abc3b060d047.css" type="text/css">
+
+
+
+
+<div class="tabs auth-track" data-cmp-is="tabs">
+    <div class="container">
+    
+
+    <div tabindex="0" class="tabs__nav" role="tablist">
+        <div class="tabs__nav-item tabs__nav-item--active" id="tabs-ff686d6f86-item-f12227b039-tab" aria-controls="tabs-ff686d6f86-item-f12227b039-tabpanel" data-cmp-hook-tabs="tab" role="tab">
+            
+			
+			
+			
+			
+			
+			    
+				<h3 role="link">Hassle-Free Ownership</h3>
+			
+        </div>
+    
+        <div class="tabs__nav-item " id="tabs-ff686d6f86-item-70c8a904fd-tab" aria-controls="tabs-ff686d6f86-item-70c8a904fd-tabpanel" data-cmp-hook-tabs="tab" role="tab">
+            
+			
+			
+			
+			
+			
+			    
+				<h3 role="link">Hassle-Free Maintenance</h3>
+			
+        </div>
+    
+        <div class="tabs__nav-item " id="tabs-ff686d6f86-item-08d445ecc6-tab" aria-controls="tabs-ff686d6f86-item-08d445ecc6-tabpanel" data-cmp-hook-tabs="tab" role="tab">
+            
+			
+			
+			
+			
+			
+			    
+				<h3 role="link">Security of Expert Dealer Support</h3>
+			
+        </div>
+    
+        <div class="tabs__nav-item " id="tabs-ff686d6f86-item-bf21f1bbf7-tab" aria-controls="tabs-ff686d6f86-item-bf21f1bbf7-tabpanel" data-cmp-hook-tabs="tab" role="tab">
+            
+			
+			
+			
+			
+			
+			    
+				<h3 role="link">Peace of Mind from Equipment Health Management</h3>
+			
+        </div>
+    </div>
+    <div class="tabs__content select-text">
+        <div class="tabs__content-item" id="tabs-ff686d6f86-item-f12227b039-tabpanel" data-cmp-hook-tabs="tabpanel" role="tabpanel"><div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="teaser auth-track media-youtube teaser--checkerboard aem-GridColumn aem-GridColumn--default--12">
+
+	
+	
+	
+    
+
+
+
+
+	
+
+    
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-12 teaser__text-wrap">
+					<div class="inner">
+						
+						
+							
+							
+								
+									<h2 class="teaserHeading">Hassle-Free Ownership    </h2>
+								
+							
+						
+
+						
+
+						
+							<span class="accent-bar"></span>
+						
+
+						
+
+						
+							<p class="teaser-blog-content">
+								Your dealer can supply everything from essential tooling to a fully equipped container with a complete test bench installed on site — with no upfront cost. You get the option to order up to two months of initial stock at no cost as well, with a competitive inventory buy-back program. You pay for the stock only when you use it, or you can select a single monthly payment. Plus, you can opt for a flexible payment on a cost-per-hour basis, based on asset utilization.
+							</p>
+						
+						
+						
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 teaser__img-wrap">
+
+					
+					  <figure class="figure_teaserBackgroundImage">
+						<picture>
+					  	  <source data-srcset="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-9d0bb-9112c?scl=1" media="(min-width: 768px)"/>
+						  <img data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-9d0bb-9112c?scl=1" class="lazyload" data-object-fit="cover" alt="CVA Value: Hassle-Free Ownership"/>
+						</picture>
+					  </figure>
+					
+
+					
+					   <figure class="figure_teaserBackgroundImgCheckerboard">
+							 <picture>
+						     <source data-srcset="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-9d0bb-9112c?scl=1" media="(min-width: 768px)"/>
+						     <img data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-9d0bb-9112c?scl=1" class="lazyload" data-object-fit="cover" alt="CVA Value: Hassle-Free Ownership"/>
+					     </picture>
+					   </figure>
+					
+
+				   <div class="teaser-multimedia__slide-media">
+					
+					 
+					
+				  </div>
+			   </div>
+			</div>
+		</div>
+
+	
+
+	
+	
+    
+
+
+
+
+
+
+    
+
+</div>
+
+    
+</div>
+</div>
+</div>
+    
+        <div class="tabs__content-item" id="tabs-ff686d6f86-item-70c8a904fd-tabpanel" data-cmp-hook-tabs="tabpanel" role="tabpanel"><div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="teaser auth-track media-youtube teaser--checkerboard teaser--right aem-GridColumn aem-GridColumn--default--12">
+
+	
+	
+	
+    
+
+
+
+
+	
+
+    
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-12 teaser__text-wrap">
+					<div class="inner">
+						
+						
+							
+							
+								
+									<h2 class="teaserHeading">Hassle-Free Maintenance    </h2>
+								
+							
+						
+
+						
+
+						
+							<span class="accent-bar"></span>
+						
+
+						
+
+						
+							<p class="teaser-blog-content">
+								Every CVA includes Cat dealer inventory management. When you need supplies, parts or complete hose assemblies, you can count on having everything in stock and on hand to get your equipment running again, with minimum downtime. Your CVA includes training and service instructions for your crew, or the fast-growing option to have you dealer assemble hoses for you right on site, with turnaround in a matter of hours.
+							</p>
+						
+						
+						
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 teaser__img-wrap">
+
+					
+					  <figure class="figure_teaserBackgroundImage">
+						<picture>
+					  	  <source data-srcset="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-e89c8-c1f85?scl=1" media="(min-width: 768px)"/>
+						  <img data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-e89c8-c1f85?scl=1" class="lazyload" data-object-fit="cover" alt="CVA Value: Hassle-Free Maintenance"/>
+						</picture>
+					  </figure>
+					
+
+					
+					   <figure class="figure_teaserBackgroundImgCheckerboard">
+							 <picture>
+						     <source data-srcset="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-e89c8-c1f85?scl=1" media="(min-width: 768px)"/>
+						     <img data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-e89c8-c1f85?scl=1" class="lazyload" data-object-fit="cover" alt="CVA Value: Hassle-Free Maintenance"/>
+					     </picture>
+					   </figure>
+					
+
+				   <div class="teaser-multimedia__slide-media">
+					
+					 
+					
+				  </div>
+			   </div>
+			</div>
+		</div>
+
+	
+
+	
+	
+    
+
+
+
+
+
+
+    
+
+</div>
+
+    
+</div>
+</div>
+</div>
+    
+        <div class="tabs__content-item" id="tabs-ff686d6f86-item-08d445ecc6-tabpanel" data-cmp-hook-tabs="tabpanel" role="tabpanel"><div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="teaser auth-track media-youtube teaser--checkerboard aem-GridColumn aem-GridColumn--default--12">
+
+	
+	
+	
+    
+
+
+
+
+	
+
+    
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-12 teaser__text-wrap">
+					<div class="inner">
+						
+						
+							
+							
+								
+									<h2 class="teaserHeading">Security of Expert <br />
+Dealer Support        </h2>
+								
+							
+						
+
+						
+
+						
+							<span class="accent-bar"></span>
+						
+
+						
+
+						
+							<p class="teaser-blog-content">
+								Talk with your dealer about the level of service and support you need, and you can customize a CVA to match. Guaranteed turnaround and delivery for replacement assemblies, remote or onsite repair support, full-fleet solutions for every machine, dealer fitting service to install assemblies on the machine — they’re all options for your Hose and Coupling CVA. You decide what’s best for your operation and your Cat dealer will deliver.
+							</p>
+						
+						
+						
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 teaser__img-wrap">
+
+					
+					  <figure class="figure_teaserBackgroundImage">
+						<picture>
+					  	  <source data-srcset="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-36bc6-f190d?scl=1" media="(min-width: 768px)"/>
+						  <img data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-36bc6-f190d?scl=1" class="lazyload" data-object-fit="cover" alt="CVA Value: Security of Expert Dealer Support"/>
+						</picture>
+					  </figure>
+					
+
+					
+					   <figure class="figure_teaserBackgroundImgCheckerboard">
+							 <picture>
+						     <source data-srcset="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-36bc6-f190d?scl=1" media="(min-width: 768px)"/>
+						     <img data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-36bc6-f190d?scl=1" class="lazyload" data-object-fit="cover" alt="CVA Value: Security of Expert Dealer Support"/>
+					     </picture>
+					   </figure>
+					
+
+				   <div class="teaser-multimedia__slide-media">
+					
+					 
+					
+				  </div>
+			   </div>
+			</div>
+		</div>
+
+	
+
+	
+	
+    
+
+
+
+
+
+
+    
+
+</div>
+
+    
+</div>
+</div>
+</div>
+    
+        <div class="tabs__content-item" id="tabs-ff686d6f86-item-bf21f1bbf7-tabpanel" data-cmp-hook-tabs="tabpanel" role="tabpanel"><div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="teaser auth-track media-youtube teaser--checkerboard teaser--right aem-GridColumn aem-GridColumn--default--12">
+
+	
+	
+	
+    
+
+
+
+
+	
+
+    
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-12 teaser__text-wrap">
+					<div class="inner">
+						
+						
+							
+							
+								
+									<h2 class="teaserHeading">Peace of Mind from Equipment Health Management</h2>
+								
+							
+						
+
+						
+
+						
+							<span class="accent-bar"></span>
+						
+
+						
+
+						
+							<p class="teaser-blog-content">
+								From Hydraulics Advisor reports to machine connectivity and essential inspections, your Hose and Coupling CVA includes equipment health management services that provide real peace of mind. You get OEM-quality replacements within hours, along with condition monitoring to help prevent failures and unplanned downtime. You can opt for Certified Hose Assembly, too, which provides a one-year warranty on all dealer assembled hoses.
+							</p>
+						
+						
+						
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 teaser__img-wrap">
+
+					
+					  <figure class="figure_teaserBackgroundImage">
+						<picture>
+					  	  <source data-srcset="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-11423-1b05e?scl=1" media="(min-width: 768px)"/>
+						  <img data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-11423-1b05e?scl=1" class="lazyload" data-object-fit="cover" alt="CVA Value: Peace of Mind from Equipment Health Management"/>
+						</picture>
+					  </figure>
+					
+
+					
+					   <figure class="figure_teaserBackgroundImgCheckerboard">
+							 <picture>
+						     <source data-srcset="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-11423-1b05e?scl=1" media="(min-width: 768px)"/>
+						     <img data-src="http://s7d2.scene7.com/is/image/Caterpillar/CM20201201-11423-1b05e?scl=1" class="lazyload" data-object-fit="cover" alt="CVA Value: Peace of Mind from Equipment Health Management"/>
+					     </picture>
+					   </figure>
+					
+
+				   <div class="teaser-multimedia__slide-media">
+					
+					 
+					
+				  </div>
+			   </div>
+			</div>
+		</div>
+
+	
+
+	
+	
+    
+
+
+
+
+
+
+    
+
+</div>
+
+    
+</div>
+</div>
+</div>
+    </div>
+    
+    
+    </div>
+    <hr/>
+</div>
+
+
+    
+<script src="/etc.clientlibs/deg/components/content/container/tabs/v2/tabs/clientlibs/site.min.6f57967d6e641a952cea1a98d3d54b29.js"></script>
+
+
+</div>
+<div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-eb1f1ad64d" class="cmp-text">
+    <p style="margin-bottom: 0.0px;"> </p>
+<p style="margin-bottom: 0.0px;"> </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-da9796d206" class="cmp-container" style="background-color:#ffffff;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-6f8eae9ac9" class="cmp-text">
+    <p> </p>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+<div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="texteditor auth-track rte text aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--5 aem-GridColumn--offset--default--0">
+<div id="rte-0b45731650" class="cmp-text">
+    <div class="title__wrapper"><h2 style="margin-top: 10.0px;max-width: 400.0px;">Get the latest mining news from Caterpillar</h2>
+<span class="accent-bar"></span><p style="max-width: 350.0px;">Get more from your entire operation by subscribing to our monthly industry newsletter. When you sign up, you’ll get updates on the latest in Cat equipment, components and dealer services, plus tips on smart ways to control costs and improve availability.</p>
+<h6 style="margin-right: 10.0px;margin-top: 5.0px;margin-bottom: 0.0px;"><a class="button button-primary button-sm" href="https://www.cat.com/en_US/support/maintenance/customer-value-agreements/mining-cvas/newsletter.html" style="font-size: 14.0px;">Sign Up Now</a></h6>
+<h6 style="clear: both;font-size: 1.0px;line-height: 100.0%;margin-bottom: 0.0px;"> </h6>
+</div>
+
+</div>
+
+    
+
+</div>
+<div class="media-youtube aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--0">
+
+	
+	
+	
+    
+
+
+
+
+	<div class="multimedia auth-track ">
+		<div class="container">
+			<div tabindex="0" class="multimedia__content">
+				<div class="multimedia__slides">
+
+					
+					<div class="multimedia__slide">
+
+							
+						<div class="multimedia__slide-media" id="multimedia-nGFy5cFxqorJOBv-gallery">
+						   
+						    <picture>
+							  <source data-srcset="https://s7d2.scene7.com/is/image/Caterpillar/CM20210511-559a9-fd2df" media="(min-width: 768px)"/>
+							  <img data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20210511-559a9-fd2df" class="lazyload" alt="Mining Newsletter Signup"/>
+						    </picture>
+						  	 
+						  
+						</div>
+									
+						
+						
+						
+
+						
+						
+
+					<!-- new multimedia cookie banner -->
+                    
+	<div class="multimedia__slide-media embed-responsive multimedia-cookie-warning" style="display:none;">
+		<div class="cookie-warning">
+			<div class="inner">
+				<i aria-hidden="true" class="material-icons">warning</i>
+				<span class="h3">Multimedia</span> 
+				<span class="h3">Cookies are required</span>
+				<p>To watch videos, click on the Cookie Settings link and accept Targeting cookies</p>
+				<a href="#" class="cookie-settings">Cookie Settings</a>
+			</div>
+		</div>
+	</div>
+
+      										 
+					<div class="multimedia__item-count"><span></span> of <span></span></div>
+						<div class="mutlimedia__description">
+						<!-- view fullsize image button -->
+						
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+
+			
+			<div class="multimedia__nav">
+				<div class="multimedia__nav-scroller">
+
+					
+					<div class="multimedia__nav-item multimedia__nav-item--active" id="multimedia-nGFy5cFxqorJOBv-poster" data-index="0">
+						<picture>
+						  <source data-srcset="https://s7d2.scene7.com/is/image/Caterpillar/CM20210511-559a9-fd2df" media="(min-width: 768px)"/>
+						  <img data-src="https://s7d2.scene7.com/is/image/Caterpillar/CM20210511-559a9-fd2df?$cc-s$&fmt=pjpeg" class="lazyload" alt="Mining Newsletter Signup"/>
+						</picture>
+					</div>
+
+					
+					
+
+					
+					
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	
+	
+    
+
+
+
+
+
+
+
+
+    
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-fb764d9b34" class="cmp-text">
+    <p style="margin-bottom: 0.0px;"> </p>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-4124b2dca7" class="cmp-container" style="background-color:#000000;">
+         <div class="section-container__inner">
+        
+        <div class="anchor">
+	<p id="options" name="options" class="anchor" style="position:relative; top:0px;"></p>
+
+
+</div>
+<div class="teaser auth-track media-youtube teaser--banner">
+
+	
+	
+	
+    
+
+
+
+
+	
+
+    
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-12 teaser__text-wrap">
+					<div class="inner">
+						
+						
+							
+							
+								
+									<h2 class="teaserHeading">Find the right CVA for your operation:</h2>
+								
+							
+						
+
+						
+
+						
+							<span class="accent-bar"></span>
+						
+
+						
+
+						
+						
+							<p></p>
+						
+						
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 teaser__img-wrap">
+
+					
+
+					
+
+				   <div class="teaser-multimedia__slide-media">
+					
+				  </div>
+			   </div>
+			</div>
+		</div>
+
+	
+
+	
+	
+    
+
+
+
+
+
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-93fc5ad9f7" class="cmp-container" style="background-color:#ffcc00;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-e307c69e9e" class="cmp-text">
+    <p> </p>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+<div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+
+    
+    
+    
+    <div id="container-96120e4f2a" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-7c6d9ac6f6" class="cmp-container" style="background-color:#ffffff;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-b7c531c8df" class="cmp-text">
+    <div style="padding: 30.0px 0.0px 30.0px 5.0px;background-color: rgb(255,255,255);"><h2 style="margin-bottom: 8.0px;">Convenience</h2>
+<span class="accent-bar" style="margin-bottom: 12.0px;"></span><p style="margin-bottom: 20.0px;max-width: 240.0px;">Your crew provides assembly and installation labor. Your Cat dealer provides parts, supplies, inventory management and flexible tooling options, from basic tooling to a complete onsite hose shop.</p>
+<h6 style="margin-bottom: 0.0px;"><a class="button button-primary button-sm" href="http://s7d2.scene7.com/is/content/Caterpillar/CM20210104-3a86e-c434e" target="_blank" style="font-size: 14.0px;">See CVA Details</a></h6>
+</div>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text">
+<div id="rte-0b8677d0e5" class="cmp-text">
+    <p style="margin-bottom: 0.0px;font-size: 15.0px;">   </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+
+    
+    
+    
+    <div id="container-8bd32886da" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-a217a78bad" class="cmp-container" style="background-color:#ffffff;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-2c2bf84cbd" class="cmp-text">
+    <div style="padding: 30.0px 0.0px 30.0px 5.0px;background-color: rgb(255,255,255);"><h2 style="margin-bottom: 8.0px;">Performance</h2>
+<span class="accent-bar" style="margin-bottom: 12.0px;"></span><p style="margin-bottom: 20.0px;max-width: 240.0px;">Looking to take some of the repair and replacement burden off of your crew’s shoulders? With this plan, your Cat dealer assembles your hoses and couplings as needed and provides onsite inspections.</p>
+<h6 style="margin-bottom: 0.0px;"><a class="button button-primary button-sm" href="http://s7d2.scene7.com/is/content/Caterpillar/CM20210104-cf881-c9c84" target="_blank" style="font-size: 14.0px;">Get CVA Details</a></h6>
+</div>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text">
+<div id="rte-52b021a41c" class="cmp-text">
+    <p style="margin-bottom: 0.0px;font-size: 15.0px;">   </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+
+    
+    
+    
+    <div id="container-ca01eae669" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-86d61f3186" class="cmp-container" style="background-color:#ffffff;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-dbbefc4bf5" class="cmp-text">
+    <div style="padding: 30.0px 0.0px 30.0px 5.0px;background-color: rgb(255,255,255);"><h2 style="margin-bottom: 8.0px;max-width: 190.0px;">Confidence</h2>
+<span class="accent-bar" style="margin-bottom: 12.0px;"></span><p style="margin-bottom: 20.0px;">This full-service, onsite solution includes complete hose assembly, inspection, installation and inventory management services. Your Cat dealer takes care of your hose and coupling needs while you take care of business.</p>
+<h6 style="margin-bottom: 0.0px;"><a class="button button-primary button-sm" href="http://s7d2.scene7.com/is/content/Caterpillar/CM20210104-f0a96-3a819" target="_blank" style="font-size: 14.0px;">View CVA Details</a></h6>
+</div>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text">
+<div id="rte-c991204f5e" class="cmp-text">
+    <p style="margin-bottom: 0.0px;font-size: 15.0px;">   </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-bf9ed9bce5" class="cmp-text">
+    <p> </p>
+<p style="margin-bottom: 0.0px;"> </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-b1c0f7a808" class="cmp-container" style="background-color:#000000;">
+         <div class="section-container__inner">
+        
+        <div class="teaser auth-track media-youtube teaser--banner">
+
+	
+	
+	
+    
+
+
+
+
+	
+
+    
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-12 teaser__text-wrap">
+					<div class="inner">
+						
+						  <p class="teaser-date" style="display: none;">2021-06-17</p>
+						
+						
+							
+							
+								
+									<h2 class="teaserHeading">Contact your Cat® dealer. Shape your CVA plan.</h2>
+								
+							
+						
+
+						
+
+						
+							<span class="accent-bar"></span>
+						
+
+						
+
+						
+						
+							<p></p>
+						
+						
+							
+   
+      <a class="button button-primary button-sm teaserDefaultButtonText" href="/en_US/support/maintenance/customer-value-agreements/mining-cvas/consultation.html" target="_self">
+      <i class="material-icons" aria-hidden="true">call</i>Contact Your Dealer</a>
+      
+      
+         <input type="hidden" id="gatedFlag" value="false"/>
+      
+      <input type="hidden" id="loggedInText"/>
+      <input type="hidden" id="loggedOutText"/>
+   
+
+						
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 teaser__img-wrap">
+
+					
+
+					
+
+				   <div class="teaser-multimedia__slide-media">
+					
+				  </div>
+			   </div>
+			</div>
+		</div>
+
+	
+
+	
+	
+    
+
+
+
+
+
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-7021d751ca" class="cmp-container" style="background-color:#ffffff;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-966178d2eb" class="cmp-text">
+    <p> </p>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+<div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--0">
+
+    
+    
+    
+    <div id="container-b3078bb0d3" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-bcf2b33a04" class="cmp-container" style="background-color:#f8f8f8;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text">
+<div id="rte-335ed3e4cb" class="cmp-text">
+    <div class="teaser auth-track teaser--tile-text teaser--tile" style="padding: 30.0px 0.0px 30.0px 5.0px;margin-bottom: 0.0px;"><h2 style="margin-bottom: 8.0px;font-size: 26.0px;line-height: 100.0%;">Maintenance for Mining CVA<span style="text-transform: lowercase;">s</span></h2>
+<span class="accent-bar" style="margin-bottom: 12.0px;"></span><div class="teaser__text-wrap" style="margin-bottom: 0.0px;"><p style="max-width: 410.0px;line-height: 1.45;">On any plan, get the right parts on time — parts which can extend component life by up to 50%. Choose scalable options, from delivered kits for do-it-yourself maintenance up to flexible dealer labor and component assurance programs. All that and more, right this way.</p>
+<h6 style="margin-bottom: 0.0px;"><a class="button button-primary button-sm" href="https://www.cat.com/en_US/support/maintenance/customer-value-agreements/mining-cvas/maintenance.html" style="font-size: 14.0px;">Learn More</a></h6>
+</div>
+</div>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text">
+<div id="rte-8d55183285" class="cmp-text">
+    <p style="margin-bottom: 0.0px;font-size: 15.0px;">   </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--0">
+
+    
+    
+    
+    <div id="container-6376539474" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-b560e0c6e8" class="cmp-container" style="background-color:#f8f8f8;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text">
+<div id="rte-9ea79e32cf" class="cmp-text">
+    <div class="teaser auth-track teaser--tile-text teaser--tile" style="padding: 30.0px 0.0px 30.0px 5.0px;margin-bottom: 0.0px;"><h2 style="font-size: 26.0px;margin-bottom: 8.0px;line-height: 100.0%;max-width: 380.0px;">GET &amp; Bucket CVA<span style="text-transform: lowercase;">s</span></h2>
+<span class="accent-bar" style="margin-bottom: 12.0px;"></span><div class="teaser__text-wrap" style="margin-bottom: 0.0px;"><p style="max-width: 460.0px;line-height: 1.45;">Want to minimize downtime? Stay on top of bucket and GET supplies, rebuilds and replacements by ensuring you always have the right components on hand and ready to go. Plus, customize options like cost-per-ton guarantees, inventory management, training and<i> </i>technical support, optimized bucket configurations and more.</p>
+<h6 style="margin-bottom: 0.0px;"><a class="button button-primary button-sm" href="https://www.cat.com/en_US/support/maintenance/customer-value-agreements/mining-cvas/get-and-buckets.html" style="font-size: 14.0px;">Get More Info</a></h6>
+</div>
+</div>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text">
+<div id="rte-82df3d7884" class="cmp-text">
+    <p style="margin-bottom: 0.0px;font-size: 15.0px;">   </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--0">
+
+    
+    
+    
+    <div id="container-377a497ccd" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-5d6f6a6d72" class="cmp-container" style="background-color:#f8f8f8;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text">
+<div id="rte-63052d5c3d" class="cmp-text">
+    <div class="teaser auth-track teaser--tile-text teaser--tile" style="padding: 30.0px 0.0px 30.0px 5.0px;margin-bottom: 0.0px;"><h2 style="font-size: 26.0px;margin-bottom: 8.0px;line-height: 100.0%;max-width: 300.0px;">Undercarriage CVA<span style="text-transform: lowercase;">s</span></h2>
+<span class="accent-bar" style="margin-bottom: 12.0px;"></span><div class="teaser__text-wrap" style="margin-bottom: 0.0px;"><p style="max-width: 370.0px;line-height: 1.45;">For strong machine performance, a lot rides on your undercarriage. Get component assurance, machine alerts and the right parts at the right time — all with a cost-per-hour payment structure. It’s a flexible plan to maximize your uptime with zero upfront cost.</p>
+<h6 style="margin-bottom: 0.0px;"><a class="button button-primary button-sm" href="https://www.cat.com/en_US/support/maintenance/customer-value-agreements/mining-cvas/undercarriage.html" style="font-size: 14.0px;">Read More</a></h6>
+</div>
+</div>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text">
+<div id="rte-b339e4120a" class="cmp-text">
+    <p style="margin-bottom: 0.0px;font-size: 15.0px;">   </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+<div class="section-container section-container--centered aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--0">
+
+    
+    
+    
+    <div id="container-98e6033c83" class="cmp-container">
+         <div class="section-container__inner">
+        
+        <div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section-container section-container--centered aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-88a65d5a36" class="cmp-container" style="background-color:#f8f8f8;">
+         <div class="section-container__inner">
+        
+        <div class="texteditor auth-track rte text">
+<div id="rte-dba8df5319" class="cmp-text">
+    <div class="teaser auth-track teaser--tile-text teaser--tile" style="padding: 30.0px 0.0px 30.0px 5.0px;margin-bottom: 0.0px;"><h2 style="font-size: 26.0px;margin-bottom: 8.0px;line-height: 100.0%;max-width: 380.0px;">Powertrain CVA<span style="text-transform: lowercase;">s</span></h2>
+<span class="accent-bar" style="margin-bottom: 12.0px;"></span><div class="teaser__text-wrap" style="margin-bottom: 0.0px;"><p style="max-width: 440.0px;line-height: 1.45;">Check out all the Powertrain CVAs available for your new or current fleet. Track equipment health, keep up with planned maintenance and control your costs. Your dealer will help your shape a plan that holds the line on your cost-containment goals — costs per ton, costs per hour or costs per mile/kilometer.</p>
+<h6 style="margin-bottom: 0.0px;"><a class="button button-primary button-sm" href="https://www.cat.com/en_US/support/maintenance/customer-value-agreements/mining-cvas/powertrain.html" style="font-size: 14.0px;">More Information</a></h6>
+</div>
+</div>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text">
+<div id="rte-f33a5c0f36" class="cmp-text">
+    <p style="margin-bottom: 0.0px;font-size: 15.0px;">   </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="texteditor auth-track rte text section-padding-none">
+<div id="rte-b4d07f18f9" class="cmp-text">
+    <p> </p>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+
+        
+         </div>
+    </div>
+
+</div>
+
+    
+</div>
+</div>
+<div class="inheritedExperienceFragment experiencefragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+
+    
+
+
+
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="footer aem-GridColumn aem-GridColumn--default--12">
+
+    
+<script src="/etc.clientlibs/deg/components/structure/footer/v2/footer/clientlibs/site.min.9a28febffba13bdd543d36b64dceae61.js"></script>
+<script src="/etc.clientlibs/deg/components/structure/footer/v1/footer/clientlibs/site.min.4ed9be0b4f0d2f50de5d6bbfd9a64a07.js"></script>
+
+
+
+<div class="foot-nav auth-track tfn d-print-none">
+    <div class="foot-nav-top">
+        <div class="container">
+            <div class="row order-lg-2">
+                <div class="col-md col-sm-12 col-12">
+                	
+
+
+
+
+    
+    
+    <div class="texteditor auth-track rte text">
+<div id="rte-82823b4461" class="cmp-text">
+    <h2><span class="fontstyle-extra-small"><span style="color: rgb(255,255,255);">Products</span></span></h2>
+<div><ul>
+<li><a href="/en_US/products/new/attachments.html">Attachments</a></li>
+<li><a href="/en_US/products/new/equipment.html">Equipment</a></li>
+<li><a href="/en_US/products/new/parts.html">Parts</a></li>
+<li><a href="/en_US/products/new/power-systems.html">Power Systems</a><br />
+</li>
+</ul>
+</div>
+<h2><span class="fontstyle-extra-small"><span style="color: rgb(255,255,255);">Industry Solutions</span></span></h2>
+<div><ul>
+<li><a href="/en_US/by-industry.html">Industries</a></li>
+</ul>
+</div>
+<p> </p>
+
+</div>
+
+    
+
+</div>
+
+
+                
+                </div>
+                <div class="col-md col-sm-12 col-12">
+                    
+
+
+
+
+    
+    
+    <div class="texteditor auth-track rte text">
+<div id="rte-1270e20821" class="cmp-text">
+    <h2><span class="fontstyle-extra-small"><span style="color: rgb(255,255,255);">Services &amp; Support</span></span></h2>
+<div><ul>
+<li><a href="/en_US/support/financing-protection.html">Financing &amp; Insurance</a></li>
+<li><a href="/en_US/support/maintenance.html">Maintenance</a></li>
+<li><a href="/en_US/support/cat-training.html">Training</a></li>
+<li><a href="/en_US/support/safetyservices.html">Safety Services</a></li>
+<li><a href="/en_US/support/operations/technology.html">Technology &amp; Solutions</a></li>
+</ul>
+</div>
+
+</div>
+
+    
+
+</div>
+
+
+               
+                </div>
+                <div class="col-md col-sm-12 col-12">
+                   
+
+
+
+
+    
+    
+    <div class="texteditor auth-track rte text">
+<div id="rte-1e7af54117" class="cmp-text">
+    <h2><span class="fontstyle-extra-small"><span style="color: rgb(255,255,255);">How Can We Help?</span></span></h2>
+<div><ul>
+<li><a href="/en_US/products/rental.html">Find Rental Equipment</a><br />
+</li>
+<li><a href="/en_US/products/used.html">Find Used Equipment</a></li>
+<li><a href="/en_US/support/dealer-locator.html">Find Your Dealer</a></li>
+<li><a href="/en_US/support/maintenance/warranty.html">Register Cat Warranty</a></li>
+<li><a href="/en_US/products/gifts-and-apparel.html">Shop Merchandise</a></li>
+</ul>
+</div>
+
+</div>
+
+    
+
+</div>
+
+
+                 
+                </div>
+                <div class="col-md col-sm-12 col-12">
+                    
+
+
+
+
+    
+    
+    <div class="texteditor auth-track rte text">
+<div id="rte-7ce04ccf58" class="cmp-text">
+    <h2><span class="fontstyle-extra-small"><span style="color: rgb(255,255,255);">Company Info</span></span></h2>
+<div><ul>
+<li><a href="https://www.caterpillar.com/en/careers.html">Careers</a></li>
+<li><a href="/en_US/company.html">Company</a></li>
+<li><a href="https://www.caterpillar.com/en/news.html">Corporate Press Releases</a></li>
+<li><a href="https://www.caterpillar.com/en/investors.html">Investors</a></li>
+</ul>
+</div>
+
+</div>
+
+    
+
+</div>
+
+
+               
+                </div>
+                <div class="col-md col-sm-12 col-12">
+                    
+
+
+
+
+    
+    
+    <div class="texteditor auth-track rte text">
+<div id="rte-4353946f4a" class="cmp-text">
+    <h2><span class="fontstyle-extra-small"><span style="color: rgb(255,255,255);">News</span></span></h2>
+<div><ul>
+<li><a href="/en_US/blog.html">Cat Blog</a></li>
+<li><a href="/en_US/news/press-releases.html">Product &amp; Services Press Releases</a></li>
+</ul>
+</div>
+
+</div>
+
+    
+
+</div>
+
+
+                 
+                </div>
+                <div class="col-md col-sm-12 col-12">
+                    
+
+
+
+
+    
+    
+    <div class="texteditor auth-track rte text">
+<div id="rte-dcbbfd77d5" class="cmp-text">
+    <h2><span class="fontstyle-extra-small"><span style="color: rgb(255,255,255);">Connect with Cat</span></span></h2>
+<div><ul>
+<li><a href="https://www.caterpillar.com/en/company/caterpillar-foundation.html">Caterpillar Foundation</a></li>
+<li><a href="/en_US/support/contact-us.html">Contact Us</a></li>
+<li><a href="https://www.caterpillar.com/en/news/social-media.html">Social Media</a></li>
+<li><a href="https://www.caterpillar.com/en/company/visitors-center.html">Visitors Center &amp; Museum</a></li>
+</ul>
+</div>
+
+</div>
+
+    
+
+</div>
+
+
+       
+                </div>
+            </div>
+            <div class="row order-lg-1">
+                <div class="col-12 col-lg-6 language-wrapper">
+                    <span id="edit-region-mobile">
+
+
+
+
+    
+    
+    <div class="texteditor auth-track rte text">
+<div id="rte-a23f8f7384" class="cmp-text">
+    <p><a href="/en_US/language-selector.html" class="language"> <i class="material-icons public">public</i> North America ‧ English <i class="material-icons edit">edit</i> </a></p>
+
+</div>
+
+    
+
+</div>
+
+
+</span>
+                </div>
+                <div class="col-12 col-lg-6 socials-wrapper social-media__footer">
+                    
+
+
+
+
+    
+    
+    <div class="socialMedia auth-track">
+
+    
+<script src="/etc.clientlibs/deg/components/content/general/socialMedia/v3/socialMedia/clientlibs/site.min.ea3203cf4a862809204f76444d5d8c6e.js"></script>
+
+
+
+
+
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/deg/components/content/general/socialMedia/v3/socialMedia/clientlibs/site.min.3d832142447301f14f26df0749262606.css" type="text/css">
+
+
+
+
+
+<div class="social__media-component social-colored-icons">
+
+<div class="social-media">
+      <div class="container">
+         
+         
+            <ul class="social-media__ul-list">
+               
+                  <li>
+                     <a href="https://www.facebook.com/caterpillarinc" title="facebook" class="social-media__link social-icon-facebook" target="_blank">
+                        
+
+                        
+                           <span class="social-media__text">facebook</span>
+                        
+                     </a>
+                  </li>
+               
+                  <li>
+                     <a href="https://www.linkedin.com/company/caterpillar-inc" title="linkedin" class="social-media__link social-icon-linkedin" target="_blank">
+                        
+
+                        
+                           <span class="social-media__text">linkedin</span>
+                        
+                     </a>
+                  </li>
+               
+                  <li>
+                     <a href="https://twitter.com/CaterpillarInc" title="X-twitter" class="social-media__link social-icon-xblack" target="_blank">
+                        
+
+                        
+                           <span class="social-media__text">X-twitter</span>
+                        
+                     </a>
+                  </li>
+               
+                  <li>
+                     <a href="https://www.youtube.com/CatProducts" title="youtube" class="social-media__link social-icon-youtube" target="_blank">
+                        
+
+                        
+                           <span class="social-media__text">youtube</span>
+                        
+                     </a>
+                  </li>
+               
+                  <li>
+                     <a href="https://www.instagram.com/caterpillarinc/" title="instagram" class="social-media__link social-icon-instagram" target="_blank">
+                        
+
+                        
+                           <span class="social-media__text">instagram</span>
+                        
+                     </a>
+                  </li>
+               
+            </ul>
+         
+      </div>
+	</div>
+</div>
+
+<!--common cookie warning -->
+
+<div class="cookie-warning social-warning socialmediacookie" style="display:none;">
+	<div class="inner">
+		<i aria-hidden="true" class="material-icons">warning</i>
+		<div class="info">
+			<span class="h3">Social Media</span>
+			<span class="h3">Cookies are required</span>
+			<p>To enable this feature, you must accept the use of targeting, functional, and performance cookies.</p>
+		</div>
+		<a href="#" class="cookie-settings">Cookie Settings</a>
+	</div>
+</div>
+
+</div>
+
+
+ 
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="foot-nav-bottom">
+        <div class="container"> 
+        		
+
+
+
+
+    
+    
+    <div class="texteditor auth-track rte text">
+<div id="rte-a106ceb219" class="cmp-text">
+    <div class="row"><div class="col-12"><h2><span class="fontstyle-extra-small"><span>Caterpillar Brands</span></span></h2>
+</div>
+<div class="col-md-2 col-sm-6 col-6"><ul>
+<li><a href="https://www.caterpillar.com/en/brands/cat.html" target="_blank">Cat</a></li>
+<li><a href="https://www.caterpillar.com/en/brands/cat-financial.html" target="_blank">Cat Financial</a></li>
+<li><a href="https://www.caterpillar.com/en/brands/cat-reman.html" target="_blank">Cat Reman</a></li>
+<li><a href="https://www.catrentalstore.com/" target="_blank">The Cat Rental Store</a></li>
+</ul>
+</div>
+<div class="col-md-2 col-sm-6 col-6"><ul>
+<li><a href="https://www.caterpillar.com/en/brands/cat-lift-trucks.html" target="_blank">Cat Lift Trucks</a></li>
+<li><a href="https://anchorfluidsystems.com/" target="_blank">Anchor</a></li>
+<li><a href="https://www.caterpillar.com/en/brands/asiatrak.html" target="_blank">AsiaTrak</a></li>
+<li><a href="https://www.fgwilson.com/" target="_blank">FG Wilson</a></li>
+</ul>
+</div>
+<div class="col-md-2 col-sm-6 col-6"><ul>
+<li><a href="https://www.caterpillar.com/en/brands/hindustan.html" target="_blank">Hindustan</a></li>
+<li><a href="https://www.cat.com/en_US/by-industry/marine.html" target="_blank">MaK</a></li>
+<li><a href="https://www.mwm.net/mwm-chp-gas-engines-gensets-cogeneration/" target="_blank">MWM</a></li>
+</ul>
+</div>
+<div class="col-md-2 col-sm-6 col-6"><ul>
+<li><a href="https://www.perkins.com/" target="_blank">Perkins</a></li>
+<li><a href="https://www.progressrail.com/" target="_blank">Progress Rail</a></li>
+<li><a href="https://www.semmachinery.com/" target="_blank">SEM</a></li>
+</ul>
+</div>
+<div class="col-md-2 col-sm-6 col-6"><ul>
+<li><a href="https://www.caterpillar.com/en/brands/solar-turbines.html" target="_blank">Solar Turbines</a></li>
+<li><a href="https://www.caterpillar.com/en/brands/spm.html" target="_blank">SPM Oil &amp; Gas</a></li>
+<li><a href="https://www.caterpillar.com/en/brands/turner-powertrain-systems.html" target="_blank">Turner Powertrain Systems</a></li>
+</ul>
+</div>
+<div class="col-12 foot-nav-end"><hr />
+
+<ul>
+<li><a href="https://www.caterpillar.com/en.html" target="_blank">Caterpillar.com</a></li>
+<li><a href="https://privacyportal.onetrust.com/ui/#/preferences/multipage/login/60104e41-6ba2-4141-9154-90f8532cbdb9" target="_blank">My Marketing Preferences</a></li>
+<li><a href="https://www.cat.com/en_US/sitemap.html">Site Map</a></li>
+<li><a class="ot-sdk-show-settings">Cookie Settings</a></li>
+<li><a href="https://www.cat.com/en_US/legal-notices.html" target="_blank">Legal</a></li>
+<li><a href="/en_US/legal-notices/privacy.html">Privacy</a></li>
+<li><a href="https://privacyportal.onetrust.com/webform/ec73b9a1-eecd-48d1-a789-fa7761e54a29/cf3dfa36-1b53-4ec9-8dfc-e84988613fa1" target="_blank">Do Not Sell or Share My Personal Information</a></li>
+<li><a title="Accessibility Statement" href="/en_US/legal-notices/accessibility.html" target="_self">Accessibility Statement</a></li>
+</ul>
+<ul>
+<li style="color: rgb(0,0,0);">US-English</li>
+<li style="color: rgb(0,0,0);">© 2024 Caterpillar. All Rights Reserved.</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+    
+
+</div>
+
+
+	
+
+        </div>
+    </div>
+     
+</div>
+
+
+    
+<script src="/etc.clientlibs/deg/components/content/media/cookiePolicy/clientlibs/site.min.cbe9ea3401dd6caf83fb250c74e42ec1.js"></script>
+
+
+
+
+
+
+
+
+</div>
+<div class="javascript auth-track aem-GridColumn aem-GridColumn--default--12">
+<style>
+    .ie11 .mega--nav,
+    .ie10 .mega--nav,
+    .ie9 .mega--nav,
+    .ie8 .mega--nav { margin-top: 76px;}
+
+    .ie11 header[role='banner'],
+    .ie10 header[role='banner'],
+    .ie9 header[role='banner'],
+    .ie8 header[role='banner'] { margin-top: 78px;}
+</style>
+
+<section id="noiebanner"  style="border-top:1px solid #000; border-bottom: 1px solid #000;padding: 20px;position: fixed;top: 0;right: 0;left: 0;z-index: 999;background-color: #fff;text-align: center;display:none;">
+    <div class="container">
+        <i class="material-icons" style="margin: 5px 20px 0 50px;color: #ff3e2a;float: left;">warning</i>
+        <div style="text-align: left;">
+            <p style=" padding-left: 70px; color:#000;"><span data-nosnippet> 
+				Internet Explorer users may experience issues with certain features of our site. <br> 
+				Please try a current version of an alternate browser (i.e. Google Chrome, Microsoft Edge, Mozilla Firefox) for the full Cat.com experience. 
+			</span></p>
+        </div>
+    </div>
+</section>
+
+<script>
+if ($( "html" ).hasClass( "ie" )) {
+	$("#noiebanner").show();
+} else {
+	$("#noiebanner").hide();
+}
+</script></div>
+
+    
+</div>
+
+</div>
+</div>
+
+    
+</div>
+</div>
+
+
+            
+    
+    
+
+
+    
+<script src="/etc.clientlibs/deg/clientlibs/clientlib-base.min.b6efaeb265add5f1a1c7a2defa716be5.js"></script>
+
+
+
+
+
+
+
+    
+
+    
+
+    
+    
+    
+
+            
+
+            
+        
+    </body>
+</html>

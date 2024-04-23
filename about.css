@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+}
+
+.header-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    padding: 1rem 0;
+}
+
+.header-class h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.header-class nav{
+    margin-left: auto;
+}
+
+.header-class nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
+    
+}
+.header-class nav ul li {
+    color: black;
+    position: relative;
+}
+
+.header-class nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.header-class nav ul li a:hover{
+    color: black;
+}
+.header-class nav ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;;
+    background-color: #ffb400;
+    transition: width 0.5s ease-in-out;
+}
+.header-class nav ul li a:hover::before{
+    width: 100%;
+}
+
+span{
+    color: #ffb400;
+}
+.icon{
+    display: none;
+}
+
+
+/*-------------Background img--------------*/
+
+.background-image{
+    position: relative;
+    background-image: url('./Assets/istockphoto-1293815625-612x612.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+
+}
+.background-image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.background-image-overlay h1{
+    font-family: "Madimi One", sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+}
+.background-image-overlay p{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Madimi One", sans-serif;
+}
+
+/*-------------Our History--------------*/
+
+.history-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px
+}
+.history-title h2{
+    font-family: "Madimi One", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.history-title h2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0%;
+    height: 4px;
+    bottom: -1px;
+    background-color: #ffb400;
+    left: 40%;
+    transition: width 1s ease-in-out;
+}
+.history-title h2:hover::after{
+    width: 20%;
+}
+
+
+.history-content p{
+    font-family: "Madimi One", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+
+}
+
+/*-------------MIssion statement-----------------*/
+
+
+.mission-statement{
+    margin-top: 100px;
+}
+
+.mission-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mission-title h2{
+    font-family: "Madimi One", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.mission-title h2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0%;
+    height: 4px;
+    bottom: -1px;
+    background-color: #ffb400;
+    left: 40%;
+    transition: width 1s ease-in-out;
+}
+.mission-title h2:hover::after{
+    width: 20%;
+}
+
+.mission-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mission-content img{
+    width: 50%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.mission-content ul li{
+    font-family: "Madimi One", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+/*----------------Vision Statement------------------*/
+.vision-statement{
+    margin-top: 100px;
+}
+
+.vision-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.vision-title h2{
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    margin-bottom: 20px;
+}
+
+.vision-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.vision-content img{
+    width: 50%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.vision-content p{
+    font-family: "Madimi One", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+/*------------Make-Up Section--------------*/
+.make-up{
+    margin-top: 100px;
+}
+
+.make-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.make-title h2{
+    font-family: "Madimi One", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    
+}
+
+.make-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.box{
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+
+
+/*-------------Contact Section---------------*/
+
+.contact-us{
+    background-color: black;
+    margin-top: 100px;
+    border-top-right-radius: 40%;
+    padding: 2rem 0;
+}
+
+.contact-container{
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-title{
+    font-family: "Madimi One", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.contact-content h2{
+    font-family: "Madimi One", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    padding-top: 1rem;
+    font-weight: 700;
+}
+.contact-content p{
+    color: white;
+    font-family: "Madimi One", sans-serif;
+    font-size: 1rem;
+    padding-top: 1rem;
+    width: 250px;
+}
+
+.content-text{
+    display: inline;
+}
+
+.fab {
+    margin-right: 10px;
+    color: white;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+/*  */
+
+.contact-links ul li a{
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Madimi One", sans-serif;
+    line-height: 2;
+    text-align: center;
+}
+
+.contact-links ul li a:hover{
+    color: #FFB400;
+    cursor: pointer;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+form h3{
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Madimi One", sans-serif;
+    margin-bottom: 20px;
+}
+
+.btn-submit{
+    color: white;
+}
+
+.form-fields{
+    margin-top: 1rem;
+}
+
+
+

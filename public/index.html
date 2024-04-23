@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+   
+
+
+
+    <!-- font awesome -->
+    <title>Happy Equipments Limited</title>
+</head>
+
+<body>
+    <section class="font-heading">
+        <header class="py-4 w-full flex justify-between px-8 lg:px-16">
+            <!---------Left side---------->
+            <div id="section1" class="md:flex block md:divide-x-2 items-center">
+                <img id="logo" class="" src="/logo-1.svg" width="100" alt="Logo">
+                <span class="text-black hidden md:block">Happy Equipments Ltd.</span>
+            </div>
+            <!-----------Right Side------------->
+            <nav id="section2" class="md:flex md:justify-center md:items-center text-center md:pr-0 pr-24">
+                <ul id="Menu-links" class="pt-10 md:pt-0 md:flex md:gap-6 hidden relative z-10">
+                    <li class="my-6 md:my-0"><a href="index.html">Home</a></li>
+                    <hr class="md:hidden">
+                    <li class="my-6 md:my-0"><a href="History.html">About</a></li>
+                    <hr class="md:hidden">
+                    <li class="my-6 md:my-0"><a href="index.html#Services">Services</a></li>
+                    <hr class="md:hidden">
+                    <li class="my-6 md:my-0"><a href="index.html#contact">Contact</a></li>
+                    <hr class="md:hidden">
+                    <li class="my-6 md:my-0"><a href="project.html">Projects</a></li>
+                    <hr class="md:hidden">
+                    <li class="dropdown relative my-6 md:my-0">
+                        <a href="#" class="dropbtn">Products</a>
+                        <div class="dropdown-content absolute hidden bg-white rounded-md shadow-lg z-10">
+                            <a href="product.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Equipments</a>
+                            <a href="./Assets/machine_parts.pdf" download class="block px-2 py-2 text-sm text-gray-700 hover:bg-gray-100">Machine<br>Parts</a>
+                           
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div id="MobileMenuOpen" class="md:hidden block mt-4">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div id="MobileMenuClose" class="hidden mt-4">
+                <i id="close" class="fas fa-times"></i>
+            </div>
+
+        </header>
+    </section>
+    
+    
+    <section class="hero-section">
+        <div class="welcome-slide max-h-screen min-h-[80vh] flex flex-col justify-center items-center">
+            <div id="section3" class="w-full md:w-3/4 lg:w-3/5">
+                <h1 class="text-6xl font-bold text-center mb-4" style="line-height: 1.5">Discover the Best Construction Equipment for Your Projects</h1>
+                <p >Rent, purchase, or service top-of-the-line construction equipment to elevate your projects to new heights.</p>
+                <div class="w-full gap-6 flex justify-center mt-6">
+                    <a href="project.html" class="bg-primary border-2 border-primary text-white px-4 py-3 transition-all duration-700 hover:text-white hover:bg-transparent">Our Projects</a>
+                    <a href="index.html#contact" class="border-primary border text-white px-6 py-4 transition-all duration-700 hover:bg-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--------------------About-us-------------------->
+    
+    <section class="mt-20">
+        <div class="flex flex-col md:flex-row px-8 md:px-16 xl:px-52 gap-4">
+            <div id="section1" class="flex flex-col md:w-4/6 lg:w-1/2 gap-4">
+                <div class="flex flex-col gap-4">
+                    <h1 class="text-3xl text-center md:text-left md:text-4xl lg:text-5xl font-bold font-heading">Your Choice, Our Expertise</h1>
+                    <p class="font-sans">Happy Equipments Limited is a company that specializes in the sales, leasing, servicing, training, and repairs of all kinds of Caterpillar, Marapco, Perkins, FG Wilson, and Cummins generators. We also offer professional consultancy services to clients who desire it.</p>
+                </div>
+                <div class="flex gap-4 items-center md:max-w-md lg:max-w-xl">
+                    <div class="bg-primary bg-opacity-25 py-3 px-4 rounded h-fit">
+                        <i class="fas fa-bolt text-primary"></i>
+                    </div>
+                    <div>
+                        Specializes in Caterpillar, Marapco, Perkins, FG Wilson, and Cummins generators.
+                    </div>
+                </div>
+                <div class="flex gap-4 items-center md:max-w-md lg:max-w-xl">
+                    <div class="bg-primary bg-opacity-25 py-3 px-4 rounded h-fit">
+                        <i class="fas fa-wrench text-primary"></i>
+                    </div>
+                    <div>
+                        Offers maintenance, servicing, and repairs for engine parts, equipment, and accessories.
+                    </div>
+                </div>
+                <div class="flex gap-4 items-center md:max-w-md lg:max-w-xl">
+                    <div class="bg-primary bg-opacity-25 py-3 px-4 rounded h-fit">
+                        <i class="fas fa-balance-scale text-primary"></i>
+                    </div>
+                    <div>
+                        Provides cost-effective solutions for challenging environments, including harsh environments, remote locations, and deep waters.
+                    </div>
+                </div>
+                <div class="w-full gap-6 hidden md:flex justify-start mt-6">
+                    <button class="bg-primary border-2 border-primary text-black px-4 py-1 transition-all duration-700 hover:bg-transparent">Learn More</button>
+                    <button class="border-primary border text-black px-6 py-1 transition-all duration-700 hover:bg-primary">Contact Us</button>
+                </div>
+            </div>
+            <div id="section2" class="flex md:w-2/5 lg:w-1/2">
+                <img src="/Assets/CM20191106-63469-c86e6.325Excavatorjpg.jpg" alt="" class="object-cover rounded shadow-lg">
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="Services" class="services bg-primary py-14">
+        <div class="flex flex-col md:flex-row gap-6 px-10 lg:px-24 xl:px-52">
+            <div id="section1" class="flex flex-col gap-4 md:w-3/5 text-start">
+                <h1 class="font-heading text-4xl  md:text-[2.0rem] lg:text-5xl font-bold leading-10 text-center md:text-left">Choose Us for Reliable
+                    Construction
+                    Equipment</h1>
+                    <p>When it comes to your construction equipment needs, choose our company for reliable service,
+                    exceptional customer support, and industry expertise.</p>
+                <div class="flex flex-col md:flex-row gap-6">
+                    <div>
+                        <h3 class="font-semibold text-center md:text-left">Services</h3>
+                        <p>We offer top quality services in repairs, maintenance, traininig and leasing of wide range of CAT equipments, other
+                            earth moving machinery, and Cummins and Perkins engines</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-center md:text-left">Expertise</h3>
+                            <p>Our Team provides expert sales of equipment and parts for CAT, Cummins, Perkins brands,
+                                including generators, and offers professional consultancy services.</p>
+                            </div>
+                        </div>
+                        <div class=" hidden md:flex w-full gap-6 justify-start mt-6">
+                            <button
+                            class="bg-black border-2 border-primary text-primary px-4 py-2 transition-all duration-700">Learn
+                            More</button>
+                            <button class="border-2 border-transparent text-black px-6 py-1 transition-all duration-700
+                            hover:border-black gap-3 flex justify-center items-center">Contact
+                            Us <i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+            <div id="section2" class="flex items-center justify-center">
+                <img class="object-cover rounded shadow-lg" src="/Assets/istockphoto-1395619066-612x612.jpg">
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="Our-product">
+        <div class="product-container">
+            <div class="product-title">
+                <h2>Our Products</h2>
+            </div>
+            <div class="product-content">
+                <div class="products">
+                    <img src="/Assets/CM20170321-38464-36762.excavator3jpg.jpg" alt="">
+                </div>
+                <div class="products">
+                    <img src="/Assets/CM20200115-87f0f-4fe22payyyloader.jpg" alt="">
+                </div>
+                <div class="products">
+                    <img src="/Assets/CM20210217-c0d5b-53c61dozerr.jpg">
+                </div>
+                <div class="products">
+                    <img src="/Assets/CM20180928-34732-61567.D6 dozerjpg.jpg">
+                </div>
+                <div class="products">
+                    <img src="/Assets/CM20200319-e8d71-f8bbb Diesel Generator.jpg">
+                </div>
+                <div class="products">
+                    <img src="/Assets/CM20180514-53178-48996 330Excavator.jpg">
+                </div>
+                <div class="products">
+                    <img src="/Assets/thumb_560_400_50kVA. cummins enginejpg.jpg">
+                </div>
+                <div class="products">
+                    <img src="/Assets/RT530E-2-silhouette. grove machinejpg.jpg">
+                </div>
+                <div class="products">
+                    <img src="/Assets/pekins.png">
+                </div>
+                <div class="products">
+                    <img src="/Assets/Articulated Truck 725c.jpg">
+                </div>
+                <div class="products">
+                    <img src="/Assets/D5R dozer.jpg">
+                </div>
+                <div class="products">
+                    <img src="/Assets/D9T dozer.jpg">
+                </div>
+                <!-- <div class="products">
+                    <img src="./Assets/CM20191106-63469-c86e6.325Excavatorjpg.jpg" alt="">
+                </div> -->
+
+            </div>
+            <!------------------SLider buttons------------------->
+             <!-- <div class="buttons">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div> -->
+            <div class="product-btn">
+                <a href="product.html" id="read-more-btn">View More</a>
+            </div>
+        </div> 
+    </section>
+    
+    
+<!--     
+    
+    <section id="clients" class="Clients">
+        <div class="client-container">
+            <div class="client-title">
+                <h2>Our Clients</h2>
+                <p>These are some of our clients that we have in the past extended our services to</p>
+                <div class="grid grid-cols-1 gap-y-10 md:gap-y-12 md:grid-cols-3">
+                    <div class="client-text">
+                        <img src="./Assets/Schlumberger-logo-DCB7757BE2-seeklogo.com.png" alt="">
+                    </div>
+                    <div class="client-text">
+                        <img src="./Assets/ll.webp" alt="">
+                    </div>
+                    <div class="client-text">
+                        
+                        <img src="./Assets/new nnpc logo2.jpg" alt="">
+                    </div>
+                    <div class="client-text">
+                        <img src="./Assets/exxonmobillogocolor2x.png" alt="">
+                    </div>
+                    <div class="client-text">
+                    
+                        <img src="./Assets/download.png vanord.png" alt="">
+                    </div>
+                    <div class="client-text">
+                    
+                        <img src="./Assets/Merald-logo.png" width="50%" alt="">
+                    </div>
+                    <div class="client-text">
+                        <img src="./Assets/download shell.png" alt="">
+                    </div>
+                    <div class="client-text">
+                        <img class="" src="./Assets/Screen-Shot-2021-06-20-at-9.32.27-PM omak.png" alt="">
+                    </div>
+                    <div class="client-text">
+                        <img src="./Assets/rtt-logo-240x61realtime .png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  -->
+
+    <section id="clients" class="Clients">
+<div class="client-container">
+            <div class="client-title">
+                <h2>Our Clients</h2>
+                <p>These are some of our clients that we have in the past extended our services to</p>
+                <div class="slideshow-container">
+                    <div class="client-text fade">
+                        <img src="/Assets/Schlumberger-logo-DCB7757BE2-seeklogo.com.png" alt="">
+                    </div>
+                    <div class="client-text fade">
+                        <img src="/Assets/ll.webp" alt="">
+                    </div>
+                    <div class="client-text fade">
+                        <img src="/Assets/new nnpc logo2.jpg" alt="">
+                    </div>
+                    <div class="client-text fade">
+                        <img src="/Assets/exxonmobillogocolor2x.png" alt="">
+                    </div>
+                    <div class="client-text fade">
+                        <img src="/Assets/download.png vanord.png" alt="">
+                    </div>
+                    <div class="client-text fade">
+                        <img src="/Assets/Merald-logo.png" width="350px" alt="">
+                    </div>
+                    <div class="client-text fade">
+                        <img src="/Assets/download shell.png" alt="">
+                    </div>
+                    <div class="client-text fade">
+                        <img class="" src="/Assets/Screen-Shot-2021-06-20-at-9.32.27-PM omak.png" alt="">
+                    </div>
+                    <div class="client-text fade">
+                        <img src="/Assets/rtt-logo-240x61realtime .png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact" class="py-10 px-10 lg:px-20 xl:px-48">
+        <div class="flex flex-col gap-4 mb-6">
+            <h2 class="text-center text-5xl font-bold py-8 relative"><span class="absolute bottom-4 left-1/2 bg-primary h-1 w-48 transform -translate-x-1/2"></span>Contact Information</h2>
+            <p class="text-center">For any inquires, please contact us:</p> 
+        </div>
+        <div class="flex flex-row w-full gap-4 md:text-left text-center">
+            <div class="flex flex-col gap-8 font-sans md:w-6/12 ">
+                <div class="flex flex-col gap-2">
+                    <i class="fa-regular fa-envelope text-primary text-3xl"></i>
+                    <h2 class="font-semibold text-xl">Email</h2>
+                    <p>Email us for assistance.</p>
+                    <a href="mailto:info.@happyequipmentltd.com" class="text-primary underline">info.happyequipment@gmail.com</a>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <i class="fa-solid fa-phone text-primary text-3xl"></i>
+                    <h2 class="font-semibold text-xl">Phone</h2>
+                    <p>Call us for further Information</p>
+                    <p class="text-primary underline">+234 123 456 7890</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <i class="fa-solid fa-location-dot text-primary text-3xl"></i>
+                    <h2 class="font-semibold text-xl">Address</h2>
+                    <p>Head Office: East/West Road, By Last Hope Bus Stop Before Mini Filling Station. Branch Office: No 75 Warri-Sapele/Refinery Road, Warri.</p>
+                    <a href="https://www.google.com/maps/dir/4.7824421,7.1369801/Ebubu,+Rivers/@4.7816404,7.1371212,15.6z/data=!4m8!4m7!1m0!1m5!1m1!1s0x106833f0a43e0879:0xca5270e8e8da4a43!2m2!1d7.1682514!2d4.8040288?entry=ttu"
+                    class="mt-4 w-fit bg-transparent border-2 border-primary text-black px-4 py-2 transition-all duration-700 cursor-pointer justify-center items-center gap-3 hidden md:flex">Get
+                    Direction <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                
+            </div>
+            <div class="hidden md:flex w-3/4">
+                <video autoplay muted>
+                    <source src="/Assets/Cat video.mp4">
+                  </video>
+            </div>
+        </div>
+
+    </section>
+    
+    
+    <footer id="contact" class="bg-slate-900 py-24 px-10 lg:px-20 xl:px-48 divide-y divide-white">
+        <div class="flex flex-col md:flex-row gap-6 items-center justify-between py-10">
+            <div class="flex divide-x-2">
+                <img src="/logo-1.svg" width="100">
+                <span class="px-2 text-white text-sm">Happy <br>Equipments Ltd.</span>
+            </div>
+            <div>
+                <nav class="flex justify-center items-center">
+                    <ul class="flex md:flex-row flex-col gap-4 md:gap-6 text-white text-">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="History.html">About</a></li>
+                        <li><a href="index.html#Services">Services</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="product.html">Products</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex gap-6 text-white text-4xl">
+                <a href="https://m.facebook.com/people/Happy-Equipment-Limited/100066517540929/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/09065068569" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                
+            </div>
+        </div>
+        <div class="flex md:flex-row flex-col justify-center items-center py-6 gap-4 text-sm">
+            <p class="text-white">© 2021 Happy Equipments Limited. All Rights Reserved.</p>
+            <div class="flex gap-4 ">
+                <a href="" class="text-white underline">Privacy Policy</a>
+                <a href="" class="text-white underline">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    <script src="./js/script.js">
+
+    </script>
+
+    <script src="https://kit.fontawesome.com/e5db4d66c0.js" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
