@@ -27,7 +27,7 @@
 
 
 .welcome-slide {
-    background-image: url('./Assets/CM20190412-971af-1792e.jpg'); /* Replace 'welcome_background.jpg' with your actual image path */
+    background-image: url('../Assets/CM20190412-971af-1792e.jpg'); /* Replace 'welcome_background.jpg' with your actual image path */
     background-size: cover;
     background-position: center;
     color: white;
