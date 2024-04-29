@@ -1,3 +1,4 @@
+import { inject } from "@vercel/analytics"
 
 const dropDown = document.querySelectorAll('.dropbtn');
 let timeoutId;
@@ -36,3 +37,5 @@ MobileMenuClose.addEventListener('click', function(){
   MobileMenuOpen.classList.toggle('hidden');
   MobileMenuClose.classList.toggle('hidden');
 })
+
+inject();

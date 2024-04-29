@@ -1,3 +1,5 @@
+import { inject } from "@vercel/analytics"
+
 //Slide Show of products
 var slideIndex = 1;
 showSlides();
@@ -186,3 +188,4 @@ gsap.to("#section4", {
   ease: "power1.out", // You can change the easing function as needed
 });
 
+inject();
