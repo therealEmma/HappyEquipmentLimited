@@ -37,5 +37,3 @@ MobileMenuClose.addEventListener('click', function(){
   MobileMenuOpen.classList.toggle('hidden');
   MobileMenuClose.classList.toggle('hidden');
 })
-
-inject();
