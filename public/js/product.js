@@ -1,4 +1,4 @@
-import { inject } from "@vercel/analytics"
+
 
 const dropDown = document.querySelectorAll('.dropbtn');
 let timeoutId;
