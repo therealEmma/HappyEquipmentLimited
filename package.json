@@ -1,17 +1,12 @@
 {
   "name": "happy-equipment-limited",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./public/css/input.css -o ./public/css/style.css",
-    "watch": "tailwindcss -i ./public/css/input.css -o ./public/css/style.css --watch"
+    "build": "npx tailwindcss -i ./public/css/input.css -o ./public/css/style.css",
+    "start": "npx tailwindcss -i ./public/css/input.css -o ./public/css/style.css --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@vercel/analytics": "^1.2.2",
-    "tailwindcss": "^3.4.3"
+    "tailwindcss": "^3.4.3",
+    "@vercel/analytics": "^1.2.2"
   }
 }
